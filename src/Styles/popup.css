@@ -33,8 +33,10 @@
   right: 16px; */
 /* } */
 
-*/ .form {
+.form {
   color: black;
+  height: 630px;
+  border-radius: 10px;
 }
 
 .popUp .popUp-inner .form button {
