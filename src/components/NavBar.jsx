@@ -26,7 +26,7 @@ const NavBar = () => {
               {items.map((item) => {
                 return item === "Home" ? (
                   <li key={item} className="NavBar">
-                    <Link to="/" className="NavBar">
+                    <Link to="/Portfolio" className="NavBar">
                       {" "}
                       {item}
                     </Link>
