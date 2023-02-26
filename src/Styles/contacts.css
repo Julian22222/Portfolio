@@ -1,0 +1,38 @@
+.flex-container-contact {
+  display: flex;
+  /* justify-content: space-around; */
+}
+
+.wrapperContact {
+  /* background-color: rgb(231, 163, 62); */
+  background-color: rgb(231, 163, 62);
+  /* border: solid; */
+  height: 100vh;
+  width: 7vh;
+  margin-left: 100px;
+}
+
+.Envelope {
+  margin-left: 20px;
+  margin-top: 7rem;
+}
+
+.Phone {
+  margin-left: 20px;
+  /* margin-top: 8rem; */
+}
+
+.HomeLine {
+  position: absolute;
+  width: 100%;
+  margin-left: -300px;
+}
+
+.ContactText {
+  margin-left: 20px;
+  margin-bottom: 50px;
+}
+
+.ContactInfo {
+  margin-left: 20px;
+}

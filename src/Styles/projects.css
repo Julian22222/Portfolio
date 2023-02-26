@@ -1,0 +1,8 @@
+.CardPortfolio {
+  display: flex;
+}
+
+.EachCard {
+  margin: 10px;
+  min-width: 345px;
+}

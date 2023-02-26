@@ -1,0 +1,60 @@
+.popUp {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popUp-inner {
+  position: absolute;
+  padding: 32px;
+  width: 100%;
+  max-width: 400px;
+  background-color: #fff;
+}
+
+.popUp-inner .close-btn {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+}
+
+/* .form .send-btn {
+  /* position: absolute;
+  padding: 5px; */
+/* background-color: #ff5361; */
+/* color: #fff;
+  top: 16px;
+  right: 16px; */
+/* } */
+
+*/ .form {
+  color: black;
+}
+
+.popUp .popUp-inner .form button {
+  margin-left: 220px;
+  background-color: #ff5361;
+  position: absolute;
+  padding: 8px 15px;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 16px;
+  border: 0;
+  outline: none;
+  width: 80px;
+}
+
+.popUp .popUp-inner .form .inputField {
+  width: 300px;
+}
+
+.popUp .popUp-inner .form .inputFieldEmail {
+  width: 300px;
+  height: 200px;
+}

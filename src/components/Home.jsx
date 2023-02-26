@@ -1,9 +1,4 @@
-// import { useState, useEffect } from "react";
-// import { Link } from "react-router-dom";
-// import Context from "./Context";
-// import { useContext } from "react";
-// import { useParams } from "react-router-dom";
-import { FaEnvelope } from "react-icons/fa";
+import { Link } from "react-router-dom";
 import Container2 from "./Container2";
 import logo from "../IMG/IMG3.JPG";
 
@@ -19,9 +14,6 @@ const Home = () => {
         </div>
 
         <div class="item item-2">
-          <p className="MailMe">
-            <FaEnvelope /> julik.golovenj@gmail.com
-          </p>
           <hr className="HomeLine"></hr>
           <h1 className="Header1">Hi there, I'am Julian</h1>
           <h1 className="Header1">glad to see you here</h1>
@@ -37,8 +29,13 @@ const Home = () => {
             technologies. Here you can familirise yourself with my projects.
           </p>
           <div className="PortfolioBtn">
-            <button className="Portfol">Go to portfolio</button>
-            {/* <button>Download My Resume</button> */}
+            {/* <button className="Portfol" Link to="projects">
+              Go to portfolio
+            </button> */}
+
+            <Link to="projects" className="NavBar">
+              <button className="Portfol">Go to portfolio</button>
+            </Link>
           </div>
           <div className="MyStory">
             <h2 className="HeadingMySTory">My Story</h2>

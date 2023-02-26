@@ -19,7 +19,8 @@ const CardPortfolio = () => {
             Colour Cat
           </Typography>
           <Typography variant="body2" color="text.secondary">
-            Use HTML / CSS / JS. On click shows random color and random cat psc.
+            Use React framework / CSS / JS. On click shows random color and
+            random cat psc.
           </Typography>
         </CardContent>
         <CardActions>
@@ -64,7 +65,7 @@ const CardPortfolio = () => {
         </CardActions>
       </Card>
 
-      <Card sx={{ maxWidth: 345 }} className="EachCard">
+      {/* <Card sx={{ maxWidth: 345 }} className="EachCard">
         <CardMedia
           sx={{ height: 140 }}
           image="https://www.winemag.com/wp-content/themes/TrellisFoundation-child/assets/img/toplists_header.jpg"
@@ -90,7 +91,7 @@ const CardPortfolio = () => {
             </a>
           </Button>
         </CardActions>
-      </Card>
+      </Card> */}
     </div>
   );
 };
