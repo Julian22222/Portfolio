@@ -3,7 +3,7 @@ import { useState } from "react";
 import PopUpForm from "./PopUpForm";
 // import { useRef } from "react";
 import "../Styles/main.css";
-import { FaBars, FaTimes, FaEnvelope, FaAlignJustify } from "react-icons/fa";
+import { FaBars, FaEnvelope } from "react-icons/fa";
 
 const NavBar = () => {
   const [showLinks, setShowLinks] = useState(false);
