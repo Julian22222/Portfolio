@@ -41,7 +41,7 @@ body {
   margin-top: 120px;
   margin-left: 20%;
   margin-right: 40px;
-  margin-bottom: 140px;
+  margin-bottom: 100px;
 }
 
 .MyStoryText {
@@ -135,7 +135,7 @@ body {
   /* background-color: #29335c; */
   /* border: solid; */
   height: 170vh;
-  width: 50vh;
+  width: 45vh;
 }
 
 .Image {
@@ -168,6 +168,12 @@ body {
 
 .WorkExperience {
   margin-left: 20px;
+}
+
+.HomeLine {
+  /* position: absolute; */
+  width: 125%;
+  margin-left: -300px;
 }
 
 /* @media only screen and (max-width: 850px) {
