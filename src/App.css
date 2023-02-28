@@ -50,6 +50,7 @@ body {
 
 .PortfolioBtn {
   margin-left: 35em;
+  border-radius: 15px;
 }
 
 .Portfol {
@@ -135,7 +136,7 @@ body {
   /* background-color: #29335c; */
   /* border: solid; */
   height: 170vh;
-  width: 45vh;
+  width: 35vh;
 }
 
 .Image {
@@ -172,7 +173,7 @@ body {
 
 .HomeLine {
   /* position: absolute; */
-  width: 125%;
+  width: 124%;
   margin-left: -300px;
 }
 
