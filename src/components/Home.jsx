@@ -16,8 +16,8 @@ const Home = () => {
         <div class="item item-2">
           <hr className="HomeLine"></hr>
           <h1 className="Header1">Hi there, I'am Julian</h1>
-          <h1 className="Header1">glad to see you here</h1>
-          <h3 className="Header1">
+          <h1 className="Header2">glad to see you here</h1>
+          <h3 className="Header3">
             Full-Stack Software Developer based in Manchester.
           </h3>
           <p className="HeaderAboutMe">
@@ -33,25 +33,26 @@ const Home = () => {
               Go to portfolio
             </button> */}
 
-            <Link to="projects" className="NavBar">
+            <Link to="../projects" className="NavBar">
               <button className="Portfol">Go to portfolio</button>
             </Link>
           </div>
           <div className="MyStory">
             <h2 className="HeadingMySTory">My Story</h2>
-            <p className="MyStory">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
-              fuga amet autem saepe inventore quisquam nobis possimus expedita
-              tempore nemo, minima tenetur optio quo dolor architecto! Labore
-              aliquam iusto expedita qui quaerat reiciendis numquam accusamus
-              vitae consequuntur facilis perferendis nostrum, iure distinctio
-              odit quisquam beatae deserunt quasi error! Non alias dicta labore
-              obcaecati ab qui cupiditate tempore, accusantium itaque asperiores
-              ipsam aspernatur quia odit modi, consectetur voluptatibus
-              assumenda earum laboriosam beatae iusto, error voluptas. Veritatis
-              iste illo a quis delectus recusandae est nemo fugit praesentium
-              fuga. Similique soluta itaque, eos a tempora eaque doloribus
-              dignissimos cumque voluptatum, ducimus asperiores quae.
+            <p className="MyStoryText">
+              I have taken the first steps into the world of software
+              development with Northcoders . I am excited to be learning these
+              new skills as part of a thirteen week Bootcamp in software
+              development utilising Git, JavaScript, HTML, CSS, NodeJS, REST
+              APIs , React JS, React Native, PostgreSQL Database, MongoDB
+              Heroku, OOP, TDD, software testing and debugging techniques, good
+              understanding of web development principles and etc. The
+              Northcoders bootcamp course was an excellent opportunity for me to
+              get basic knowledge. This gave me an understanding of how backend,
+              frontend and the programming logic work. This course ignited my
+              passion to study IT in much more depth and seek to continue my
+              education further. Now I am improving my IT skills and learning
+              new technologies in this scope.
             </p>
           </div>
 

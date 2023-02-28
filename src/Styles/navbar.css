@@ -19,6 +19,20 @@
   margin-bottom: 5px;
 }
 
+.NaviBar .rightSide .MailMe {
+  flex: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.NaviBar .rightSide .MailMe button {
+  background-color: transparent;
+  border-color: transparent;
+  cursor: pointer;
+  font-size: 16px;
+}
+
 .NaviBar .leftSide {
   flex: 50%;
 }

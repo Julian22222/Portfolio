@@ -1,4 +1,6 @@
 import { FaEnvelope, FaPhone, FaGithub, FaLinkedinIn } from "react-icons/fa";
+// import logo from "../IMG/pngwing.com (1).png";
+import logo from "../IMG/clipart1502514.png";
 
 const Contact = () => {
   return (
@@ -30,7 +32,7 @@ const Contact = () => {
         </div>
 
         <div class="item item-2">
-          <hr className="HomeLine"></hr>
+          {/* <hr className="HomeLine"></hr> */}
           <h1 className="ContactInfo">Contact Info</h1>
           <hr className="ContactText"></hr>
           <h2 className="ContactInfo"> Email address:</h2>
@@ -49,6 +51,7 @@ const Contact = () => {
               https://github.com/Julian22222
             </a>
           </h2>
+          <img src={logo} alt="pinguin" className="pinguin"></img>
         </div>
       </div>
     </div>

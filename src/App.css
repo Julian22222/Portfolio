@@ -13,6 +13,15 @@ body {
 
 .Header1 {
   margin-left: 20%;
+  margin-top: 10px;
+}
+
+.Header2 {
+  margin-left: 20%;
+}
+
+.Header3 {
+  margin-left: 20%;
 }
 
 /* .MailMe {
@@ -29,18 +38,24 @@ body {
 }
 
 .MyStory {
+  margin-top: 120px;
   margin-left: 20%;
   margin-right: 40px;
   margin-bottom: 100px;
 }
 
+.MyStoryText {
+  margin-top: 20px;
+}
+
 .PortfolioBtn {
   margin-left: 35em;
-  padding: 10px;
 }
 
 .Portfol {
   margin-right: 5px;
+  padding: 10px;
+  font-size: 15px;
 }
 
 .HeadingMySTory {
@@ -61,10 +76,14 @@ body {
 
 .ContainerText {
   margin: 20px;
-  width: 90%;
 }
 
-.NaviBar .rightSide .MailMe {
+.ContainerPhoto {
+  margin-left: 120px;
+  width: 80%;
+}
+
+/* .NaviBar .rightSide .MailMe {
   flex: 50%;
   display: flex;
   align-items: center;
@@ -75,7 +94,7 @@ body {
   background-color: transparent;
   border-color: transparent;
   cursor: pointer;
-}
+} */
 
 .NaviBar .leftSide button {
   display: none;
@@ -115,7 +134,7 @@ body {
   background-color: rgb(231, 163, 62);
   /* background-color: #29335c; */
   /* border: solid; */
-  height: 100vh;
+  height: 170vh;
   width: 50vh;
 }
 
@@ -145,6 +164,10 @@ body {
   outline: none;
   background: #f5f5f5;
   font-size: 16px;
+}
+
+.WorkExperience {
+  margin-left: 20px;
 }
 
 /* @media only screen and (max-width: 850px) {

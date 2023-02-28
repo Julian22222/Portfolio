@@ -14,7 +14,7 @@
 
 .Envelope {
   margin-left: 20px;
-  margin-top: 7rem;
+  margin-top: 8rem;
 }
 
 .Phone {
@@ -23,8 +23,8 @@
 }
 
 .HomeLine {
-  position: absolute;
-  width: 100%;
+  /* position: absolute; */
+  width: 119%;
   margin-left: -300px;
 }
 
@@ -35,4 +35,11 @@
 
 .ContactInfo {
   margin-left: 20px;
+  margin-top: 10px;
+}
+
+.pinguin {
+  margin-left: 600px;
+  margin-top: -900px;
+  width: 300px;
 }
