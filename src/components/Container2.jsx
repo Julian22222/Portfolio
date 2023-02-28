@@ -30,21 +30,21 @@ const Container2 = () => {
         <h2 className="ContainerTwo">My Skills</h2>
         {/* <p className="ContainerText">Make a graph of my Skills</p> */}
         <div className="ContainerText">
-          <p>excellent teamwork skills ----------------------------------</p>
+          <p>excellent teamwork skills</p>
           <br></br>
-          <p>excellent listening skills ----------------------------------</p>
+          <p>excellent listening skills </p>
           <br></br>
-          <p>problem solving skills ----------------------------------</p>
+          <p>problem solving skills </p>
           <br></br>
-          <p>good organization skills ----------------------------------</p>
+          <p>good organization skills </p>
           <br></br>
-          <p>great attention to detail ----------------------------------</p>
+          <p>great attention to detail</p>
           <br></br>
-          <p>quick lerner skills ----------------------------------</p>
+          <p>quick lerner skills</p>
           <br></br>
-          <p>multitasking ----------------------------------</p>
+          <p>multitasking </p>
           <br></br>
-          <p>ability to ask questions ----------------------------------</p>
+          <p>ability to ask questions </p>
         </div>
       </div>
 
