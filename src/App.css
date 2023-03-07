@@ -71,16 +71,16 @@ body {
   margin-left: 20px;
 }
 
-.ContainerTwo {
+/* .ContainerTwo {
   text-align: center;
-}
+} */
 
 .ContainerText {
   margin: 20px;
 }
 
 .ContainerPhoto {
-  margin-left: 120px;
+  /* margin-left: 120px; */
   width: 80%;
 }
 

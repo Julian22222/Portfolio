@@ -65,33 +65,45 @@ const CardPortfolio = () => {
         </CardActions>
       </Card>
 
-      {/* <Card sx={{ maxWidth: 345 }} className="EachCard">
+      <Card sx={{ maxWidth: 345 }} className="EachCard">
         <CardMedia
           sx={{ height: 140 }}
-          image="https://www.winemag.com/wp-content/themes/TrellisFoundation-child/assets/img/toplists_header.jpg"
+          image="http://vskills.in/certification/blog/wp-content/uploads/2015/01/structure-of-a-news-report.jpg"
           title="wine shop shelf"
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">
-            Wine Shop
+            NC NEWS
           </Typography>
           <Typography variant="body2" color="text.secondary">
-            Front-end Project: created Wine shop website using React framework.
+            Front-end + Back-end Project: created news website using JavaScript,
+            CSS, React JS, postgreSQL etc.
           </Typography>
         </CardContent>
         <CardActions>
           <Button size="small">
-            <a href="https://julian22222.github.io/Wine-Shop/" target="_blank">
+            <a href="https://nc-news-front-end.onrender.com/" target="_blank">
               <input type="button" class="buttonProject" value="See project" />
             </a>
           </Button>
           <Button size="small">
-            <a href="https://github.com/Julian22222/Wine-Shop" target="_blank">
-              <input type="button" class="buttonProject" value="GitHub" />
+            <a
+              href="https://github.com/Julian22222/nc-news-front-end"
+              target="_blank"
+            >
+              <input type="button" class="buttonProject" value="GitHub F-End" />
+            </a>
+          </Button>
+          <Button size="small">
+            <a
+              href="https://github.com/Julian22222/NC_NEWS_Project"
+              target="_blank"
+            >
+              <input type="button" class="buttonProject" value="GitHub B-End" />
             </a>
           </Button>
         </CardActions>
-      </Card> */}
+      </Card>
     </div>
   );
 };

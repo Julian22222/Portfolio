@@ -55,7 +55,6 @@ const Home = () => {
               new technologies in this scope.
             </p>
           </div>
-
           <Container2 />
         </div>
       </div>
