@@ -68,6 +68,38 @@ const CardPortfolio = () => {
       <Card sx={{ maxWidth: 345 }} className="EachCard">
         <CardMedia
           sx={{ height: 140 }}
+          image="https://grangerchurch.com/wp-content/uploads/2018/06/atthemovies_series_1440x829.jpg"
+          title="wine shop shelf"
+        />
+        <CardContent>
+          <Typography gutterBottom variant="h5" component="div">
+            Movies
+          </Typography>
+          <Typography variant="body2" color="text.secondary">
+            Back-end Project: implemented endpoints to see all the movies, to
+            get, delete and update movie by Id, to post new movie to MongoDB.
+          </Typography>
+        </CardContent>
+        <CardActions>
+          <Button size="small">
+            <a href="https://movies-ypff.onrender.com/" target="_blank">
+              <input type="button" class="buttonProject" value="See project" />
+            </a>
+          </Button>
+          <Button size="small">
+            <a
+              href="https://github.com/Julian22222/PRACTICE/tree/main/MongoDB"
+              target="_blank"
+            >
+              <input type="button" class="buttonProject" value="GitHub" />
+            </a>
+          </Button>
+        </CardActions>
+      </Card>
+
+      <Card sx={{ maxWidth: 345 }} className="EachCard">
+        <CardMedia
+          sx={{ height: 140 }}
           image="http://vskills.in/certification/blog/wp-content/uploads/2015/01/structure-of-a-news-report.jpg"
           title="wine shop shelf"
         />
