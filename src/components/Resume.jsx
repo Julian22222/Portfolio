@@ -11,10 +11,18 @@ const Resume = () => {
         decided to be a software developer because behind this lies the ability
         to think outside the box and where logical chains of events cause great
         satisfaction. The Northcoders bootcamp course was an excellent
-        opportunity for me to change my career direction. I am a quick-thinking
-        person who can adapt to any circumstances. Moreover, I have excellent
-        organisation, patience and problem-solving skills, due to my work
-        experience in the hospitality sector as a Duty Manager.
+        opportunity for me to change my career direction. This course gave me an
+        understanding of how backend, frontend and the programming logic work.
+        This course ignited my passion to study IT in much more depth and seek
+        to continue my education further. Now I am improving my IT skills and
+        learning new technologies in this scope.
+      </p>
+      <p>
+        {" "}
+        I am a quick-thinking person who can adapt to any circumstances.
+        Moreover, I have excellent organisation, patience and problem-solving
+        skills, due to my work experience in the hospitality sector as a Duty
+        Manager.
       </p>
       <br></br>
       <br></br>

@@ -38,21 +38,14 @@ const Home = () => {
             </Link>
           </div>
           <div className="MyStory">
-            <h2 className="HeadingMySTory">My Story</h2>
+            <h2 className="HeadingMySTory">
+              Knowledge and experience of working in:
+            </h2>
             <p className="MyStoryText">
-              I have taken the first steps into the world of software
-              development with Northcoders . I am excited to be learning these
-              new skills as part of a thirteen week Bootcamp in software
-              development utilising Git, JavaScript, HTML, CSS, NodeJS, REST
-              APIs , React JS, React Native, PostgreSQL Database, MongoDB
-              Heroku, OOP, TDD, software testing and debugging techniques, good
-              understanding of web development principles and etc. The
-              Northcoders bootcamp course was an excellent opportunity for me to
-              get basic knowledge. This gave me an understanding of how backend,
-              frontend and the programming logic work. This course ignited my
-              passion to study IT in much more depth and seek to continue my
-              education further. Now I am improving my IT skills and learning
-              new technologies in this scope.
+              Git, GitHub, JavaScript, HTML, CSS, NodeJS, OOP, TDD, REST APIs ,
+              React JS, React Native, PostgreSQL Database, MongoDB, Docker,
+              software testing and debugging techniques, good understanding of
+              web development principles and etc.
             </p>
           </div>
           <Container2 />
