@@ -17,7 +17,7 @@ const Resume = () => {
         to continue my education further. Now I am improving my IT skills and
         learning new technologies in this scope.
       </p>
-      <p>
+      <p className="TextResume">
         {" "}
         I am a quick-thinking person who can adapt to any circumstances.
         Moreover, I have excellent organisation, patience and problem-solving
