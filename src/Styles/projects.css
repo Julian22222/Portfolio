@@ -1,5 +1,11 @@
-.CardPortfolio {
+.CardPortfolio .first-line {
   display: flex;
+  justify-content: space-between;
+}
+
+.CardPortfolio .second-line {
+  display: flex;
+  justify-content: space-between;
 }
 
 .EachCard {
