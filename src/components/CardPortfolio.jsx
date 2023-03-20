@@ -136,6 +136,35 @@ const CardPortfolio = () => {
           </Button>
         </CardActions>
       </Card>
+
+      <Card sx={{ maxWidth: 345 }} className="EachCard">
+        <CardMedia
+          sx={{ height: 140 }}
+          image="https://assets2.rockpapershotgun.com/wordle-past-answers-header.jpg/BROK/thumbnail/1200x900/quality/100/wordle-past-answers-header.jpg"
+          title="wine shop shelf"
+        />
+        <CardContent>
+          <Typography gutterBottom variant="h5" component="div">
+            Wordle
+          </Typography>
+          <Typography variant="body2" color="text.secondary">
+            Front-end Project: created Wordle game using JavaScript, HTML, CSS
+            and React JS.
+          </Typography>
+        </CardContent>
+        <CardActions>
+          <Button size="small">
+            <a href="https://julian22222.github.io/Wordle/" target="_blank">
+              <input type="button" class="buttonProject" value="See project" />
+            </a>
+          </Button>
+          <Button size="small">
+            <a href="https://github.com/Julian22222/Wordle" target="_blank">
+              <input type="button" class="buttonProject" value="GitHub" />
+            </a>
+          </Button>
+        </CardActions>
+      </Card>
     </div>
   );
 };
