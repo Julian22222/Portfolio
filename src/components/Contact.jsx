@@ -21,13 +21,13 @@ const Contact = () => {
             <br></br>
             <br></br>
             <br></br>
-            <FaLinkedinIn className="Phone" />
+            <FaLinkedinIn className="LinkedIn" />
             <br></br>
             <br></br>
             <br></br>
             <br></br>
             <br></br>
-            <FaGithub className="Phone" />
+            <FaGithub className="GitHub" />
           </div>
         </div>
 

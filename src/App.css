@@ -57,6 +57,8 @@ body {
   margin-right: 5px;
   padding: 10px;
   font-size: 15px;
+  border-radius: 20px;
+  cursor: pointer;
 }
 
 .HeadingMySTory {
@@ -75,13 +77,29 @@ body {
   text-align: center;
 } */
 
+.ContainerText-work-experience {
+  margin: 20px;
+}
+
 .ContainerText {
   margin: 20px;
+  /* width: 100%; */
+  position: absolute;
+  margin-left: 70px;
 }
 
 .ContainerPhoto {
   /* margin-left: 120px; */
-  width: 80%;
+  width: 50%;
+  float: right;
+  margin-right: 30px;
+}
+
+.ContainerSkills {
+  margin-left: 30px;
+  margin-bottom: 50em;
+  position: absolute;
+  margin-left: 80px;
 }
 
 /* .NaviBar .rightSide .MailMe {

@@ -14,12 +14,21 @@
 
 .Envelope {
   margin-left: 20px;
-  margin-top: 8rem;
+  margin-top: 110px;
 }
 
 .Phone {
   margin-left: 20px;
-  /* margin-top: 8rem; */
+  margin-top: 1rem;
+}
+
+.LinkedIn {
+  margin-left: 20px;
+}
+
+.GitHub {
+  margin-left: 20px;
+  margin-top: 5px;
 }
 
 .ContactText {

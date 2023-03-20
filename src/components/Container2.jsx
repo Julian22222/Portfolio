@@ -3,7 +3,7 @@ const Container2 = () => {
     <div class="flex-container-2">
       <div class="item item-1">
         <h2 className="ContainerTwo">Education and work experience</h2>
-        <p className="ContainerText">
+        <p className="ContainerText-work-experience">
           Northcoders | Full Stack Software Development Student | Manchester |
           08/2022 – 11/2022
         </p>
@@ -27,7 +27,7 @@ const Container2 = () => {
         </p>
       </div>
       <div class="item item-2">
-        <h2 className="ContainerTwo">My Skills</h2>
+        <h2 className="ContainerSkills">My Skills</h2>
         {/* <p className="ContainerText">Make a graph of my Skills</p> */}
         <div className="ContainerText">
           <p>excellent teamwork skills</p>
