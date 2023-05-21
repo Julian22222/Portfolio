@@ -9,7 +9,7 @@ const CardPortfolio = () => {
   return (
     <div className="CardPortfolio">
       <div className="first-line">
-        <Card sx={{ maxWidth: 345 }} className="EachCard">
+        <Card sx={{ maxWidth: 355 }} className="EachCard">
           <CardMedia
             sx={{ height: 140 }}
             image="https://www.rd.com/wp-content/uploads/2021/01/GettyImages-1175550351.jpg"
@@ -48,7 +48,7 @@ const CardPortfolio = () => {
           </CardActions>
         </Card>
 
-        <Card sx={{ maxWidth: 345 }} className="EachCard">
+        <Card sx={{ maxWidth: 355 }} className="EachCard">
           <CardMedia
             sx={{ height: 140 }}
             image="https://www.winemag.com/wp-content/themes/TrellisFoundation-child/assets/img/toplists_header.jpg"
@@ -87,7 +87,7 @@ const CardPortfolio = () => {
           </CardActions>
         </Card>
 
-        <Card sx={{ maxWidth: 345 }} className="EachCard">
+        <Card sx={{ maxWidth: 355 }} className="EachCard">
           <CardMedia
             sx={{ height: 140 }}
             image="https://grangerchurch.com/wp-content/uploads/2018/06/atthemovies_series_1440x829.jpg"
@@ -98,13 +98,18 @@ const CardPortfolio = () => {
               Movies
             </Typography>
             <Typography variant="body2" color="text.secondary">
-              Back-end Project: implemented endpoints to see all the movies, to
-              get, delete and update movie by Id, to post new movie to MongoDB.
+              Front-end + Back-end Project: created Movies website using Vue JS,
+              JavaScript, CSS, MongoDB etc. Implemented endpoints to get all
+              movies, delete, update movie by Id and to post new movie to
+              MongoDB.
             </Typography>
           </CardContent>
           <CardActions>
             <Button size="small">
-              <a href="https://movies-ypff.onrender.com/" target="_blank">
+              <a
+                href="https://movies-vue-front-end.onrender.com/"
+                target="_blank"
+              >
                 <input
                   type="button"
                   class="buttonProject"
@@ -112,18 +117,36 @@ const CardPortfolio = () => {
                 />
               </a>
             </Button>
+
+            <Button size="small">
+              <a
+                href="https://github.com/Julian22222/Vue-Website---movies"
+                target="_blank"
+              >
+                <input
+                  type="button"
+                  class="buttonProject"
+                  value="GitHub F-End"
+                />
+              </a>
+            </Button>
+
             <Button size="small">
               <a
                 href="https://github.com/Julian22222/PRACTICE/tree/main/MongoDB"
                 target="_blank"
               >
-                <input type="button" class="buttonProject" value="GitHub" />
+                <input
+                  type="button"
+                  class="buttonProject"
+                  value="GitHub B-End"
+                />
               </a>
             </Button>
           </CardActions>
         </Card>
 
-        <Card sx={{ maxWidth: 345 }} className="EachCard">
+        <Card sx={{ maxWidth: 355 }} className="EachCard">
           <CardMedia
             sx={{ height: 140 }}
             image="http://vskills.in/certification/blog/wp-content/uploads/2015/01/structure-of-a-news-report.jpg"
@@ -134,8 +157,10 @@ const CardPortfolio = () => {
               NC NEWS
             </Typography>
             <Typography variant="body2" color="text.secondary">
-              Front-end + Back-end Project: created news website using
-              JavaScript, CSS, React JS, postgreSQL etc.
+              Front-end + Back-end Project: created news website using React JS,
+              JavaScript, CSS, postgreSQL etc. Implemented endpoints to get all
+              news, delete, update comments by news Id and to post new commens
+              and likes to postgreSQL.
             </Typography>
           </CardContent>
           <CardActions>
@@ -178,7 +203,7 @@ const CardPortfolio = () => {
       </div>
 
       <div className="second-line">
-        <Card sx={{ maxWidth: 345 }} className="EachCard">
+        <Card sx={{ maxWidth: 355 }} className="EachCard">
           <CardMedia
             sx={{ height: 140 }}
             image="https://assets2.rockpapershotgun.com/wordle-past-answers-header.jpg/BROK/thumbnail/1200x900/quality/100/wordle-past-answers-header.jpg"
