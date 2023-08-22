@@ -3,14 +3,14 @@
   text-align: center;
 }
 
+.MyCertificate {
+  margin-left: 50px;
+}
+
 .TextResume {
   margin-top: 50px;
   margin-left: 5%;
   margin-right: 5%;
-}
-
-.MyCertificate {
-  margin-left: 50px;
 }
 
 .Certificates {

@@ -8,20 +8,31 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  backdrop-filter: blur(20px);
+
+  /* z-index:15 is higher than z-index of image of me on home page to overlay image
+  z-index value to make sure it stays on top of all other elements 
+  on the page(even on top of elements with -position:absolute;), 
+  except the modal which is opened on top of this overlay, 
+  which will get a even higher z-index than the overlay */
+  z-index: 15;
 }
+
+/* //////////////////////////popUpForm */
 
 .popUp-inner {
   position: absolute;
   padding: 32px;
   width: 100%;
   max-width: 400px;
-  background-color: #fff;
+  background-color: #d43535;
 }
 
 .popUp-inner .close-btn {
   position: absolute;
   top: 16px;
   right: 16px;
+  color: black;
 }
 
 /* .form .send-btn {

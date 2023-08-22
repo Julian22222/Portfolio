@@ -1,0 +1,105 @@
+.flex-container-2 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.ContainerTwo {
+  margin-bottom: 20px;
+}
+
+.item-1 p {
+  margin-bottom: 10px;
+}
+
+/* .WorkExperience {
+  margin-left: 20px;
+} */
+
+.ContainerSkills {
+  margin-bottom: 20px;
+  /* position: absolute; */
+  margin-left: 80px;
+}
+
+/* .ContainerText-work-experience {
+  margin: 20px;
+} */
+
+.ContainerText {
+  margin: 20px;
+  margin-top: 50px;
+  /* width: 100%; */
+  position: absolute;
+  margin-left: 70px;
+}
+
+.tick {
+  margin-right: 5px;
+}
+
+.ContainerSkills {
+  margin-left: 30px;
+  margin-bottom: 20px;
+  position: absolute;
+  margin-left: 80px;
+}
+
+.ContainerPhoto {
+  /* margin-left: 120px; */
+  width: 50%;
+  float: right;
+  margin-right: 30px;
+}
+
+/* ////////////////////////////////////////////////////////////// */
+/* different screens */
+@media (max-width: 950px) {
+  .flex-container-2 {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+  }
+
+  .ContainerTwo {
+    margin-top: 20px;
+    /* width: 50%; */
+    font-size: 25px;
+    margin-bottom: 30px;
+    margin-left: -90px;
+  }
+
+  .item-1 p {
+    font-size: 15px;
+    /* position: relative; */
+    /* margin-top: 10px; */
+    margin-left: -120px;
+    /* width: 200px; */
+    /* color: aquamarine; */
+  }
+
+  .item-2 {
+    margin-top: 50px;
+  }
+
+  .ContainerSkills {
+    margin-top: 25px;
+    margin-left: 0;
+    font-size: 25px;
+    /* width: 30%; */
+    font-size: 20px;
+    margin-bottom: 30px;
+    /* margin-top: 50px; */
+  }
+
+  /* .ContainerText {
+  } */
+
+  .ContainerText p {
+    /* width: 20%; */
+    font-size: 15px;
+    /* position: relative; */
+    /* margin-top: 10px; */
+    margin-left: -190px;
+    /* width: 200px; */
+  }
+}

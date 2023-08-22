@@ -1,22 +1,22 @@
 import { Link } from "react-router-dom";
 import Container2 from "./Container2";
+import Footer from "./Footer";
 import logo from "../IMG/IMG3.JPG";
 
 const Home = () => {
   return (
     <div>
-      <div class="flex-container">
-        <div class="item item-1">
-          <div class="wrapper">
-            <div></div>
+      <div class="container-boxes">
+        <div class="itemBox1">
+          <div className="box">
+            <span></span>
+            <img src={logo} className="ImageOfMe" alt="pcs of me" />
           </div>
-          <img src={logo} className="ImageOfMe" alt="pcs of me" />
         </div>
 
-        <div class="item item-2">
-          <hr className="HomeLine"></hr>
+        <div class="itemBox2">
           <h1 className="Header1">Hi there, I'am Julian</h1>
-          <h1 className="Header2">glad to see you here</h1>
+          <h1 className="Header2">glad to see you here.</h1>
           <h3 className="Header3">
             Full-Stack Software Developer based in Manchester.
           </h3>
@@ -29,10 +29,6 @@ const Home = () => {
             technologies. Here you can familirise yourself with my projects.
           </p>
           <div className="PortfolioBtn">
-            {/* <button className="Portfol" Link to="projects">
-              Go to portfolio
-            </button> */}
-
             <Link to="../projects" className="NavBar">
               <button className="Portfol">Go to portfolio</button>
             </Link>
@@ -51,6 +47,8 @@ const Home = () => {
           <Container2 />
         </div>
       </div>
+
+      <Footer />
     </div>
   );
 };

@@ -1,0 +1,421 @@
+/* test */
+
+.container-boxes {
+  display: flex;
+  height: 200vh;
+}
+
+/* black column */
+.itemBox1 {
+  padding: 30px;
+  font-size: 25px;
+  width: fit-content;
+  flex-basis: 15%;
+  /* background-color: rgb(209, 41, 41); */
+  background-color: black;
+  min-width: 100px;
+  /* border-right: 1px solid #d43535; */
+  border-top: 1px solid #d43535;
+}
+
+/* black tripe column */
+.itemBox1 div {
+  padding: 20px;
+}
+
+.itemBox2 {
+  padding: 30px;
+  font-size: 25px;
+  /* border: top 1px solid #d43535; */
+  width: fit-content;
+  flex-basis: 85%;
+  flex-shrink: 14;
+  border-top: 1px solid #d43535;
+}
+
+/* /////////////////////////////////// */
+
+.ImageOfMe {
+  border-radius: 50%;
+  width: 93%;
+  position: absolute;
+  margin-top: 3px;
+  /* margin-left: 1%; */
+  /* border: 1px solid #d43535; */
+
+  /* z-index:10 is less than z-index of popup form to make popup form overlay image
+  z-index value to make sure it stays on top of all other elements 
+  on the page(even on top of elements with -position:absolute;), 
+  except the modal which is opened on top of this overlay, 
+  which will get a even higher z-index than the overlay */
+  z-index: 10;
+}
+
+/* ///////////////////////////animation around my image */
+.box {
+  position: absolute;
+  width: 450px;
+  height: 450px;
+  background: rgba(0, 0, 0, 0.75);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.box:before {
+  content: "";
+  position: absolute;
+  width: 500px;
+  height: 700px;
+  background-image: conic-gradient(transparent, transparent, transparent, #ccc);
+  animation: animate 4s linear infinite;
+}
+
+.box::after {
+  content: "";
+  position: absolute;
+  width: 500px;
+  height: 700px;
+  background-image: conic-gradient(
+    transparent,
+    transparent,
+    transparent,
+    #d43535
+  );
+  animation: animate 4s linear infinite;
+  animation-delay: -2s;
+}
+
+@keyframes animate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.box span {
+  position: absolute;
+  inset: 5px;
+  border-radius: 50%;
+  background: #0c1022;
+  z-index: 1;
+}
+
+/* ////////////////////////////////////////////////// */
+
+/* .animated-text {
+  position: relative;
+}
+
+.animated-text::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: #000;
+  border-left: 2px solid #ccc;
+  animation: typing 1.8s steps(20) infinite;
+}
+
+@keyframes typing {
+  100% {
+    left: 100%;
+    margin: 0 -35px 0 35px;
+  }
+} */
+
+.Header1 {
+  margin-left: 20%;
+  margin-top: 10px;
+  color: transparent;
+  /* -webkit-text-stroke: 1px #fff; */
+  background-image: linear-gradient(#fff, #fff);
+  background-repeat: no-repeat;
+  -webkit-background-clip: text;
+  background-position: -1300px 0;
+  animation: backcolor 5s linear infinite alternate;
+}
+
+@keyframes backcolor {
+  100% {
+    background-position: 0 0;
+  }
+}
+
+.Header2 {
+  margin-left: 20%;
+  color: transparent;
+  /* -webkit-text-stroke: 1px #fff; */
+  background-image: linear-gradient(#fff, #fff);
+  background-repeat: no-repeat;
+  -webkit-background-clip: text;
+  background-position: -1900px 0;
+  animation: backcolor 5s linear infinite alternate;
+}
+
+.Header3 {
+  margin-left: 20%;
+}
+
+/* .MailMe {
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    text-align: right;
+  } */
+
+.HeaderAboutMe {
+  margin-top: 80px;
+  margin-left: 20%;
+  margin-right: 40px;
+}
+
+.MyStory {
+  margin-top: 120px;
+  margin-left: 20%;
+  margin-right: 40px;
+  margin-bottom: 100px;
+}
+
+.PortfolioBtn {
+  margin-left: 35em;
+  border-radius: 15px;
+}
+
+.Portfol {
+  margin-right: 5px;
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.MyStory {
+  text-align: center;
+}
+
+.HeadingMySTory {
+  margin-top: 70px;
+}
+
+.MyStoryText {
+  margin-top: 20px;
+}
+
+/* ///////////////////////////////////PopUpForm */
+
+.form h3 {
+  margin-bottom: 15px;
+  color: #555;
+}
+
+.form input,
+.form textarea {
+  border: 0;
+  margin: 10px 0;
+  padding: 20px;
+  outline: none;
+  background: #f5f5f5;
+  font-size: 16px;
+}
+
+/* ////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* different screens */
+@media (max-width: 950px) {
+  .Header1 {
+    margin-left: 20%;
+    margin-top: 10px;
+    color: transparent;
+    /* -webkit-text-stroke: 1px #fff; */
+    background-image: linear-gradient(#fff, #fff);
+    background-repeat: no-repeat;
+    -webkit-background-clip: text;
+    background-position: -300px 0;
+    animation: backcolor 5s linear infinite alternate;
+  }
+
+  .Header2 {
+    margin-left: 20%;
+    color: transparent;
+    /* -webkit-text-stroke: 1px #fff; */
+    background-image: linear-gradient(#fff, #fff);
+    background-repeat: no-repeat;
+    -webkit-background-clip: text;
+    background-position: -300px 0;
+    animation: backcolor 5s linear infinite alternate;
+  }
+
+  .HeaderAboutMe {
+    margin-top: 80px;
+    /* width: 90%; */
+    font-size: 20px;
+    margin-bottom: 30px;
+    margin-left: -100px;
+  }
+
+  .PortfolioBtn {
+    margin-left: 0;
+    border-radius: 15px;
+  }
+
+  .Portfol {
+    /* margin-right: 5px; */
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    /* float: right; */
+    /* display: flex;
+    justify-content: flex-end; */
+  }
+
+  .PortfolioBtn {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .MyStory {
+    font-size: 20px;
+    margin-bottom: 30px;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .ImageOfMe {
+    border-radius: 50%;
+    width: 90%;
+    /* position: absolute; */
+    /* margin-top: 30px; */
+    margin-left: 0;
+    border: 1px solid #d43535;
+  }
+
+  .Header1 {
+    /* margin-left: 20%; */
+    margin-top: 10px;
+  }
+
+  .Header2 {
+    font-size: 20px;
+    /* margin-left: 0%; */
+  }
+
+  .Header3 {
+    font-size: 20px;
+    /* margin-left: 0%; */
+  }
+
+  .HeadingMySTory {
+    margin-top: 20px;
+    /* width: 50%; */
+    font-size: 25px;
+    margin-left: -110px;
+    margin-bottom: 30px;
+  }
+
+  .MyStoryText {
+    font-size: 15px;
+    /* position: relative; */
+    /* margin-top: 10px; */
+    margin-left: -100px;
+    /* width: 200px; */
+    /* color: aquamarine; */
+  }
+
+  .box {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background: rgba(0, 0, 0, 0.75);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+
+  .box:before {
+    content: "";
+    position: absolute;
+    width: 500px;
+    height: 700px;
+    background-image: conic-gradient(
+      transparent,
+      transparent,
+      transparent,
+      #ccc
+    );
+    animation: animate 4s linear infinite;
+  }
+
+  .box::after {
+    content: "";
+    position: absolute;
+    width: 500px;
+    height: 700px;
+    background-image: conic-gradient(
+      transparent,
+      transparent,
+      transparent,
+      #d43535
+    );
+    animation: animate 4s linear infinite;
+    animation-delay: -2s;
+  }
+
+  @keyframes animate {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  .box span {
+    position: absolute;
+    inset: 5px;
+    border-radius: 50%;
+    background: #0c1022;
+    z-index: 1;
+  }
+}
+
+@media (max-width: 1105px) {
+  .Header3 {
+    width: 60%;
+  }
+
+  .HeaderAboutMe {
+    /* margin-top: 80px;
+    
+
+    font-size: 20px;
+    margin-bottom: 30px; */
+    margin-left: -110px;
+    width: 90%;
+  }
+
+  .HeadingMySTory {
+    /* margin-top: 80px; */
+    /* width: 90%; */
+    /* font-size: 20px;
+    margin-bottom: 30px; */
+    margin-left: -120px;
+    width: 90%;
+  }
+
+  .MyStoryText {
+    margin-left: -110px;
+    width: 100%;
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 950px) {
+}

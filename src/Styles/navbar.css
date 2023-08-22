@@ -6,8 +6,15 @@
     background-color: #333;
     margin-top: 5px; */
   width: 100%;
-  height: 100%;
+  height: 70px;
   display: flex;
+  /* background-color: #bb1b1b; */
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgb(0, 0, 7) 10%,
+    rgba(255, 0, 78, 0.5383403361344538) 100%
+  );
 }
 
 .NavBar {
@@ -19,39 +26,214 @@
   margin-bottom: 5px;
 }
 
-.NaviBar .rightSide .MailMe {
-  flex: 50%;
+.NavBar-item {
+  text-decoration: none;
+  position: relative;
+}
+
+.NavBar-item:before {
+  content: "";
+  width: 0px;
+  height: 3px;
+  background: #ccc;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  transition: 0.5s;
+}
+
+.NavBar:hover .NavBar-item:before {
+  width: 100%;
+}
+
+/* .NaviBar .rightSide .MailMe {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+} */
+
+/* .NaviBar .rightSide .MailMe button {
+  background-color: transparent;
+  border-color: transparent;
+  cursor: pointer;
+  font-size: 16px;
+  color: #fff;
+} */
+
+/* .NaviBar .leftSide {
+} */
+
+/* .NaviBar .leftSide .links {
+} */
+
+/* .NaviBar .leftSide .links .a {
+  font-size: 20px;
+} */
+
+.envelope-logo-main {
+  font-size: 20px;
+  margin-right: 5px;
+}
+
+.menuBtn {
+  position: relative;
+  font-size: larger;
+  background-color: transparent;
+  border: none;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+  color: #fff;
+  /* border: 1px solid #fff; */
+  /* border-radius: 10px; */
+}
+
+.flexbox-conatiner2 #hidden {
+  /* when click menu burger btn -it will show Navbar */
+  position: absolute;
+  display: flex;
+  justify-content: flex-start;
+  height: 230px;
+  width: 250px;
+  background-color: pink;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  /* z-index:14 is higher than z-index of burger btn menu on navbar page to overlay burger menu button
+  z-index value to make sure it stays on top of all other elements 
+  on the page(even on top of elements with -position:absolute;), 
+  except the modal which is opened on top of this overlay, 
+  which will get a even higher z-index than the overlay */
+  /* z-index: 14; */
+}
+
+.flexbox-conatiner2 button {
+  border: none;
+  background-color: transparent;
+  font-size: 24px;
+}
+
+/* ///////////////////////////////////////flexbox - 3 parts in Nav bar */
+
+/* left part */
+.flexbox-conatiner1 {
+  /* border: 1px solid white; */
+  padding: 30px;
+  font-size: 25px;
+  flex-basis: 45%;
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  justify-content: space-around;
+}
+
+.logo-btn {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+/* middle part - where all menu links are*/
+.flexbox-conatiner2 {
+  /* border: 1px solid white; */
+  padding: 30px;
+  font-size: 25px;
+  flex-basis: 500%;
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+}
+
+/*right part  - where gmail address is*/
+.flexbox-conatiner3 {
+  /* border: 1px solid white; */
+  padding: 30px;
+  font-size: 25px;
+  flex-basis: 180%;
+  width: fit-content;
+  height: fit-content;
+}
+
+.MailMe {
+  /* flex: 50%; */
   display: flex;
   align-items: center;
   justify-content: flex-end;
 }
 
-.NaviBar .rightSide .MailMe button {
+.MailMe button {
   background-color: transparent;
   border-color: transparent;
   cursor: pointer;
   font-size: 16px;
+  color: #fff;
 }
 
-.NaviBar .leftSide {
-  flex: 50%;
-}
-
-.NaviBar .leftSide .links {
-  max-height: 80px;
-}
-
-.NaviBar .leftSide .links .a {
-  font-size: 20px;
-}
-
-.menuBtn {
-  position: relative;
+/* animation line */
+.underline {
   width: 100%;
-  height: 50px;
-  background-color: transparent;
-  border: none;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  height: 5px;
+  background: #767676;
+  border-radius: 3px;
+  position: absolute;
+  top: 65px;
+  left: 0;
+  overflow: hidden;
 }
+
+.underline span {
+  width: 10px;
+  height: 100%;
+  background: #fff;
+  border-radius: 10px;
+  position: absolute;
+  top: 0;
+  left: 10px;
+  animation: moving 10s linear infinite;
+
+  box-shadow: 0 0 10px 5px #48abe0, 0 0 20px 7px #ebecca, 0 0 25px 20px #3b0303,
+    0 0 30px 25px #940e0e;
+}
+
+@keyframes moving {
+  0% {
+    left: -20px;
+  }
+  100% {
+    left: 100%;
+  }
+}
+
+/* /////////////////////////////////////////////////////////////////////////// */
+/* different screens */
+
+/* when using max-width ->  
+Any width that is less than the max-width specified, 
+all of the CSS within the query will take effect. */
+
+/* original menu line disappear  */
+/* applies to all sizes until 1390 */
+@media only screen and (max-width: 1390px) {
+  .NaviBar .flexbox-conatiner2 .links {
+    display: none;
+  }
+}
+
+/* burger menu btn appear */
+@media only screen and (min-width: 1390px) {
+  .NaviBar .flexbox-conatiner2 button {
+    display: none;
+  }
+
+  /* .menuBtn {
+    display: flex;
+    justify-content: flex-start;
+  } */
+}
+
+/* @media (max-width: 700px) {
+ 
+
+  } */

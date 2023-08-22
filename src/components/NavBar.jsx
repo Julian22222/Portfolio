@@ -1,9 +1,12 @@
 import { Link } from "react-router-dom";
 import { useState } from "react";
 import PopUpForm from "./PopUpForm";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 // import { useRef } from "react";
 import "../Styles/main.css";
-import { FaBars, FaEnvelope } from "react-icons/fa";
+import { FaBars } from "react-icons/fa";
+import myLogo from "../IMG/logo33.png";
 
 const NavBar = () => {
   const [showLinks, setShowLinks] = useState(false);
@@ -14,62 +17,72 @@ const NavBar = () => {
   //   navRef.current.classList.toggle("responsive_nav");
   // };
 
-  const items = ["Home", "Projects", "Resume", "Contact"];
+  // const {toLocaleTimeString()}=props;
+  // const time = props.toLocaleTimeString();
+
+  const items = ["Home", "Projects", "Resume", "Contacts"];
 
   return (
     <header className="NaviBar">
-      <div className="leftSide">
+      <div className="flexbox-conatiner1">
+        <button className="logo-btn">
+          <Link to="/Portfolio">
+            <img src={myLogo} alt="logoJ" width="60" height="60"></img>
+          </Link>
+        </button>
+      </div>
+      <div className="flexbox-conatiner2">
         <div className="links" id={showLinks ? "hidden" : ""}>
           {/* if showLinks is true  --> its id="hidden" else nothing*/}
-          <nav r>
+          <nav>
             <ul className="a">
               {items.map((item) => {
                 return item === "Home" ? (
+                  // <button onClick="showLinks ===false">
                   <li key={item} className="NavBar">
-                    <Link to="/Portfolio" className="NavBar">
-                      {" "}
+                    <Link to="/Portfolio" className="NavBar-item">
                       {item}
                     </Link>
                   </li>
-                ) : item === "Projects" ? (
+                ) : // </button>
+                item === "Projects" ? (
                   <li key={item} className="NavBar">
-                    <Link to="projects" className="NavBar">
+                    <Link to="projects" className="NavBar-item">
                       {item}
                     </Link>
                   </li>
                 ) : item === "Resume" ? (
                   <li key={item} className="NavBar">
-                    <Link to="resume" className="NavBar">
+                    <Link to="resume" className="NavBar-item">
                       {item}
                     </Link>
                   </li>
                 ) : (
                   <li key={item} className="NavBar">
-                    <Link to="contact" className="NavBar">
+                    <a href="Portfolio#contactCard" className="NavBar-item">
                       {item}
-                    </Link>
+                    </a>
+                    {/* <Link to="contact" className="NavBar">
+                    {item}
+                  </Link> */}
                   </li>
                 );
               })}
             </ul>
-            {/* <button>
-            <FaTimes className="nav-btn nav-close-btn" onClick={showNavbar} />
-          </button> */}
           </nav>
         </div>
+
         <button
           className="menuBtn"
           onClick={() => {
             setShowLinks(!showLinks);
+            // setShowLinks(showLinks === true);
           }}
         >
           <FaBars />
         </button>
-        {/* <button className="nav-btn" onClick={showNavbar}>
-          <FaBars />
-        </button> */}
       </div>
-      <div className="rightSide">
+      <div className="flexbox-conatiner3">
         {" "}
         <p className="MailMe">
           <button
@@ -77,11 +90,19 @@ const NavBar = () => {
               setBtnPopup(true);
             }}
           >
-            <FaEnvelope /> julik.golovenj@gmail.com
+            <FontAwesomeIcon
+              icon={faEnvelope}
+              beatFade
+              className="envelope-logo-main"
+            />
+            julik.golovenj@gmail.com
           </button>
 
           <PopUpForm triger={btnPopup} setBtnPopup={setBtnPopup} />
         </p>
+      </div>
+      <div className="underline">
+        <span></span>
       </div>
     </header>
   );
