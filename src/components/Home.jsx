@@ -38,10 +38,10 @@ const Home = () => {
               Knowledge and experience of working in:
             </h2>
             <p className="MyStoryText">
-              Git, GitHub, JavaScript, HTML, CSS, NodeJS, OOP, TDD, REST APIs ,
-              React JS, React Native, PostgreSQL Database, MongoDB, Docker,
-              software testing and debugging techniques, good understanding of
-              web development principles and etc.
+              Git, GitHub, JavaScript, C#, HTML, CSS, Node JS, OOP, TDD, REST
+              APIs , React JS, React Native, PostgreSQL Database, MongoDB,
+              Docker, software testing and debugging techniques, good
+              understanding of web development principles and etc.
             </p>
           </div>
           <Container2 />
