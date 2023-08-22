@@ -38,14 +38,14 @@ const NavBar = () => {
             <ul className="a">
               {items.map((item) => {
                 return item === "Home" ? (
-                  // <button onClick="showLinks ===false">
                   <li key={item} className="NavBar">
+                    {/* <button onClick="showLinks ===false"> */}
                     <Link to="/Portfolio" className="NavBar-item">
                       {item}
                     </Link>
+                    {/* </button> */}
                   </li>
-                ) : // </button>
-                item === "Projects" ? (
+                ) : item === "Projects" ? (
                   <li key={item} className="NavBar">
                     <Link to="projects" className="NavBar-item">
                       {item}
@@ -59,7 +59,7 @@ const NavBar = () => {
                   </li>
                 ) : (
                   <li key={item} className="NavBar">
-                    <a href="Portfolio#contactCard" className="NavBar-item">
+                    <a href="/Portfolio#contactCard" className="NavBar-item">
                       {item}
                     </a>
                     {/* <Link to="contact" className="NavBar">

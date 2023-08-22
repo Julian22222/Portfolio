@@ -6,15 +6,15 @@ import logo from "../IMG/IMG3.JPG";
 const Home = () => {
   return (
     <div>
-      <div class="container-boxes">
-        <div class="itemBox1">
+      <div className="container-boxes">
+        <div className="itemBox1">
           <div className="box">
             <span></span>
             <img src={logo} className="ImageOfMe" alt="pcs of me" />
           </div>
         </div>
 
-        <div class="itemBox2">
+        <div className="itemBox2">
           <h1 className="Header1">Hi there, I'am Julian</h1>
           <h1 className="Header2">glad to see you here.</h1>
           <h3 className="Header3">
