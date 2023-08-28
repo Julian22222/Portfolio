@@ -12,22 +12,23 @@ const CardPortfolio = () => {
         <Card sx={{ maxWidth: 355 }} className="EachCard">
           <CardMedia
             sx={{ height: 140 }}
-            image="https://www.rd.com/wp-content/uploads/2021/01/GettyImages-1175550351.jpg"
-            title="random color cat"
+            image="https://img-c.udemycdn.com/course/750x422/4925142_c0ab.jpg"
+            title="JavaScript projects webpage"
           />
           <CardContent>
             <Typography gutterBottom variant="h5" component="div">
-              Colour Cat
+              JavaScript projects
             </Typography>
             <Typography variant="body2" color="text.secondary">
-              Use React framework / CSS / JS. On click shows random color and
-              random cat psc.
+              Use React framework / CSS / JS / HTML. Here you can request random
+              cat api, creating random color background and play rock papaer
+              scissors game .
             </Typography>
           </CardContent>
           <CardActions>
             <Button size="small">
               <a
-                href="https://julian22222.github.io/Colour_Cat/"
+                href="https://julian22222.github.io/All-JavaScript-Proj/"
                 target="_blank"
               >
                 <input
@@ -39,7 +40,7 @@ const CardPortfolio = () => {
             </Button>
             <Button size="small">
               <a
-                href="https://github.com/Julian22222/Colour_Cat"
+                href="https://github.com/Julian22222/All-JavaScript-Proj"
                 target="_blank"
               >
                 <input type="button" class="buttonProject" value="GitHub" />
