@@ -1,5 +1,5 @@
 import { FaCheckCircle } from "react-icons/fa";
-import { useRef, useEffect, useState } from "react";
+// import { useRef, useEffect, useState } from "react";
 import { useInView } from "react-intersection-observer";
 
 const Container2 = () => {

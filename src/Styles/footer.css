@@ -45,6 +45,13 @@ footer {
   margin: 20px 0;
 }
 
+.footer-links:hover {
+  /* background-color: #222; */
+  color: #ccc;
+  /* transition-all(all proporties above:background color and color,will apply in 0.275seconds) , ease-in- make transition smoothly*/
+  transition: all 0.275s ease-in;
+}
+
 ul li {
   list-style: none;
   margin-bottom: 12px;

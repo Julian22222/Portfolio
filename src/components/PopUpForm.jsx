@@ -1,8 +1,11 @@
 import { React, useRef } from "react";
 import emailjs from "@emailjs/browser";
 import "../Styles/popup.css";
+import Context from "./Context";
+import { useContext } from "react";
 
-function PopUpForm(props) {
+function PopUpForm() {
+  const value = useContext(Context);
   // const [emailForm, setEmailForm] = useState({
   //   name: "",
   //   email: "",
@@ -31,11 +34,12 @@ function PopUpForm(props) {
         }
       );
     // e.target.reset();
-    props.setBtnPopup(false);
+    // props.setBtnPopup(false);
+    value.setBtnPopup(false);
     alert("Email has been sent");
   };
 
-  return props.triger ? (
+  return value.btnPopup ? (
     <div className="popUp">
       <div className="popUp-inner">
         <form ref={form} onSubmit={sendEmail} className="form">
@@ -55,15 +59,32 @@ function PopUpForm(props) {
           <label>Your email address</label>
           <br></br>
 
-          <input
-            type="email"
-            name="user_email"
-            id="email"
-            placeholder="Insert your email"
-            className="inputField"
-            required
-          ></input>
-          <br></br>
+          {value.clientEmail === "" ? (
+            <div>
+              <input
+                type="email"
+                name="user_email"
+                id="email"
+                placeholder="Insert your email"
+                className="inputField"
+                required
+              ></input>
+              <br></br>
+            </div>
+          ) : (
+            <div>
+              <input
+                type="email"
+                value={value.clientEmail}
+                name="user_email"
+                id="email"
+                placeholder="Insert your email"
+                className="inputField"
+                required
+              ></input>
+              <br></br>
+            </div>
+          )}
 
           <label>Subject</label>
           <br></br>
@@ -100,7 +121,9 @@ function PopUpForm(props) {
         </form>
         <button
           onClick={() => {
-            props.setBtnPopup(false);
+            // props.setBtnPopup(false);
+            value.setBtnPopup(false);
+            value.setClientEmail("");
           }}
           className="close-btn"
         >

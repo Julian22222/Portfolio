@@ -1,4 +1,6 @@
 import { Link } from "react-router-dom";
+import Context from "./Context";
+import { useContext } from "react";
 
 import myLogo from "../IMG/logo33.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -20,15 +22,25 @@ import {
 const dateTime = new Date();
 
 const Footer = () => {
+  const value = useContext(Context);
+
+  const handleEmailBtn = (event) => {
+    if (event.key === "Enter") {
+      // do something
+    }
+    // console.log("event.target", event.target.value);
+    value.setClientEmail(event.target.value);
+    console.log("email of client", value.clientEmail);
+  };
+
   return (
     <footer id="contactCard">
       <div className="row">
         <div className="col">
-          <img src={myLogo} className="logo" />
+          <img src={myLogo} className="logo" alt="log-pcs" />
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora
-            officiis, ratione eum cupiditate perspiciatis aut veniam doloribus
-            voluptate nesciunt. Beatae.
+            Welcome to my portfolio. Here you can familiarise with my IT
+            experience and check my projects using different technologies.
           </p>
         </div>
         <div className="col">
@@ -44,19 +56,27 @@ const Footer = () => {
           <ul>
             <li>
               {" "}
-              <Link to="/Portfolio">Home</Link>
+              <Link className="footer-links" to="/Portfolio">
+                Home
+              </Link>
             </li>
             <li>
               {" "}
-              <Link to="/projects">Projects</Link>
+              <Link className="footer-links" to="/projects">
+                Projects
+              </Link>
             </li>
             <li>
               {" "}
-              <Link to="/resume">Resume</Link>
+              <Link className="footer-links" to="/resume">
+                Resume
+              </Link>
             </li>
             <li>
               {" "}
-              <a href="Portfolio#contactCard">Contacts</a>
+              <a className="footer-links" href="Portfolio#contactCard">
+                Contacts
+              </a>
               {/* <Link to="/contact">Contacts</Link> */}
             </li>
           </ul>
@@ -69,19 +89,32 @@ const Footer = () => {
               bounce
               className="envelope-footer"
             />
-            <input type="email" placeholder="Enter your email" required></input>
-            <button type="submit">
+            <input
+              name="email"
+              value={value.clientEmail}
+              type="email"
+              placeholder="Enter your email"
+              // required
+              onChange={handleEmailBtn}
+              onKeyPress={handleEmailBtn}
+            ></input>
+            <button
+              onClick={() => value.setBtnPopup(true)}
+              type="button"
+              // disabled={value.clientEmail === ""}
+            >
+              {/* <button type="submit"> */}
               <FontAwesomeIcon icon={faArrowRight} fade />
             </button>
           </form>
           <div className="social-icons">
-            <form action="https://www.linkedin.com/groups/5066326/">
+            <form action="https://linkedin.com/groups/5066326/">
               <button className="btn-icon">
                 <FontAwesomeIcon icon={faLinkedinIn} className="single-icon" />
               </button>
             </form>
 
-            <form action="https://www.whatsapp.com/">
+            <form action="https://whatsapp.com/">
               <button className="btn-icon">
                 <FontAwesomeIcon icon={faWhatsapp} className="single-icon" />
               </button>

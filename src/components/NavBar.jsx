@@ -1,4 +1,8 @@
 import { Link } from "react-router-dom";
+import Context from "./Context";
+import { useContext } from "react";
+// ankor Link to use in contacts
+import { HashLink } from "react-router-hash-link";
 import { useState } from "react";
 import PopUpForm from "./PopUpForm";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -9,8 +13,10 @@ import { FaBars } from "react-icons/fa";
 import myLogo from "../IMG/logo33.png";
 
 const NavBar = () => {
+  const value = useContext(Context);
+
   const [showLinks, setShowLinks] = useState(false);
-  const [btnPopup, setBtnPopup] = useState(false);
+  // const [btnPopup, setBtnPopup] = useState(false);
   // const navRef = useRef();
 
   // const showNavbar = () => {
@@ -59,12 +65,12 @@ const NavBar = () => {
                   </li>
                 ) : (
                   <li key={item} className="NavBar">
-                    <a href="/Portfolio#contactCard" className="NavBar-item">
+                    <HashLink
+                      to="/Portfolio#contactCard"
+                      className="NavBar-item"
+                    >
                       {item}
-                    </a>
-                    {/* <Link to="contact" className="NavBar">
-                    {item}
-                  </Link> */}
+                    </HashLink>
                   </li>
                 );
               })}
@@ -87,7 +93,7 @@ const NavBar = () => {
         <p className="MailMe">
           <button
             onClick={() => {
-              setBtnPopup(true);
+              value.setBtnPopup(true);
             }}
           >
             <FontAwesomeIcon
@@ -98,7 +104,8 @@ const NavBar = () => {
             julik.golovenj@gmail.com
           </button>
 
-          <PopUpForm triger={btnPopup} setBtnPopup={setBtnPopup} />
+          {/* <PopUpForm triger={btnPopup} setBtnPopup={setBtnPopup} /> */}
+          <PopUpForm />
         </p>
       </div>
       <div className="underline">
