@@ -17,18 +17,57 @@ const Resume = () => {
         to continue my education further. Now I am improving my IT skills and
         learning new technologies in this scope.
       </p>
-      <p className="TextResume">
+      <p className="TextResume-2">
         {" "}
         I am a quick-thinking person who can adapt to any circumstances.
         Moreover, I have excellent organisation, patience and problem-solving
         skills, due to my work experience in the hospitality sector as a Duty
         Manager.
       </p>
+      <br />
+      <br />
+      <h2 className="key-skills">Key Technical Skills:</h2>
+
+      <div className="skills-container">
+        <span style={{ fontWeight: "bold", color: "rgb(211, 59, 59)" }}>
+          Languages:
+        </span>{" "}
+        <span>JavaScript, C #</span>
+        <br />
+        <span style={{ fontWeight: "bold", color: "rgb(211, 59, 59)" }}>
+          Front-end:
+        </span>
+        <span> HTML, CSS, React JS, React Native, Vue JS</span>
+        <br />
+        <span style={{ fontWeight: "bold", color: "rgb(211, 59, 59)" }}>
+          Back-end:
+        </span>
+        <span> REST API, PostgreSQL Database, MongoDB, OOP, Docker, MVC</span>
+        <br />
+        <span style={{ fontWeight: "bold", color: "rgb(211, 59, 59)" }}>
+          Testing:
+        </span>
+        <span> Jest, Test Driven Development (TDD)</span>
+        <br />
+        <span style={{ fontWeight: "bold", color: "rgb(211, 59, 59)" }}>
+          Hosting:{" "}
+        </span>
+        <span>Git, GitHub</span>
+        <br />
+        <span style={{ fontWeight: "bold", color: "rgb(211, 59, 59)" }}>
+          Other:{" "}
+        </span>
+        <span>
+          NodeJS, Regex, Software testing and debugging techniques, good
+          understanding of web development principles and etc.
+        </span>
+      </div>
+
       <br></br>
       <br></br>
       <br></br>
       <br></br>
-      <h3 className="MyCertificate">My Certificates</h3>
+      <h3 className="MyCertificate">Personal achievements and Certificates</h3>
       <br></br>
       <br></br>
       <br></br>

@@ -7,6 +7,7 @@ import "../src/Styles/navbar.css";
 import "../src/Styles/home.css";
 import "../src/Styles/container2.css";
 import "../src/Styles/footer.css";
+import "../src/Styles/popup.css";
 
 import NavBar from "./components/NavBar";
 import Home from "./components/Home";

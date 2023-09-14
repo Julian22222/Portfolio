@@ -1,4 +1,4 @@
-import { React, useRef } from "react";
+import { React, useEffect, useRef } from "react";
 import emailjs from "@emailjs/browser";
 import "../Styles/popup.css";
 import Context from "./Context";
@@ -39,75 +39,86 @@ function PopUpForm() {
     alert("Email has been sent");
   };
 
+  let formRef = useRef();
+
+  // form disappears when clicking outside of the popup form
+  useEffect(() => {
+    document.addEventListener("mousedown", (event) => {
+      if (!formRef.current.contains(event.target)) {
+        value.setBtnPopup(false);
+      }
+    });
+  });
+
   return value.btnPopup ? (
     <div className="popUp">
-      <div className="popUp-inner">
+      <div ref={formRef} className="popUp-inner">
         <form ref={form} onSubmit={sendEmail} className="form">
           <h3>GET IN TOUCH</h3>
-          <label>Name</label>
-          <br></br>
 
-          <input
-            type="text"
-            name="user_name"
-            id="name"
-            placeholder="Your name"
-            className="inputField"
-            required
-          ></input>
-          <br></br>
-          <label>Your email address</label>
-          <br></br>
+          <div className="inputBox">
+            <input
+              type="text"
+              name="user_name"
+              id="name"
+              className="inputField"
+              required="required"
+            />
+            <span>Name</span>
+          </div>
 
-          {value.clientEmail === "" ? (
-            <div>
-              <input
-                type="email"
-                name="user_email"
-                id="email"
-                placeholder="Insert your email"
-                className="inputField"
-                required
-              ></input>
-              <br></br>
-            </div>
-          ) : (
-            <div>
-              <input
-                type="email"
-                value={value.clientEmail}
-                name="user_email"
-                id="email"
-                placeholder="Insert your email"
-                className="inputField"
-                required
-              ></input>
-              <br></br>
-            </div>
-          )}
+          <div className="inputBox">
+            {value.clientEmail === "" ? (
+              <div>
+                <input
+                  type="email"
+                  name="user_email"
+                  id="email"
+                  className="inputField"
+                  required="required"
+                />
+                <span>Email</span>
+              </div>
+            ) : (
+              <div className="inputBox">
+                <input
+                  type="email"
+                  onChange={(event) => value.setClientEmail(event.target.value)}
+                  value={value.clientEmail}
+                  name="user_email"
+                  id="email"
+                  className="inputField"
+                  required="required"
+                />
+              </div>
+            )}
+          </div>
 
-          <label>Subject</label>
-          <br></br>
-          <input
-            type="text"
-            name="subject"
-            id="subject"
-            placeholder="Subject"
-            className="inputField"
-          ></input>
-          <br></br>
+          <div className="inputBox">
+            <input
+              type="text"
+              name="subject"
+              id="subject"
+              // placeholder="Subject"
+              className="inputField"
+              required="required"
+            />
+            <span>Subject</span>
+          </div>
 
-          <label>Message</label>
-          <br></br>
-          <textarea
-            required
-            type="text"
-            name="message"
-            id="message"
-            placeholder="Insert your message"
-            className="inputFieldEmail"
-            // rows="4"
-          ></textarea>
+          <div className="inputBox">
+            <textarea
+              type="text"
+              name="message"
+              id="message"
+              className="inputFieldEmail"
+              required="required"
+              // rows="4"
+            />
+
+            <span>Message</span>
+          </div>
+
           <br></br>
           {/* <input
             type="hidden"
@@ -126,8 +137,9 @@ function PopUpForm() {
             value.setClientEmail("");
           }}
           className="close-btn"
+          style={{ fontSize: 20 }}
         >
-          close
+          x
         </button>
       </div>
     </div>

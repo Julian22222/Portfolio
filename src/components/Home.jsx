@@ -40,7 +40,7 @@ const Home = () => {
             <p className="MyStoryText">
               Git, GitHub, JavaScript, C#, HTML, CSS, Node JS, OOP, TDD, REST
               APIs , React JS, React Native, PostgreSQL Database, MongoDB,
-              Docker, software testing and debugging techniques, good
+              Regex, Docker, software testing and debugging techniques, good
               understanding of web development principles and etc.
             </p>
           </div>

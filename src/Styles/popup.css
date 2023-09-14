@@ -21,6 +21,7 @@
 /* //////////////////////////popUpForm */
 
 .popUp-inner {
+  border-radius: 10px;
   position: absolute;
   padding: 32px;
   width: 100%;
@@ -34,15 +35,6 @@
   right: 16px;
   color: black;
 }
-
-/* .form .send-btn {
-  /* position: absolute;
-  padding: 5px; */
-/* background-color: #ff5361; */
-/* color: #fff;
-  top: 16px;
-  right: 16px; */
-/* } */
 
 .form {
   color: black;
@@ -70,4 +62,58 @@
 .popUp .popUp-inner .form .inputFieldEmail {
   width: 300px;
   height: 200px;
+}
+
+.inputBox {
+  position: relative;
+  /* width: 250px; */
+}
+
+.inputBox input,
+.inputBox textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid white;
+  background: #d43535;
+  border-radius: 5px;
+  outline: none;
+  color: #fff;
+  font-size: 1em;
+}
+
+.inputBox span {
+  position: absolute;
+  left: 0;
+  padding: 10px;
+  top: 8px;
+  pointer-events: none;
+  font-size: 1em;
+  /* color: white; */
+  color: rgb(88, 72, 72);
+  /* text-transform: uppercase; */
+  transition: 0.5s;
+}
+
+.inputBox input:valid ~ span,
+.inputBox input:focus ~ span {
+  color: black;
+  transform: translateX(10px) translateY(-7px);
+  font-size: 0.65em;
+  padding: 0 10px;
+  background: #d43535;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  letter-spacing: 0.2em;
+}
+
+.inputBox textarea:valid ~ span,
+.inputBox textarea:focus ~ span {
+  color: black;
+  transform: translateX(10px) translateY(-7px);
+  font-size: 0.65em;
+  padding: 0 10px;
+  background: #d43535;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  letter-spacing: 0.2em;
 }

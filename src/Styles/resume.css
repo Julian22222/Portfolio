@@ -5,12 +5,31 @@
 
 .MyCertificate {
   margin-left: 50px;
+  /* display: flex;
+  justify-content: center; */
 }
 
 .TextResume {
   margin-top: 50px;
   margin-left: 5%;
   margin-right: 5%;
+}
+
+.TextResume-2 {
+  margin-top: 10px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.key-skills {
+  display: flex;
+  justify-content: center;
+  color: rgb(211, 59, 59);
+}
+
+.skills-container {
+  margin-top: 20px;
+  margin-left: 5%;
 }
 
 .Certificates {
