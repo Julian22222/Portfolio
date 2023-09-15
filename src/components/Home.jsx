@@ -1,7 +1,8 @@
 import { Link } from "react-router-dom";
 import Container2 from "./Container2";
 import Footer from "./Footer";
-import logo from "../IMG/IMG3.JPG";
+// import logo from "../IMG/IMG3.JPG";
+import logo from "../IMG/pscOfMe.jpg";
 
 const Home = () => {
   return (
