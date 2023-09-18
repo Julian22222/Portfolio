@@ -5,8 +5,10 @@
 }
 
 body {
-  background-image: url("./IMG/wallpaperflar-final.png");
-  background-color: #282c34;
+  /* background-image: url("./IMG/wallpaperflar-final.png"); */
+  background-image: url("./IMG/peakpx\ \(16\).jpg");
+  width: 100%;
+  /* background-color: #282c34; */
   color: white;
   margin: 0;
   padding: 0;
