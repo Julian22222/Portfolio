@@ -127,16 +127,17 @@
   .ContainerTwo {
     margin-top: 20px;
     /* width: 50%; */
-    font-size: 25px;
+    font-size: 40px;
     margin-bottom: 30px;
-    margin-left: -90px;
+    /* margin-left: -90px; */
   }
 
   .item-1 p {
-    font-size: 15px;
+    font-size: 35px;
     /* position: relative; */
     /* margin-top: 10px; */
     margin-left: -120px;
+
     /* width: 200px; */
     /* color: aquamarine; */
   }
@@ -148,7 +149,7 @@
   .ContainerSkills {
     margin-top: 50px;
     margin-left: 0;
-    font-size: 25px;
+    font-size: 40px;
     /* width: 30%; */
     font-size: 20px;
     margin-bottom: 20px;
@@ -156,12 +157,14 @@
   }
 
   .ContainerText {
-    margin-left: 10%;
+    /* margin-left: 10%; */
+    display: flex;
+    justify-content: center;
   }
 
   .ContainerText p {
     /* width: 20%; */
-    font-size: 15px;
+    font-size: 35px;
     /* position: relative; */
     /* margin-top: 10px; */
     margin-left: -190px;

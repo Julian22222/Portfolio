@@ -137,7 +137,7 @@ hr {
 /* different screens */
 @media (max-width: 1000px) {
   footer {
-    margin-top: 250px;
+    margin-top: 150px;
     bottom: unset;
   }
 

@@ -228,6 +228,10 @@
 /* different screens */
 /* If [device width] is less than or equal to 950px, then do {…}” */
 @media (max-width: 1000px) {
+  body {
+    width: fit-content;
+  }
+
   .itemBox1 {
     padding: 40px;
     /* font-size: 45px; */
@@ -258,31 +262,36 @@
     background-image: linear-gradient(#fff, #fff);
     background-repeat: no-repeat;
     -webkit-background-clip: text;
-    background-position: -300px 0;
+    background-position: -640px 0;
     animation: backcolor 5s linear infinite alternate;
   }
 
   .Header2 {
-    font-size: 20px;
     margin-left: 20%;
     color: transparent;
     /* -webkit-text-stroke: 1px #fff; */
     background-image: linear-gradient(#fff, #fff);
     background-repeat: no-repeat;
     -webkit-background-clip: text;
-    background-position: -300px 0;
+    background-position: -650px 0;
     animation: backcolor 5s linear infinite alternate;
   }
 
   .Header3 {
-    font-size: 20px;
+    margin-top: 15px;
+    font-size: 40px;
     margin-left: 20%;
+  }
+
+  .aboutMe-home {
+    display: flex;
+    justify-content: center;
   }
 
   .HeaderAboutMe {
     margin-top: 80px;
     /* width: 90%; */
-    font-size: 20px;
+    font-size: 35px;
     margin-bottom: 30px;
     /* margin-left: -100px; */
   }
@@ -293,9 +302,9 @@
   }
 
   .Portfol {
-    margin-right: 100px;
+    margin-right: 250px;
     padding: 10px;
-    font-size: 15px;
+    font-size: 25px;
     border-radius: 20px;
     cursor: pointer;
     /* float: right; */
@@ -308,18 +317,26 @@
     justify-content: flex-end;
   }
 
+  .myStory-home {
+    display: flex;
+    justify-content: center;
+  }
+
   .MyStory {
-    font-size: 20px;
+    font-size: 35px;
     margin-bottom: 30px;
     margin-left: 0;
     text-align: center;
   }
 
+  .headingMyStory-home {
+    display: flex;
+    justify-content: center;
+  }
+
   .HeadingMySTory {
     margin-top: 20px;
-    /* width: 50%; */
-    font-size: 25px;
-    margin-left: -110px;
+    font-size: 40px;
     margin-bottom: 30px;
   }
 

@@ -21,29 +21,36 @@ const Home = () => {
           <h3 className="Header3">
             Full-Stack Software Developer based in Manchester.
           </h3>
-          <p className="HeaderAboutMe">
-            I enjoy turning complex problems into simple. I am very interested
-            in software development. I feel motivated and I really enjoy
-            learning more about it. I have huge desire to grow my software
-            development skills in JavaScript, Back-End Web Servers, Databases,
-            Front-End frameworks and clouds. I am passionate about new
-            technologies. Here you can familirise yourself with my projects.
-          </p>
+          <div className="aboutMe-home">
+            <p className="HeaderAboutMe">
+              I enjoy turning complex problems into simple. I am very interested
+              in software development. I feel motivated and I really enjoy
+              learning more about it. I have huge desire to grow my software
+              development skills in JavaScript, Back-End Web Servers, Databases,
+              Front-End frameworks and clouds. I am passionate about new
+              technologies. Here you can familirise yourself with my projects.
+            </p>
+          </div>
+
           <div className="PortfolioBtn">
             <Link to="../projects" className="NavBar">
               <button className="Portfol">Go to portfolio</button>
             </Link>
           </div>
           <div className="MyStory">
-            <h2 className="HeadingMySTory">
-              Knowledge and experience of working in:
-            </h2>
-            <p className="MyStoryText">
-              Git, GitHub, JavaScript, C#, HTML, CSS, Node JS, OOP, TDD, REST
-              APIs , React JS, React Native, PostgreSQL Database, MongoDB,
-              Regex, Docker, software testing and debugging techniques, good
-              understanding of web development principles and etc.
-            </p>
+            <div className="headingMyStory-home">
+              <h2 className="HeadingMySTory">
+                Knowledge and experience of working in:
+              </h2>
+            </div>
+            <div className="myStory-home">
+              <p className="MyStoryText">
+                Git, GitHub, JavaScript, C#, HTML, CSS, Node JS, OOP, TDD, REST
+                APIs , React JS, React Native, PostgreSQL Database, MongoDB,
+                Regex, Docker, software testing and debugging techniques, good
+                understanding of web development principles and etc.
+              </p>
+            </div>
           </div>
           <Container2 />
         </div>
