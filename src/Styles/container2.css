@@ -113,12 +113,14 @@
   margin-left: 80px;
 } */
 
-/* ////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////////////////////// */
 /* different screens */
-@media (max-width: 950px) {
+@media (max-width: 1000px) {
   .flex-container-2 {
     display: flex;
     flex-direction: column;
+    margin-left: 20%;
+    width: 100%;
     /* justify-content: space-around; */
   }
 
@@ -144,17 +146,18 @@
   }
 
   .ContainerSkills {
-    margin-top: 25px;
+    margin-top: 50px;
     margin-left: 0;
     font-size: 25px;
     /* width: 30%; */
     font-size: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     /* margin-top: 50px; */
   }
 
-  /* .ContainerText {
-  } */
+  .ContainerText {
+    margin-left: 10%;
+  }
 
   .ContainerText p {
     /* width: 20%; */

@@ -226,9 +226,32 @@
 
 /* ////////////////////////////////////////////////////////////////////////////////////////////////// */
 /* different screens */
-@media (max-width: 950px) {
+/* If [device width] is less than or equal to 950px, then do {…}” */
+@media (max-width: 1000px) {
+  .itemBox1 {
+    padding: 40px;
+    /* font-size: 45px; */
+    /* width: fit-content; */
+    flex-basis: 0%;
+    /* background-color: rgb(209, 41, 41); */
+    /* background-color: black; */
+    min-width: 120px;
+    /* border-right: 1px solid #d43535; */
+    border-top: 1px solid #d43535;
+  }
+
+  .ImageOfMe {
+    border-radius: 50%;
+    width: 100%;
+
+    /* position: absolute; */
+    /* margin-top: 30px; */
+    margin-left: 0;
+    border: 1px solid #d43535;
+  }
+
   .Header1 {
-    margin-left: 30%;
+    margin-left: 20%;
     margin-top: 10px;
     color: transparent;
     /* -webkit-text-stroke: 1px #fff; */
@@ -240,6 +263,7 @@
   }
 
   .Header2 {
+    font-size: 20px;
     margin-left: 20%;
     color: transparent;
     /* -webkit-text-stroke: 1px #fff; */
@@ -250,12 +274,17 @@
     animation: backcolor 5s linear infinite alternate;
   }
 
+  .Header3 {
+    font-size: 20px;
+    margin-left: 20%;
+  }
+
   .HeaderAboutMe {
-    margin-top: 160px;
+    margin-top: 80px;
     /* width: 90%; */
     font-size: 20px;
     margin-bottom: 30px;
-    margin-left: -100px;
+    /* margin-left: -100px; */
   }
 
   .PortfolioBtn {
@@ -284,30 +313,6 @@
     margin-bottom: 30px;
     margin-left: 0;
     text-align: center;
-  }
-
-  .ImageOfMe {
-    border-radius: 50%;
-    width: 70%;
-    /* position: absolute; */
-    /* margin-top: 30px; */
-    margin-left: 0;
-    border: 1px solid #d43535;
-  }
-
-  .Header1 {
-    /* margin-left: 20%; */
-    margin-top: 10px;
-  }
-
-  .Header2 {
-    font-size: 20px;
-    /* margin-left: 0%; */
-  }
-
-  .Header3 {
-    font-size: 20px;
-    /* margin-left: 0%; */
   }
 
   .HeadingMySTory {
@@ -386,6 +391,8 @@
   }
 }
 
+/* //////////////////////////////////////////////////////////////////////////////////////// */
+/* different screens */
 @media (max-width: 1105px) {
   .Header3 {
     width: 60%;
@@ -415,7 +422,4 @@
     width: 100%;
     font-size: 20px;
   }
-}
-
-@media (max-width: 950px) {
 }
