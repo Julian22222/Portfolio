@@ -228,10 +228,6 @@
 /* different screens */
 /* If [device width] is less than or equal to 950px, then do {…}” */
 @media (max-width: 1000px) {
-  body {
-    width: 100%;
-  }
-
   .itemBox1 {
     padding: 40px;
     /* font-size: 45px; */
