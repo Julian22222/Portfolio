@@ -229,7 +229,7 @@
 /* If [device width] is less than or equal to 950px, then do {…}” */
 @media (max-width: 1000px) {
   body {
-    width: fit-content;
+    width: 100%;
   }
 
   .itemBox1 {
@@ -341,7 +341,7 @@
   }
 
   .MyStoryText {
-    font-size: 15px;
+    font-size: 35px;
     /* position: relative; */
     /* margin-top: 10px; */
     margin-left: -100px;
