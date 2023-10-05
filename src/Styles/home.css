@@ -436,3 +436,29 @@
     font-size: 20px;
   }
 }
+
+/* //////////////////////////////////////////////////////////////////////////////////// */
+/* different screens */
+@media (max-width: 1000px) {
+  .itemBox1 {
+    padding: 30px;
+    font-size: 25px;
+    width: fit-content;
+    flex-basis: 10%;
+    /* background-color: rgb(209, 41, 41); */
+    background-color: black;
+    min-width: 100px;
+    /* border-right: 1px solid #d43535; */
+    border-top: 1px solid #d43535;
+  }
+
+  .itemBox2 {
+    padding: 30px;
+    font-size: 25px;
+    /* border: top 1px solid #d43535; */
+    width: fit-content;
+    flex-basis: 79%;
+    flex-shrink: 14;
+    border-top: 1px solid #d43535;
+  }
+}

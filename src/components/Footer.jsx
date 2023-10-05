@@ -73,7 +73,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="col">
-          <h3>Links</h3>
+          <h3 className="links-header">Links</h3>
           <ul>
             <li>
               {" "}
