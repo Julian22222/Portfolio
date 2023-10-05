@@ -46,9 +46,10 @@ const Home = () => {
             <div className="myStory-home">
               <p className="MyStoryText">
                 Git, GitHub, JavaScript, C#, HTML, CSS, Node JS, OOP, TDD, REST
-                APIs , React JS, React Native, PostgreSQL Database, MongoDB,
-                Regex, Docker, software testing and debugging techniques, good
-                understanding of web development principles and etc.
+                APIs , React JS, React Native, SQLite, PostgreSQL Database,
+                MongoDB, Regex, Docker, Kanban, software testing and debugging
+                techniques, good understanding of web development principles and
+                etc.
               </p>
             </div>
           </div>
