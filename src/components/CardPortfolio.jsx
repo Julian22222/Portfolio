@@ -20,9 +20,8 @@ const CardPortfolio = () => {
               JavaScript projects
             </Typography>
             <Typography variant="body2" color="text.secondary">
-              Use React framework / CSS / JS / HTML. Here you can request random
-              cat api, creating random color background and play rock papaer
-              scissors game .
+              Here I used - React JS framework / JavaScript / Node JS / HTML /
+              CSS .
             </Typography>
           </CardContent>
           <CardActions>
@@ -60,8 +59,8 @@ const CardPortfolio = () => {
               Wine Shop
             </Typography>
             <Typography variant="body2" color="text.secondary">
-              Front-end Project: created Wine shop website using React
-              framework.
+              Front-end + Back-end Project. Here I used - React JS framework /
+              REST APIs / PSQL / JavaScript / Node JS / HTML / CSS .
             </Typography>
           </CardContent>
           <CardActions>
@@ -77,12 +76,30 @@ const CardPortfolio = () => {
                 />
               </a>
             </Button>
+
             <Button size="small">
               <a
                 href="https://github.com/Julian22222/Wine-Shop"
                 target="_blank"
               >
-                <input type="button" class="buttonProject" value="GitHub" />
+                <input
+                  type="button"
+                  class="buttonProject"
+                  value="GitHub F-End"
+                />
+              </a>
+            </Button>
+
+            <Button size="small">
+              <a
+                href="https://github.com/Julian22222/Wine-Shop-BackEnd"
+                target="_blank"
+              >
+                <input
+                  type="button"
+                  class="buttonProject"
+                  value="GitHub B-End"
+                />
               </a>
             </Button>
           </CardActions>
@@ -96,13 +113,11 @@ const CardPortfolio = () => {
           />
           <CardContent>
             <Typography gutterBottom variant="h5" component="div">
-              Movies
+              Movies website
             </Typography>
             <Typography variant="body2" color="text.secondary">
-              Front-end + Back-end Project: created Movies website using Vue JS,
-              JavaScript, CSS, MongoDB etc. Implemented endpoints to get all
-              movies, delete, update movie by Id and to post new movie to
-              MongoDB.
+              Front-end + Back-end Project. Here I used - Vue JS / REST APIs /
+              MongoDB / JavaScript / Node JS / HTML / CSS .
             </Typography>
           </CardContent>
           <CardActions>
@@ -155,13 +170,11 @@ const CardPortfolio = () => {
           />
           <CardContent>
             <Typography gutterBottom variant="h5" component="div">
-              NC NEWS
+              NC NEWS website
             </Typography>
             <Typography variant="body2" color="text.secondary">
-              Front-end + Back-end Project: created news website using React JS,
-              JavaScript, CSS, postgreSQL etc. Implemented endpoints to get all
-              news, delete, update comments by news Id and to post new commens
-              and likes to postgreSQL.
+              Front-end + Back-end Project. Here I used - React JS framework /
+              REST APIs / postgreSQL / JavaScript / Node JS / HTML / CSS .
             </Typography>
           </CardContent>
           <CardActions>
@@ -212,11 +225,11 @@ const CardPortfolio = () => {
           />
           <CardContent>
             <Typography gutterBottom variant="h5" component="div">
-              Wordle
+              Wordle game
             </Typography>
             <Typography variant="body2" color="text.secondary">
-              Front-end Project: created Wordle game using JavaScript, HTML, CSS
-              and React JS.
+              Front-end Project. Here I used - React JS framework / JavaScript /
+              Node JS / HTML / CSS .
             </Typography>
           </CardContent>
           <CardActions>
@@ -232,6 +245,62 @@ const CardPortfolio = () => {
             <Button size="small">
               <a href="https://github.com/Julian22222/Wordle" target="_blank">
                 <input type="button" class="buttonProject" value="GitHub" />
+              </a>
+            </Button>
+          </CardActions>
+        </Card>
+
+        <Card sx={{ maxWidth: 355 }} className="EachCard">
+          <CardMedia
+            sx={{ height: 140 }}
+            image="https://blog.hubspot.com/hubfs/To_Do_List.png"
+            title="toDoList"
+          />
+          <CardContent>
+            <Typography gutterBottom variant="h5" component="div">
+              To do List
+            </Typography>
+            <Typography variant="body2" color="text.secondary">
+              Front-end + Back-end Project. Here I used - React JS framework /
+              REST APIs / postgreSQL / JavaScript / Node JS / HTML / CSS .
+            </Typography>
+          </CardContent>
+          <CardActions>
+            <Button size="small">
+              <a
+                href="https://to-do-list-front-end.onrender.com/"
+                target="_blank"
+              >
+                <input
+                  type="button"
+                  class="buttonProject"
+                  value="See project"
+                />
+              </a>
+            </Button>
+            <Button size="small">
+              <a
+                href="https://github.com/Julian22222/PRACTICE/tree/main/To-Do-List/client-front-end"
+                target="_blank"
+              >
+                <input
+                  type="button"
+                  class="buttonProject"
+                  value="GitHub F-End"
+                />
+              </a>
+            </Button>
+
+            <Button size="small">
+              <a
+                href="https://github.com/Julian22222/PRACTICE/tree/main/To-Do-List/server"
+                target="_blank"
+              >
+                <input
+                  type="button"
+                  class="buttonProject"
+                  value="GitHub B-End"
+                />
               </a>
             </Button>
           </CardActions>

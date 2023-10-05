@@ -1,11 +1,11 @@
 .CardPortfolio .first-line {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .CardPortfolio .second-line {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .EachCard {
@@ -20,4 +20,25 @@
 
 .buttonProject {
   width: 100px;
+}
+
+/* //////////////////////////////////////////////////////////////////////////////////// */
+/* different screens */
+@media (max-width: 1000px) {
+  .CardPortfolio .first-line {
+    display: flex;
+    /* justify-content: space-around; */
+    flex-wrap: wrap;
+  }
+
+  .CardPortfolio .second-line {
+    display: flex;
+    /* justify-content: space-around; */
+    flex-wrap: wrap;
+  }
+
+  .EachCard {
+    margin: 10px;
+    min-width: 375px;
+  }
 }

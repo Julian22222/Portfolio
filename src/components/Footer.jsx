@@ -7,6 +7,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faEnvelope,
   faArrowRight,
+  faLocationDot,
+  faPhone,
   //   faLinkedin,
   //   faLinkedinIn,
 } from "@fortawesome/free-solid-svg-icons";
@@ -44,12 +46,31 @@ const Footer = () => {
           </p>
         </div>
         <div className="col">
-          <h3>Office</h3>
-          <p>some Road</p>
-          <p>Great Manchester</p>
-          <p>Salford, Uk</p>
-          <p className="email-id">julik.golovenj@gmail.com</p>
-          <h4>+44-789-2828-653</h4>
+          <h3 className="office-heading">Office</h3>
+          <div className="container-office">
+            <div className="col-left-flexbox-img">
+              <FontAwesomeIcon
+                icon={faLocationDot}
+                flip
+                className="flip-location"
+              />
+              <br />
+              <FontAwesomeIcon
+                icon={faEnvelope}
+                flip
+                className="flip-envelope"
+              />
+              <br />
+              <FontAwesomeIcon icon={faPhone} shake className="shake-phone" />
+            </div>
+            <div className="info-office-container">
+              <p>some Road</p>
+              <p>Great Manchester</p>
+              <p>Salford, Uk</p>
+              <p className="email-id">julik.golovenj@gmail.com</p>
+              <h4>+44-789-2828-653</h4>
+            </div>
+          </div>
         </div>
         <div className="col">
           <h3>Links</h3>

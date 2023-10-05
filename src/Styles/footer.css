@@ -28,9 +28,38 @@ footer {
   padding: 10px;
 }
 
+.container-office {
+  width: fit-content;
+  display: flex;
+}
+
+.info-office-container {
+  margin-left: 10px;
+}
+
+.flip-location {
+  margin-top: 20px;
+}
+
+.flip-envelope {
+  margin-top: 50px;
+}
+
+.shake-phone {
+  margin-top: 20px;
+}
+
+.col-left-flexbox-img {
+  flex-basis: 20%;
+}
+
 .col:nth-child(2),
 .col:nth-child(3) {
   flex-basis: 15%;
+}
+
+.office-heading {
+  margin-left: 15px;
 }
 
 .col h3 {
