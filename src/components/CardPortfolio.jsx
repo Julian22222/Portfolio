@@ -305,6 +305,47 @@ const CardPortfolio = () => {
             </Button>
           </CardActions>
         </Card>
+
+        <Card sx={{ maxWidth: 355 }} className="EachCard">
+          <CardMedia
+            sx={{ height: 140 }}
+            image="https://www.simplilearn.com/ice9/free_resources_article_thumb/difference_between_sql_and_mysql.jpg"
+            title="toDoList"
+          />
+          <CardContent>
+            <Typography gutterBottom variant="h5" component="div">
+              MySQL DB
+            </Typography>
+            <Typography variant="body2" color="text.secondary">
+              Back-end MySQL Project. Here I used - REST APIs / MySQL /
+              JavaScript / Node JS /
+            </Typography>
+          </CardContent>
+          <CardActions>
+            <Button size="small">
+              <a href="https://car-shop-back-end.onrender.com/" target="_blank">
+                <input
+                  type="button"
+                  class="buttonProject"
+                  value="See project"
+                />
+              </a>
+            </Button>
+
+            <Button size="small">
+              <a
+                href="https://github.com/Julian22222/PRACTICE/tree/main/MySQL-database"
+                target="_blank"
+              >
+                <input
+                  type="button"
+                  class="buttonProject"
+                  value="GitHub B-End"
+                />
+              </a>
+            </Button>
+          </CardActions>
+        </Card>
       </div>
     </div>
   );

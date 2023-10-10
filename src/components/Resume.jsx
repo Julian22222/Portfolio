@@ -42,7 +42,11 @@ const Resume = () => {
         <span style={{ fontWeight: "bold", color: "rgb(211, 59, 59)" }}>
           Back-end:
         </span>
-        <span> REST API, PSQL, SQLite, MongoDB, OOP, Docker, MVC</span>
+        <span>
+          {" "}
+          HTTP, Express JS, REST API, SQL, PSQL, SQLite, MySQL, MongoDB, OOP,
+          Docker, MVC
+        </span>
         <br />
         <span style={{ fontWeight: "bold", color: "rgb(211, 59, 59)" }}>
           Testing:
