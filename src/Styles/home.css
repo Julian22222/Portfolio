@@ -282,6 +282,7 @@
   .aboutMe-home {
     display: flex;
     justify-content: center;
+    width: 130%;
   }
 
   .HeaderAboutMe {
@@ -290,6 +291,7 @@
     font-size: 35px;
     margin-bottom: 30px;
     /* margin-left: -100px; */
+    justify-content: center;
   }
 
   .PortfolioBtn {
@@ -316,31 +318,39 @@
   .myStory-home {
     display: flex;
     justify-content: center;
+    width: 130%;
+    margin-left: -10%;
   }
 
   .MyStory {
     font-size: 35px;
     margin-bottom: 30px;
-    margin-left: 0;
+    /* margin-left: 0; */
     text-align: center;
   }
 
   .headingMyStory-home {
     display: flex;
     justify-content: center;
+    width: 130%;
   }
 
   .HeadingMySTory {
     margin-top: 20px;
+    /* text-align: center; */
+    /* width: 150%; */
+
     font-size: 40px;
     margin-bottom: 30px;
+    text-decoration: underline;
   }
 
   .MyStoryText {
     font-size: 35px;
+    /* margin-left: 30%; */
     /* position: relative; */
     /* margin-top: 10px; */
-    margin-left: -100px;
+    /* margin-left: -70%; */
     /* width: 200px; */
     /* color: aquamarine; */
   }

@@ -32,39 +32,50 @@ const Resume = () => {
         <span style={{ fontWeight: "bold", color: "rgb(211, 59, 59)" }}>
           Languages:
         </span>{" "}
-        <span>JavaScript, C #</span>
-        <br />
+        <span>JavaScript, C#</span>
+        <hr style={{ marginLeft: "-20px" }} />
+        {/* <br /> */}
         <span style={{ fontWeight: "bold", color: "rgb(211, 59, 59)" }}>
           Front-end:
         </span>
-        <span> HTML, CSS, React JS, React Native, Vue JS</span>
-        <br />
+        <span>
+          {" "}
+          HTML, CSS, React JS, React Native, ASP.Net Core MVC, Vue JS
+        </span>
+        <hr style={{ marginLeft: "-20px" }} />
         <span style={{ fontWeight: "bold", color: "rgb(211, 59, 59)" }}>
           Back-end:
         </span>
         <span>
           {" "}
-          HTTP, Express JS, REST API, SQL, PSQL, SQLite, MySQL, MongoDB, OOP,
-          Docker, MVC
+          HTTP, Express JS, REST API, SQL, PSQL, SQLite, SQL Server, MySQL,
+          MongoDB, OOP, Docker, MVC
         </span>
-        <br />
+        <hr style={{ marginLeft: "-20px" }} />
         <span style={{ fontWeight: "bold", color: "rgb(211, 59, 59)" }}>
           Testing:
         </span>
         <span> Jest, Test Driven Development (TDD)</span>
-        <br />
+        <hr style={{ marginLeft: "-20px" }} />
         <span style={{ fontWeight: "bold", color: "rgb(211, 59, 59)" }}>
           Hosting:{" "}
         </span>
         <span>Git, GitHub</span>
-        <br />
+        <hr style={{ marginLeft: "-20px" }} />
+        <span style={{ fontWeight: "bold", color: "rgb(211, 59, 59)" }}>
+          Clouds:{" "}
+        </span>
+        <span>Microsoft Azure</span>
+        <hr style={{ marginLeft: "-20px" }} />
+        <span style={{ fontWeight: "bold", color: "rgb(211, 59, 59)" }}></span>
         <span style={{ fontWeight: "bold", color: "rgb(211, 59, 59)" }}>
           Other:{" "}
         </span>
         <span>
-          NodeJS, Regex, Kanban ,Software testing and debugging techniques, good
-          understanding of web development principles and etc.
+          NodeJS, Dot Net Core, Regex, Kanban, Software testing and debugging
+          techniques, good understanding of web development principles and etc.
         </span>
+        <hr style={{ marginLeft: "-20px" }} />
       </div>
 
       <br></br>
@@ -75,12 +86,14 @@ const Resume = () => {
       <br></br>
       <br></br>
       <br></br>
-      <img
-        src={certificate}
-        alt="certificate 1"
-        width={600}
-        className="Certificates"
-      />
+      <div className="certificate-container">
+        <img
+          src={certificate}
+          alt="certificate 1"
+          width={600}
+          className="Certificates"
+        />
+      </div>
     </div>
   );
 };

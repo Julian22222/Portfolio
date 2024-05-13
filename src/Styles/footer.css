@@ -1,6 +1,6 @@
 footer {
   width: 100%;
-  position: absolute;
+  /* position: absolute; */
   /* bottom: -900px; */
   background: linear-gradient(
     to right,
@@ -166,8 +166,10 @@ hr {
 /* different screens */
 @media (max-width: 1000px) {
   footer {
-    margin-top: 100px;
-    bottom: unset;
+    margin-top: 1700px;
+    /* position: fixed; */
+    /* margin-top: auto; */
+    /* bottom: unset; */
   }
 
   .col {

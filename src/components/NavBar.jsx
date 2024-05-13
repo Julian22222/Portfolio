@@ -45,27 +45,38 @@ const NavBar = () => {
               {items.map((item) => {
                 return item === "Home" ? (
                   <li key={item} className="NavBar">
-                    {/* <button onClick="showLinks ===false"> */}
-                    <Link to="/Portfolio" className="NavBar-item">
+                    <Link
+                      onClick="showLinks ===false"
+                      to="/Portfolio"
+                      className="NavBar-item"
+                    >
                       {item}
                     </Link>
-                    {/* </button> */}
                   </li>
                 ) : item === "Projects" ? (
                   <li key={item} className="NavBar">
-                    <Link to="projects" className="NavBar-item">
+                    <Link
+                      onClick="showLinks ===false"
+                      to="projects"
+                      className="NavBar-item"
+                    >
                       {item}
                     </Link>
                   </li>
                 ) : item === "Resume" ? (
                   <li key={item} className="NavBar">
-                    <Link to="resume" className="NavBar-item">
+                    <Link
+                      onClick="showLinks ===false"
+                      to="resume"
+                      className="NavBar-item"
+                    >
                       {item}
                     </Link>
                   </li>
                 ) : (
                   <li key={item} className="NavBar">
                     <HashLink
+                      onClick="showLinks ===false"
                       to="/Portfolio#contactCard"
                       className="NavBar-item"
                     >

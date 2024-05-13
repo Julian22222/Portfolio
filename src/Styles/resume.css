@@ -33,8 +33,13 @@
   margin-left: 5%;
 }
 
-.Certificates {
+/* .Certificates {
   margin-left: 50px;
+} */
+
+.certificate-container {
+  display: flex;
+  justify-content: center;
 }
 
 /* //////////////////////////////////////////////////////////////////////////////////// */

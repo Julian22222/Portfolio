@@ -1,16 +1,24 @@
-.CardPortfolio .first-line {
+.CardPortfolio ul {
+  /* max-width: 100%; */
   display: flex;
   justify-content: space-around;
-}
-
-.CardPortfolio .second-line {
-  display: flex;
-  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .EachCard {
   margin: 10px;
   min-width: 345px;
+  overflow: hidden;
+  position: relative;
+}
+
+.EachCard:hover .EchCardImage {
+  transform: scale(1.2);
+}
+
+.EchCardImage {
+  background-size: cover;
+  transition: all 1.1s;
 }
 
 .MyProjectHeader {
@@ -20,23 +28,12 @@
 
 .buttonProject {
   width: 100px;
+  cursor: pointer;
 }
 
 /* //////////////////////////////////////////////////////////////////////////////////// */
 /* different screens */
 @media (max-width: 1000px) {
-  .CardPortfolio .first-line {
-    display: flex;
-    /* justify-content: space-around; */
-    flex-wrap: wrap;
-  }
-
-  .CardPortfolio .second-line {
-    display: flex;
-    /* justify-content: space-around; */
-    flex-wrap: wrap;
-  }
-
   .EachCard {
     margin: 10px;
     min-width: 375px;
