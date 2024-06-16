@@ -74,7 +74,7 @@ const NavBar = () => {
                   <li key={item} className="NavBar">
                     <Link
                       onClick="showLinks ===false"
-                      to="projects"
+                      to="/projects"
                       className="NavBar-item"
                     >
                       {item}
@@ -84,7 +84,7 @@ const NavBar = () => {
                   <li key={item} className="NavBar">
                     <Link
                       onClick="showLinks ===false"
-                      to="resume"
+                      to="/resume"
                       className="NavBar-item"
                     >
                       {item}
