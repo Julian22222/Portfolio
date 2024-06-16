@@ -51,7 +51,7 @@ const NavBar = () => {
             {/* Burger menu close btn */}
             <button
               onClick={() => {
-                setShowLinks(showLinks === false);
+                setShowLinks(false);
               }}
               className="x-button-menu"
             >
@@ -64,7 +64,7 @@ const NavBar = () => {
                   <li key={item} className="NavBar">
                     <Link
                       onClick={() => {
-                        setShowLinks(showLinks === false);
+                        setShowLinks(false);
                       }}
                       to="/"
                       className="NavBar-item"
@@ -76,7 +76,7 @@ const NavBar = () => {
                   <li key={item} className="NavBar">
                     <Link
                       onClick={() => {
-                        setShowLinks(showLinks === false);
+                        setShowLinks(false);
                       }}
                       to="projects"
                       className="NavBar-item"
@@ -88,7 +88,7 @@ const NavBar = () => {
                   <li key={item} className="NavBar">
                     <Link
                       onClick={() => {
-                        setShowLinks(showLinks === false);
+                        setShowLinks(false);
                       }}
                       to="resume"
                       className="NavBar-item"
@@ -100,7 +100,7 @@ const NavBar = () => {
                   <li key={item} className="NavBar">
                     <HashLink
                       onClick={() => {
-                        setShowLinks(showLinks === false);
+                        setShowLinks(false);
                       }}
                       to="/#contactCard"
                       className="NavBar-item"

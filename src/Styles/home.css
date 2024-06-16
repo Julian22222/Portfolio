@@ -328,11 +328,11 @@
     z-index: 10;
   }
 
-  .Header3 {
+  /* .Header3 {
     margin-top: 15px;
     font-size: 40px;
     margin-left: 20%;
-  }
+  } */
 
   .aboutMe-home {
     display: flex;
@@ -347,6 +347,7 @@
     margin-bottom: 30px;
     /* margin-left: -100px; */
     justify-content: center;
+    margin-right: 30%;
   }
 
   .PortfolioBtn {
@@ -394,7 +395,7 @@
     margin-top: 20px;
     /* text-align: center; */
     /* width: 150%; */
-
+    margin-right: 20%;
     font-size: 40px;
     margin-bottom: 30px;
     text-decoration: underline;
@@ -402,7 +403,7 @@
 
   .MyStoryText {
     font-size: 35px;
-    /* margin-left: 30%; */
+    margin-right: 10%;
     /* position: relative; */
     /* margin-top: 10px; */
     /* margin-left: -70%; */
@@ -420,51 +421,5 @@
     justify-content: center;
     align-items: center;
     overflow: hidden;
-  }
-
-  .box:before {
-    content: "";
-    position: absolute;
-    width: 500px;
-    height: 700px;
-    background-image: conic-gradient(
-      transparent,
-      transparent,
-      transparent,
-      #ccc
-    );
-    animation: animate 4s linear infinite;
-  }
-
-  .box::after {
-    content: "";
-    position: absolute;
-    width: 500px;
-    height: 700px;
-    background-image: conic-gradient(
-      transparent,
-      transparent,
-      transparent,
-      #d43535
-    );
-    animation: animate 4s linear infinite;
-    animation-delay: -2s;
-  }
-
-  @keyframes animate {
-    0% {
-      transform: rotate(0deg);
-    }
-    100% {
-      transform: rotate(360deg);
-    }
-  }
-
-  .box span {
-    position: absolute;
-    inset: 5px;
-    border-radius: 50%;
-    background: #0c1022;
-    z-index: 1;
   }
 }
