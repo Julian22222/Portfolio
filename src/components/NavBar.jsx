@@ -84,7 +84,7 @@ const NavBar = () => {
                   <li key={item} className="NavBar">
                     <Link
                       onClick="showLinks ===false"
-                      to="/resume"
+                      to="/src/components/Resume.jsx"
                       className="NavBar-item"
                     >
                       {item}
