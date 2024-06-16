@@ -42,9 +42,9 @@
   transition: 0.5s;
 }
 
-.NavBar:hover .NavBar-item:before {
+/* .NavBar:hover .NavBar-item:before {
   width: 100%;
-}
+} */
 
 /* .NaviBar .rightSide .MailMe {
   display: flex;
@@ -88,21 +88,35 @@
   /* border-radius: 10px; */
 }
 
+.x-button-menu {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* ////////////////////////////////////////////////////////////////////////////////////////Burger Menu  */
+
 .flexbox-conatiner2 #hidden {
   /* when click menu burger btn -it will show Navbar */
   /* margin-top: 100px; */
-  position: absolute;
+  position: fixed;
+  top: 0;
+  left: 0;
   display: flex;
-  justify-content: flex-start;
+  /* justify-content: flex-start; */
   height: 100%;
-  width: 100%;
-  /* width: 300px; */
+  width: 200px;
+
   background-color: rgb(59, 137, 196);
-  /* display: flex; */
   flex-direction: column;
-  align-items: center;
-  padding-top: 50px;
-  /* justify-content: center; */
+  align-items: flex-end;
+
+  /* starting point to slide in */
+  transition-property: margin-top;
+  transition-duration: 3s;
+  /* justify-content: center;
 
   /* z-index:14 is higher than z-index of burger btn menu on navbar page to overlay burger menu button
   z-index value to make sure it stays on top of all other elements 
@@ -237,6 +251,30 @@ all of the CSS within the query will take effect. */
     display: flex;
     flex-direction: column;
   }
+
+  .envelope-logo-main {
+    font-size: 30px;
+    margin-right: 5px;
+  }
+
+  .email-name {
+    display: none;
+  }
+
+  .NaviBar {
+    position: fixed;
+    z-index: 50;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    /* background-color: #bb1b1b; */
+    background: rgb(2, 0, 36);
+    background: linear-gradient(
+      90deg,
+      rgb(0, 0, 7) 10%,
+      rgba(255, 0, 78, 0.5383403361344538) 100%
+    );
+  }
 }
 
 /* burger menu btn appear */
@@ -245,11 +283,44 @@ all of the CSS within the query will take effect. */
     display: none;
   }
 
+  /* .flexbox-conatiner2 {
+    position: relative;
+    overflow: hidden;
+  } */
+
+  /* #hidden { */
+  /* margin-left: 100px; */
+  /* animation: 3s slide-left; */
+  /* } */
+
   /* .menuBtn {
     display: flex;
     justify-content: flex-start;
   } */
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 480px) {
+  /* Navi Bar */
+  .logo-btn {
+    position: absolute;
+    margin-left: -50px;
+    margin-top: -30px;
+    cursor: pointer;
+  }
+
+  .email-name {
+    display: none;
+  }
+
+  .envelope-logo-main {
+    position: absolute;
+    margin-top: -15px;
+  }
+
+  .menuBtn {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    cursor: pointer;
+  }
 }

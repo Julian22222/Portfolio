@@ -72,6 +72,19 @@
 
 /* //////////////////////////////////////////////////////////////////////////////////// */
 /* different screens */
+@media only screen and (max-width: 570px) {
+  .flex-container-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 10px;
+  }
+
+  .animation-block {
+    font-size: 5px;
+  }
+}
+
 @media (max-width: 1000px) {
   .flex-container-2 {
     display: flex;
@@ -139,49 +152,3 @@
 }
 
 /* ////////////////////////////////////////////////////////////////////////////// */
-
-@media (min-width: 1150px) {
-  /* screens 1150 and higher */
-  /* .animation-block {
-    animation: fadeIn 1s;
-    -webkit-animation: fadeIn 1s;
-    -moz-animation: fadeIn 1s;
-    -o-animation: fadeIn 1s;
-    -ms-animation: fadeIn 1s;
-  }
-
-  @keyframes fadeIn {
-    0% {
-      opacity: 0;
-      filter: blur(5px);
-      transform: translateY(+50%);
-    }
-    100% {
-      opacity: 1;
-      filter: blur(0);
-      transform: translateY(0);
-    }
-  }
-
-  .animation-block2 {
-    animation-delay: 5s;
-    animation: fadeIn2 2s;
-    -webkit-animation: fadeIn2 2s;
-    -moz-animation: fadeIn2 2s;
-    -o-animation: fadeIn2 2s;
-    -ms-animation: fadeIn2 2s;
-  }
-
-  @keyframes fadeIn2 {
-    0% {
-      opacity: 0;
-      filter: blur(5px);
-      transform: translateY(+50%);
-    }
-    100% {
-      opacity: 1;
-      filter: blur(0);
-      transform: translateY(0);
-    }
-  } */
-}

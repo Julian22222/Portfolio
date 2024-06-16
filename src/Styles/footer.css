@@ -165,13 +165,6 @@ hr {
 /* //////////////////////////////////////////////////////////////////////////////////// */
 /* different screens */
 @media (max-width: 1000px) {
-  footer {
-    margin-top: 1700px;
-    /* position: fixed; */
-    /* margin-top: auto; */
-    /* bottom: unset; */
-  }
-
   .col {
     flex-basis: 100%;
   }
@@ -184,4 +177,7 @@ hr {
   .links-header {
     margin-top: 50px;
   }
+}
+
+@media (max-width: 480px) {
 }

@@ -6,6 +6,8 @@
 
 body {
   /* background-image: url("./IMG/wallpaperflar-final.png"); */
+  /* display: flex;
+  flex-wrap: wrap; */
   background-image: url("./IMG/peakpx\ \(16\).jpg");
   width: 100%;
   /* background-color: #282c34; */
@@ -36,13 +38,13 @@ body {
 
 .HomeLine {
   /* position: absolute; */
-  width: 124%;
-  margin-left: -300px;
+  /* width: 124%;
+  margin-left: -300px; */
 }
 
 .Image {
-  width: 80px;
-  height: 100vh;
+  /* width: 80px;
+  height: 100vh; */
 }
 
 /* //////////////////////////////////////////loading cercle */

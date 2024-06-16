@@ -15,7 +15,7 @@ import myLogo from "../IMG/logo33.png";
 const NavBar = () => {
   const value = useContext(Context);
 
-  const [showLinks, setShowLinks] = useState(false);
+  const [showLinks, setShowLinks] = useState(false); //show menuBtn or not
   // const [btnPopup, setBtnPopup] = useState(false);
   // const navRef = useRef();
 
@@ -28,6 +28,8 @@ const NavBar = () => {
 
   const items = ["Home", "Projects", "Resume", "Contacts"];
 
+  const transitionProperty = showLinks ? { marginTop: "5px" } : {}; //if showLinks ==true --> marginLeft ==200 else null
+
   return (
     <header className="NaviBar">
       <div className="flexbox-conatiner1">
@@ -38,9 +40,24 @@ const NavBar = () => {
         </button>
       </div>
       <div className="flexbox-conatiner2">
-        <div className="links" id={showLinks ? "hidden" : ""}>
+        <div
+          className="links"
+          style={transitionProperty}
+          id={showLinks ? "hidden" : ""}
+        >
           {/* if showLinks is true  --> its id="hidden" else nothing*/}
+          {/* burger menu ntns */}
           <nav>
+            {/* Burger menu close btn */}
+            <button
+              onClick={() => {
+                setShowLinks(showLinks === false);
+              }}
+              className="x-button-menu"
+            >
+              x
+            </button>
+            {/* by clicking any button in menu it will direct you to correct Component */}
             <ul className="a">
               {items.map((item) => {
                 return item === "Home" ? (
@@ -93,7 +110,6 @@ const NavBar = () => {
           className="menuBtn"
           onClick={() => {
             setShowLinks(!showLinks);
-            // setShowLinks(showLinks === true);
           }}
         >
           <FaBars />
@@ -112,7 +128,7 @@ const NavBar = () => {
               beatFade
               className="envelope-logo-main"
             />
-            julik.golovenj@gmail.com
+            <p className="email-name">julik.golovenj@gmail.com</p>
           </button>
 
           {/* <PopUpForm triger={btnPopup} setBtnPopup={setBtnPopup} /> */}

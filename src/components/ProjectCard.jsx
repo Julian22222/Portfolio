@@ -10,6 +10,7 @@ const ProjectCard = (props) => {
     <Card sx={{ maxWidth: 355 }} className="EachCard">
       <CardMedia
         sx={{ height: 140 }}
+        // image={require(props.img)}
         image={props.img}
         className="EchCardImage"
       />

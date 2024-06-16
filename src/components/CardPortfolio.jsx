@@ -1,9 +1,18 @@
 import ProjectCard from "./ProjectCard";
+import image1 from "../IMG/Proj_img/js_projects.jpg";
+import image2 from "../IMG/Proj_img/wine_shop.jpg";
+import image3 from "../IMG/Proj_img/movies.jpg";
+import image4 from "../IMG/Proj_img/news.jpg";
+import image5 from "../IMG/Proj_img/wordl.jpg";
+import image6 from "../IMG/Proj_img/To_Do_List.png";
+import image7 from "../IMG/Proj_img/mySQL.jpeg";
+import image8 from "../IMG/Proj_img/aspNet.jpg";
 
 const CardPortfolio = () => {
   let formArr = [
     {
-      img: "https://img-c.udemycdn.com/course/750x422/4925142_c0ab.jpg",
+      // img: "https://img-c.udemycdn.com/course/750x422/4925142_c0ab.jpg",
+      img: image1,
       title: " JavaScript projects",
       description:
         "Here I used - React JS framework / JavaScript / Node JS / HTML",
@@ -12,7 +21,8 @@ const CardPortfolio = () => {
       gutHub_B_END: "https://github.com/Julian22222/All-JavaScript-Proj",
     },
     {
-      img: "https://www.winemag.com/wp-content/themes/TrellisFoundation-child/assets/img/toplists_header.jpg",
+      // img: "https://www.winemag.com/wp-content/themes/TrellisFoundation-child/assets/img/toplists_header.jpg",
+      img: image2,
       title: "Wine Shop",
       description:
         "Front-end + Back-end Project. Here I used - React JS framework / REST APIs / PSQL / JavaScript / Node JS / HTML / CSS.",
@@ -21,7 +31,8 @@ const CardPortfolio = () => {
       gutHub_B_END: "https://github.com/Julian22222/Wine-Shop-BackEnd",
     },
     {
-      img: "https://grangerchurch.com/wp-content/uploads/2018/06/atthemovies_series_1440x829.jpg",
+      // img: "https://grangerchurch.com/wp-content/uploads/2018/06/atthemovies_series_1440x829.jpg",
+      img: image3,
       title: "Movies website",
       description:
         "Front-end + Back-end Project. Here I used - Vue JS / REST APIs / MongoDB / JavaScript / Node JS / HTML / CSS .",
@@ -30,7 +41,8 @@ const CardPortfolio = () => {
       gutHub_B_END: "https://github.com/Julian22222/PRACTICE/tree/main/MongoDB",
     },
     {
-      img: "http://vskills.in/certification/blog/wp-content/uploads/2015/01/structure-of-a-news-report.jpg",
+      // img: "http://vskills.in/certification/blog/wp-content/uploads/2015/01/structure-of-a-news-report.jpg",
+      img: image4,
       title: "NC NEWS website",
       description:
         "Front-end + Back-end Project. Here I used - React JS framework / REST APIs / postgreSQL / JavaScript / Node JS / HTML / CSS .",
@@ -39,7 +51,8 @@ const CardPortfolio = () => {
       gutHub_B_END: "https://github.com/Julian22222/NC_NEWS_Project",
     },
     {
-      img: "https://assets2.rockpapershotgun.com/wordle-past-answers-header.jpg/BROK/thumbnail/1200x900/quality/100/wordle-past-answers-header.jpg",
+      // img: "https://assets2.rockpapershotgun.com/wordle-past-answers-header.jpg/BROK/thumbnail/1200x900/quality/100/wordle-past-answers-header.jpg",
+      img: image5,
       title: "Wordle game",
       description:
         "Front-end Project. Here I used - React JS framework / JavaScript / Node JS / HTML / CSS .",
@@ -48,7 +61,8 @@ const CardPortfolio = () => {
       gutHub_B_END: "https://github.com/Julian22222/Wordle",
     },
     {
-      img: "https://blog.hubspot.com/hubfs/To_Do_List.png",
+      // img: "https://blog.hubspot.com/hubfs/To_Do_List.png",
+      img: image6,
       title: "To do List",
       description:
         " Front-end + Back-end Project. Here I used - React JS framework / REST APIs / postgreSQL / JavaScript / Node JS / HTML / CSS .",
@@ -59,7 +73,8 @@ const CardPortfolio = () => {
         "https://github.com/Julian22222/PRACTICE/tree/main/To-Do-List/server",
     },
     {
-      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGV7sgoJwZS5kpW691ToyQpHWF3_sFpEIW4A&usqp=CAU",
+      // img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGV7sgoJwZS5kpW691ToyQpHWF3_sFpEIW4A&usqp=CAU",
+      img: image7,
       title: "MySQL DB",
       description:
         "Back-end MySQL Project. Here I used - REST APIs / MySQL / JavaScript / Node JS /",
@@ -69,7 +84,8 @@ const CardPortfolio = () => {
         "https://github.com/Julian22222/PRACTICE/tree/main/MySQL-database",
     },
     {
-      img: "https://maychusaigon.vn/wp-content/uploads/2023/07/dinh-nghia-asp-net-la-gi-maychusaigon.jpg",
+      // img: "https://maychusaigon.vn/wp-content/uploads/2023/07/dinh-nghia-asp-net-la-gi-maychusaigon.jpg",
+      img: image8,
       title: "ASP.Net Book Store",
       description:
         "Front-end + Back-end Project. Here I used - ASP.NET Core MVC.",

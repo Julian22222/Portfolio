@@ -2,7 +2,8 @@
 
 .container-boxes {
   display: flex;
-  height: 200vh;
+  flex-wrap: wrap;
+  /* height: 200vh; */
 }
 
 /* black column */
@@ -224,35 +225,15 @@
   font-size: 16px;
 }
 
-/* ////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 /* different screens */
-/* If [device width] is less than or equal to 950px, then do {…}” */
-@media (max-width: 1000px) {
-  .itemBox1 {
-    padding: 40px;
-    /* font-size: 45px; */
-    /* width: fit-content; */
-    flex-basis: 0%;
-    /* background-color: rgb(209, 41, 41); */
-    /* background-color: black; */
-    min-width: 120px;
-    /* border-right: 1px solid #d43535; */
-    border-top: 1px solid #d43535;
-  }
 
-  .ImageOfMe {
-    border-radius: 50%;
-    width: 100%;
-
-    /* position: absolute; */
-    /* margin-top: 30px; */
-    margin-left: 0;
-    border: 1px solid #d43535;
-  }
-
+@media (max-width: 420px) {
   .Header1 {
-    margin-left: 20%;
-    margin-top: 10px;
+    /* justify-content: center; */
+    /* 
+    margin-left: 100px; */
+    font-size: 15px;
     color: transparent;
     /* -webkit-text-stroke: 1px #fff; */
     background-image: linear-gradient(#fff, #fff);
@@ -263,7 +244,8 @@
   }
 
   .Header2 {
-    margin-left: 20%;
+    margin-left: 150px;
+    font-size: 15px;
     color: transparent;
     /* -webkit-text-stroke: 1px #fff; */
     background-image: linear-gradient(#fff, #fff);
@@ -271,6 +253,48 @@
     -webkit-background-clip: text;
     background-position: -650px 0;
     animation: backcolor 5s linear infinite alternate;
+  }
+
+  .Header3 {
+    margin-top: 600px;
+    font-size: 15px;
+  }
+
+  .HeaderAboutMe {
+    font-size: 15px;
+  }
+}
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* If [device width] is less than or equal to 1000px, then do {…}” */
+@media (max-width: 1000px) {
+  /* logo of my picture */
+  .box {
+    margin-top: 100px;
+    position: absolute;
+    width: 450px;
+    height: 450px;
+    background: rgba(0, 0, 0, 0.75);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+
+  .ImageOfMe {
+    border-radius: 50%;
+    width: 93%;
+    position: absolute;
+    margin-top: 3px;
+    /* margin-left: 1%; */
+    /* border: 1px solid #d43535; */
+
+    /* z-index:10 is less than z-index of popup form to make popup form overlay image
+    z-index value to make sure it stays on top of all other elements 
+    on the page(even on top of elements with -position:absolute;), 
+    except the modal which is opened on top of this overlay, 
+    which will get a even higher z-index than the overlay */
+    z-index: 10;
   }
 
   .Header3 {
@@ -411,73 +435,5 @@
     border-radius: 50%;
     background: #0c1022;
     z-index: 1;
-  }
-}
-
-/* //////////////////////////////////////////////////////////////////////////////////////// */
-/* different screens */
-@media (max-width: 1105px) {
-  .Header3 {
-    width: 60%;
-  }
-
-  .HeaderAboutMe {
-    /* margin-top: 80px;
-    
-
-    font-size: 20px;
-    margin-bottom: 30px; */
-    margin-left: -110px;
-    width: 90%;
-  }
-
-  .HeadingMySTory {
-    /* margin-top: 80px; */
-    /* width: 90%; */
-    /* font-size: 20px;
-    margin-bottom: 30px; */
-    margin-left: -120px;
-    width: 90%;
-  }
-
-  .MyStoryText {
-    margin-left: -110px;
-    width: 100%;
-    font-size: 20px;
-  }
-}
-
-/* //////////////////////////////////////////////////////////////////////////////////// */
-/* different screens */
-@media (max-width: 1000px) {
-  .itemBox1 {
-    padding: 30px;
-    font-size: 25px;
-    width: fit-content;
-    flex-basis: 10%;
-    /* background-color: rgb(209, 41, 41); */
-    background-color: black;
-    min-width: 100px;
-    /* border-right: 1px solid #d43535; */
-    border-top: 1px solid #d43535;
-  }
-
-  .itemBox2 {
-    padding: 30px;
-    font-size: 25px;
-    /* border: top 1px solid #d43535; */
-    width: fit-content;
-    flex-basis: 79%;
-    flex-shrink: 14;
-    border-top: 1px solid #d43535;
-  }
-
-  .MyStoryText {
-    font-size: 35px;
-    /* position: relative; */
-    /* margin-top: 10px; */
-    margin-left: -100px;
-    /* width: 200px; */
-    /* color: aquamarine; */
   }
 }
