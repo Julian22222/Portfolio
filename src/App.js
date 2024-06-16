@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import { React, useState } from "react";
 import "./App.css";
 import "../src/Styles/resume.css";
@@ -31,7 +31,7 @@ function App() {
   };
 
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Context.Provider value={value}>
         <div className="App-header">
           <NavBar />
@@ -42,7 +42,7 @@ function App() {
           </Routes>
         </div>
       </Context.Provider>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
