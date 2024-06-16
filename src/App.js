@@ -31,12 +31,14 @@ function App() {
   };
 
   return (
+    // HashRouter instead of BrowserRouter (Hash routing tends to work more reliably on static hosting platforms like GitHub Pages.)
     <HashRouter>
       <Context.Provider value={value}>
-        <div className="App-header">
+        <div>
           <NavBar />
           <Routes>
-            <Route path="/Portfolio" element={<Home />} />
+            <Route path="/" element={<Home />} />
+            <Route path="/Home" element={<Home />} />
             <Route path="/projects" element={<Projects />} />
             <Route path="/resume" element={<Resume />} />
           </Routes>

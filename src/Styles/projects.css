@@ -33,6 +33,12 @@
 
 /* //////////////////////////////////////////////////////////////////////////////////// */
 /* different screens */
+@media only screen and (max-width: 1399px) {
+  .MyProjectHeader {
+    margin-top: 100px;
+  }
+}
+
 @media (max-width: 1000px) {
   .EachCard {
     margin: 10px;

@@ -6,7 +6,7 @@
   /* height: 200vh; */
 }
 
-/* black column */
+/* black column , left column*/
 .itemBox1 {
   padding: 30px;
   font-size: 25px;
@@ -20,10 +20,11 @@
 }
 
 /* black tripe column */
-.itemBox1 div {
+/* .itemBox1 div {
   padding: 20px;
-}
+} */
 
+/* right column - with all contetnt*/
 .itemBox2 {
   padding: 30px;
   font-size: 25px;
@@ -227,6 +228,36 @@
 
 /* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 /* different screens */
+
+@media only screen and (max-width: 1399px) {
+  .container-boxes {
+    margin-top: 100px;
+  }
+
+  .itemBox1 {
+    padding: 30px;
+    /* font-size: 25px; */
+    width: fit-content;
+    flex-basis: 15%;
+    /* background-color: rgb(209, 41, 41); */
+    background-color: black;
+    min-width: 100px;
+    /* border-right: 1px solid #d43535; */
+    border-top: 1px solid #d43535;
+    margin-top: -30px;
+  }
+
+  .itemBox2 {
+    padding: 30px;
+    font-size: 25px;
+
+    width: fit-content;
+    flex-basis: 85%;
+    flex-shrink: 14;
+    border-top: 1px solid #d43535;
+    margin-top: -30px;
+  }
+}
 
 @media (max-width: 420px) {
   .Header1 {

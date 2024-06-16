@@ -34,7 +34,7 @@ const NavBar = () => {
     <header className="NaviBar">
       <div className="flexbox-conatiner1">
         <button className="logo-btn">
-          <Link to="/Portfolio">
+          <Link to="/">
             <img src={myLogo} alt="logoJ" width="60" height="60"></img>
           </Link>
         </button>
@@ -63,8 +63,10 @@ const NavBar = () => {
                 return item === "Home" ? (
                   <li key={item} className="NavBar">
                     <Link
-                      onClick="showLinks ===false"
-                      to="/Portfolio"
+                      onClick={() => {
+                        setShowLinks(showLinks === false);
+                      }}
+                      to="/"
                       className="NavBar-item"
                     >
                       {item}
@@ -73,8 +75,10 @@ const NavBar = () => {
                 ) : item === "Projects" ? (
                   <li key={item} className="NavBar">
                     <Link
-                      onClick="showLinks ===false"
-                      to="/projects"
+                      onClick={() => {
+                        setShowLinks(showLinks === false);
+                      }}
+                      to="projects"
                       className="NavBar-item"
                     >
                       {item}
@@ -83,8 +87,10 @@ const NavBar = () => {
                 ) : item === "Resume" ? (
                   <li key={item} className="NavBar">
                     <Link
-                      onClick="showLinks ===false"
-                      to="/resume"
+                      onClick={() => {
+                        setShowLinks(showLinks === false);
+                      }}
+                      to="resume"
                       className="NavBar-item"
                     >
                       {item}
@@ -93,8 +99,10 @@ const NavBar = () => {
                 ) : (
                   <li key={item} className="NavBar">
                     <HashLink
-                      onClick="showLinks ===false"
-                      to="/Portfolio#contactCard"
+                      onClick={() => {
+                        setShowLinks(showLinks === false);
+                      }}
+                      to="/#contactCard"
                       className="NavBar-item"
                     >
                       {item}
