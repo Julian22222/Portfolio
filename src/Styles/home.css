@@ -235,13 +235,13 @@
   }
 
   .itemBox1 {
-    padding: 30px;
+    /* padding: 30px; */
     /* font-size: 25px; */
-    width: fit-content;
-    flex-basis: 15%;
+    /* width: fit-content; */
+    flex-basis: auto;
     /* background-color: rgb(209, 41, 41); */
     background-color: black;
-    min-width: 100px;
+    /* min-width: 100px; */
     /* border-right: 1px solid #d43535; */
     border-top: 1px solid #d43535;
     margin-top: -30px;

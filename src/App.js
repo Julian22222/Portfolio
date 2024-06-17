@@ -32,6 +32,7 @@ function App() {
 
   return (
     // HashRouter instead of BrowserRouter (Hash routing tends to work more reliably on static hosting platforms like GitHub Pages.)
+    //Your homepage becomes /<repo-name>/# instead of /<repo-name>. That's the only thing that change when you use <HashRouter/>
     <HashRouter>
       <Context.Provider value={value}>
         <div>

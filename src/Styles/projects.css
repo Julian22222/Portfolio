@@ -10,6 +10,7 @@
   min-width: 345px;
   overflow: hidden;
   position: relative;
+  height: 320px;
 }
 
 .EachCard:hover .EchCardImage {

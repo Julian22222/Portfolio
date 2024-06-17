@@ -90,7 +90,7 @@ const Resume = () => {
         <img
           src={certificate}
           alt="certificate 1"
-          width={600}
+          // width={600}
           className="Certificates"
         />
       </div>
