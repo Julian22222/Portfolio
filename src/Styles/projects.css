@@ -42,7 +42,9 @@
 
 @media (max-width: 1000px) {
   .EachCard {
-    margin: 10px;
-    min-width: 375px;
+    max-width: 100%;
+    max-height: 100vh;
+    height: auto;
+    height: 320px;
   }
 }
