@@ -142,9 +142,9 @@
 /* left part */
 .flexbox-conatiner1 {
   /* border: 1px solid white; */
-  padding: 30px;
+  /* padding: 30px; */
   font-size: 25px;
-  flex-basis: 45%;
+  flex-basis: 5%;
   width: fit-content;
   height: fit-content;
   display: flex;
@@ -162,7 +162,7 @@
   /* border: 1px solid white; */
   /* padding: 30px; */
   font-size: 25px;
-  flex-basis: 500%;
+  flex-basis: 75%;
   width: fit-content;
   height: fit-content;
   display: flex;
@@ -172,9 +172,9 @@
 /*right part  - where gmail address is*/
 .flexbox-conatiner3 {
   /* border: 1px solid white; */
-  padding: 30px;
+  /* padding: 30px; */
   font-size: 25px;
-  flex-basis: 180%;
+  flex-basis: 20%;
   width: fit-content;
   height: fit-content;
 }
@@ -204,6 +204,7 @@
   top: 65px;
   left: 0;
   overflow: hidden;
+  border-bottom: 1px solid #d43535;
 }
 
 .underline span {
@@ -300,11 +301,50 @@ all of the CSS within the query will take effect. */
   } */
 }
 
-@media (max-width: 480px) {
+@media (max-width: 420px) {
+  .flexbox-conatiner1 {
+    /* border: 1px solid white; */
+    /* padding: 30px; */
+    font-size: 25px;
+    flex-basis: 10%;
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .logo-btn {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+  }
+
+  /* middle part - where all menu links are*/
+  .flexbox-conatiner2 {
+    /* border: 1px solid white; */
+    /* padding: 30px; */
+    font-size: 25px;
+    flex-basis: 80%;
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+  }
+
+  /*right part  - where gmail address is*/
+  .flexbox-conatiner3 {
+    /* border: 1px solid white; */
+    /* padding: 30px; */
+    font-size: 25px;
+    flex-basis: 10%;
+    width: fit-content;
+    height: fit-content;
+  }
+
   /* Navi Bar */
   .logo-btn {
     position: absolute;
-    margin-left: -50px;
+    margin-left: -10%;
     margin-top: -30px;
     cursor: pointer;
   }
