@@ -129,7 +129,7 @@
 } */
 
 .Header1 {
-  margin-left: 20%;
+  margin-left: 30%;
   margin-top: 10px;
   color: transparent;
   /* -webkit-text-stroke: 1px #fff; */
@@ -147,7 +147,7 @@
 }
 
 .Header2 {
-  margin-left: 20%;
+  margin-left: 30%;
   color: transparent;
   /* -webkit-text-stroke: 1px #fff; */
   background-image: linear-gradient(#fff, #fff);
@@ -158,7 +158,7 @@
 }
 
 .Header3 {
-  margin-left: 20%;
+  margin-left: 30%;
 }
 
 /* .MailMe {
@@ -170,7 +170,7 @@
 
 .HeaderAboutMe {
   margin-top: 80px;
-  margin-left: 20%;
+  margin-left: 30%;
   margin-right: 40px;
 }
 
@@ -401,30 +401,38 @@
   }
 
   .Header3 {
-    margin-top: 150px;
-    font-size: 15px;
+    margin-top: 20px;
+    font-size: 25px;
+    margin-left: 50%;
   }
 
   .HeaderAboutMe {
-    font-size: 15px;
-    margin-top: 20px;
+    font-size: 20px;
+    /* margin-top: 20px; */
     justify-content: center;
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
   }
 
   .Portfol {
     /* margin-right: 250px; */
     padding: 10px;
-    font-size: 15px;
+    font-size: 10px;
     border-radius: 20px;
     cursor: pointer;
+    width: 100px;
+    /* margin-left: 200px; */
     /* float: right; */
     /* display: flex;
     justify-content: flex-end; */
   }
 
+  .itemBox2 .PortfolioBtn {
+    display: flex;
+    justify-content: center;
+  }
+
   .MyStoryText {
-    font-size: 15px;
+    font-size: 20px;
     /* margin-right: 10%; */
     /* position: relative; */
     /* margin-top: 10px; */
@@ -434,11 +442,12 @@
   }
 
   .HeadingMySTory {
-    font-size: 15px;
+    font-size: 25px;
+    margin-top: -70px;
   }
 
   .MyStory {
-    font-size: 15px;
+    font-size: 20px;
     /* margin-bottom: 0px; */
     /* margin-left: 0; */
     text-align: center;

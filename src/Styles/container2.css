@@ -166,11 +166,17 @@
     /* justify-content: space-around; */
   }
 
-  .ContainerTwo {
-    font-size: 15px;
+  .ContainerTwo,
+  .ContainerSkills {
+    font-size: 25px;
   }
 
-  .eachLineTick {
-    font-size: 15px;
+  .eachLineTick .tick,
+  .ContainerText p {
+    font-size: 20px;
+  }
+
+  .animation-block p {
+    font-size: 20px;
   }
 }

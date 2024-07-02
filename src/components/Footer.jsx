@@ -77,7 +77,7 @@ const Footer = () => {
           <ul>
             <li>
               {" "}
-              <Link className="footer-links" to="/Portfolio">
+              <Link className="footer-links" to="/">
                 Home
               </Link>
             </li>
@@ -95,7 +95,7 @@ const Footer = () => {
             </li>
             <li>
               {" "}
-              <a className="footer-links" href="Portfolio#contactCard">
+              <a className="footer-links" href="Portfolio#/#contactCard">
                 Contacts
               </a>
               {/* <Link to="/contact">Contacts</Link> */}
