@@ -179,4 +179,9 @@
   .animation-block p {
     font-size: 20px;
   }
+
+  .ContainerSkills {
+    margin-top: -30px;
+    margin-bottom: -10px;
+  }
 }

@@ -375,10 +375,11 @@
 
 @media (max-width: 420px) {
   .Header1 {
+    margin-left: 5px;
     /* justify-content: center; */
     /* 
     margin-left: 100px; */
-    font-size: 15px;
+    font-size: 25px;
     color: transparent;
     /* -webkit-text-stroke: 1px #fff; */
     background-image: linear-gradient(#fff, #fff);
@@ -403,10 +404,20 @@
   .Header3 {
     margin-top: 20px;
     font-size: 25px;
-    margin-left: 50%;
+    margin-left: 52%;
+  }
+
+  .aboutMe-home .HeaderAboutMe {
+    display: flex;
+    width: max-content;
+    width: 100%;
   }
 
   .HeaderAboutMe {
+    width: 100%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 20px;
     font-size: 20px;
     /* margin-top: 20px; */
     justify-content: center;
@@ -433,6 +444,8 @@
 
   .MyStoryText {
     font-size: 20px;
+    margin-left: -15%;
+    margin-right: -15%;
     /* margin-right: 10%; */
     /* position: relative; */
     /* margin-top: 10px; */
