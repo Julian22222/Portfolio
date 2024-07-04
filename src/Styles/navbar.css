@@ -107,16 +107,17 @@
   display: flex;
   /* justify-content: flex-start; */
   height: 100%;
-  width: 200px;
+  width: 230px;
   /* /////////////////////////////////////////////////////////////////////////// Side Menu Bar*/
   background-color: rgb(59, 137, 196);
   flex-direction: column;
   align-items: flex-end;
 
-  /* starting point to slide in */
-  transition-property: margin-top;
-  transition-duration: 3s;
-  /* justify-content: center;
+  animation-duration: 1s;
+  animation-name: slide-in;
+  /* transition: 1s all ease-in-out; */
+  /* animation-duration: 1s;
+  animation-name: slide-out; */
 
   /* z-index:14 is higher than z-index of burger btn menu on navbar page to overlay burger menu button
   z-index value to make sure it stays on top of all other elements 
@@ -124,6 +125,46 @@
   except the modal which is opened on top of this overlay, 
   which will get a even higher z-index than the overlay */
   z-index: 50;
+}
+
+/* @keyframes slide-out {
+  from {
+    margin-left: 0%;
+    opacity: 1;
+  }
+
+  to {
+    margin-left: 0%;
+    opacity: 0.25;
+  }
+} */
+
+@keyframes slide-in {
+  from {
+    margin-left: -100%;
+    opacity: 0.25;
+  }
+
+  to {
+    margin-left: 0%;
+    opacity: 1;
+  }
+}
+
+.menu-btn-social-Icons {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  bottom: 20px;
+}
+
+/* .social-side-menu-icons {
+  size: 2px;
+} */
+
+.social-menu-bar-bottom {
+  font-size: 30px;
+  margin: 7px;
 }
 
 .flexbox-conatiner2 #hidden nav {
@@ -276,6 +317,11 @@ all of the CSS within the query will take effect. */
       rgb(0, 0, 7) 10%,
       rgba(255, 0, 78, 0.5383403361344538) 100%
     );
+  }
+
+  .social-side-menu-icons {
+    position: absolute;
+    margin-left: -40px;
   }
 }
 

@@ -7,10 +7,24 @@ import { useState } from "react";
 import PopUpForm from "./PopUpForm";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import {
+  faHouse,
+  faLayerGroup,
+  faUser,
+  faBook,
+} from "@fortawesome/free-solid-svg-icons";
+
 // import { useRef } from "react";
 import "../Styles/main.css";
 import { FaBars } from "react-icons/fa";
 import myLogo from "../IMG/logo33.png";
+import {
+  faLinkedinIn,
+  faWhatsapp,
+  faGithub,
+  faDiscord,
+  faTelegram,
+} from "@fortawesome/free-brands-svg-icons";
 
 const NavBar = () => {
   const value = useContext(Context);
@@ -46,7 +60,7 @@ const NavBar = () => {
           id={showLinks ? "hidden" : ""}
         >
           {/* if showLinks is true  --> its id="hidden" else nothing*/}
-          {/* burger menu ntns */}
+          {/* burger menu btns */}
           <nav>
             {/* Burger menu close btn */}
             <button
@@ -61,6 +75,7 @@ const NavBar = () => {
             <ul className="a">
               {items.map((item) => {
                 return item === "Home" ? (
+                  // showLinks ? <FontAwesomeIcon icon={faHouse} /> : "",
                   <li key={item} className="NavBar">
                     <Link
                       onClick={() => {
@@ -69,6 +84,16 @@ const NavBar = () => {
                       to="/"
                       className="NavBar-item"
                     >
+                      {/* show Home, project, resume, contacts Icon in the side menu bar */}
+                      {showLinks ? (
+                        <FontAwesomeIcon
+                          icon={faHouse}
+                          beatFade
+                          className="social-side-menu-icons"
+                        />
+                      ) : (
+                        ""
+                      )}
                       {item}
                     </Link>
                   </li>
@@ -81,6 +106,16 @@ const NavBar = () => {
                       to="projects"
                       className="NavBar-item"
                     >
+                      {/* show Home, project, resume, contacts Icon in the side menu bar */}
+                      {showLinks ? (
+                        <FontAwesomeIcon
+                          icon={faLayerGroup}
+                          beatFade
+                          className="social-side-menu-icons"
+                        />
+                      ) : (
+                        ""
+                      )}
                       {item}
                     </Link>
                   </li>
@@ -93,6 +128,16 @@ const NavBar = () => {
                       to="resume"
                       className="NavBar-item"
                     >
+                      {/* show Home, project, resume, contacts Icon in the side menu bar */}
+                      {showLinks ? (
+                        <FontAwesomeIcon
+                          icon={faUser}
+                          beatFade
+                          className="social-side-menu-icons"
+                        />
+                      ) : (
+                        ""
+                      )}
                       {item}
                     </Link>
                   </li>
@@ -105,6 +150,16 @@ const NavBar = () => {
                       to="/#contactCard"
                       className="NavBar-item"
                     >
+                      {/* show Home, project, resume, contacts Icon in the side menu bar */}
+                      {showLinks ? (
+                        <FontAwesomeIcon
+                          icon={faBook}
+                          beatFade
+                          className="social-side-menu-icons"
+                        />
+                      ) : (
+                        ""
+                      )}
                       {item}
                     </HashLink>
                   </li>
@@ -112,6 +167,56 @@ const NavBar = () => {
               })}
             </ul>
           </nav>
+
+          <hr />
+
+          {/* ///////////////////// social-Icons in side menu bar bottom*/}
+          <div className="menu-btn-social-Icons">
+            <form action="https://linkedin.com/groups/5066326/">
+              <button className="btn-icon">
+                <FontAwesomeIcon
+                  icon={faLinkedinIn}
+                  className="social-menu-bar-bottom"
+                />
+              </button>
+            </form>
+
+            <form action="https://whatsapp.com/">
+              <button className="btn-icon">
+                <FontAwesomeIcon
+                  icon={faWhatsapp}
+                  className="social-menu-bar-bottom"
+                />
+              </button>
+            </form>
+
+            <form action="https://github.com/Julian22222">
+              <button className="btn-icon">
+                <FontAwesomeIcon
+                  icon={faGithub}
+                  className="social-menu-bar-bottom"
+                />
+              </button>
+            </form>
+
+            <form action="https://discordapp.com/users/Julian.Iam#6241">
+              <button className="btn-icon">
+                <FontAwesomeIcon
+                  icon={faDiscord}
+                  className="social-menu-bar-bottom"
+                />
+              </button>
+            </form>
+
+            <form action="https://t.me/JulianGoloven">
+              <button className="btn-icon">
+                <FontAwesomeIcon
+                  icon={faTelegram}
+                  className="social-menu-bar-bottom"
+                />
+              </button>
+            </form>
+          </div>
         </div>
 
         <button
@@ -149,5 +254,13 @@ const NavBar = () => {
     </header>
   );
 };
+
+// $(".menuBtn").on("click", function () {
+//   $("flexbox-conatiner2 #hidden").toggleClass("show");
+// });
+
+// $("button").click(function(){
+//   $get("demo_test.asp",)
+// });
 
 export default NavBar;
