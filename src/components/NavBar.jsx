@@ -88,7 +88,6 @@ const NavBar = () => {
                       {showLinks ? (
                         <FontAwesomeIcon
                           icon={faHouse}
-                          beatFade
                           className="social-side-menu-icons"
                         />
                       ) : (
@@ -110,7 +109,6 @@ const NavBar = () => {
                       {showLinks ? (
                         <FontAwesomeIcon
                           icon={faLayerGroup}
-                          beatFade
                           className="social-side-menu-icons"
                         />
                       ) : (
@@ -132,7 +130,6 @@ const NavBar = () => {
                       {showLinks ? (
                         <FontAwesomeIcon
                           icon={faUser}
-                          beatFade
                           className="social-side-menu-icons"
                         />
                       ) : (
@@ -154,7 +151,6 @@ const NavBar = () => {
                       {showLinks ? (
                         <FontAwesomeIcon
                           icon={faBook}
-                          beatFade
                           className="social-side-menu-icons"
                         />
                       ) : (
@@ -168,7 +164,7 @@ const NavBar = () => {
             </ul>
           </nav>
 
-          <hr />
+          {showLinks ? <hr /> : ""}
 
           {/* ///////////////////// social-Icons in side menu bar bottom*/}
           <div className="menu-btn-social-Icons">

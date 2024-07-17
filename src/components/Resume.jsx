@@ -72,8 +72,9 @@ const Resume = () => {
           Other:{" "}
         </span>
         <span>
-          NodeJS, Dot Net Core, Regex, Kanban, Software testing and debugging
-          techniques, good understanding of web development principles and etc.
+          NodeJS, Dot Net Core, CI/CD, Regex, Kanban, Software testing and
+          debugging techniques, good understanding of web development principles
+          and etc.
         </span>
         <hr style={{ marginLeft: "-20px" }} />
       </div>
