@@ -6,17 +6,10 @@
   /* height: 200vh; */
 }
 
-/* black column , left column*/
 .itemBox1 {
   padding: 30px;
 }
 
-/* black tripe column */
-/* .itemBox1 div {
-  padding: 20px;
-} */
-
-/* right column - with all contetnt*/
 .itemBox2 {
   padding: 30px;
   font-size: 25px;
@@ -123,7 +116,7 @@
 } */
 
 .Header1 {
-  margin-left: 32%;
+  margin-left: 30%;
   margin-top: 10px;
   color: transparent;
   /* -webkit-text-stroke: 1px #fff; */
@@ -141,7 +134,7 @@
 }
 
 .Header2 {
-  margin-left: 32%;
+  margin-left: 30%;
   color: transparent;
   /* -webkit-text-stroke: 1px #fff; */
   background-image: linear-gradient(#fff, #fff);
@@ -152,7 +145,7 @@
 }
 
 .Header3 {
-  margin-left: 30%;
+  margin-left: 32%;
 }
 
 /* .MailMe {
@@ -164,7 +157,7 @@
 
 .HeaderAboutMe {
   margin-top: 80px;
-  margin-left: 30%;
+  margin-left: 32%;
   margin-right: 40px;
 }
 
