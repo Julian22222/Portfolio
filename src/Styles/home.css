@@ -116,7 +116,7 @@
 } */
 
 .Header1 {
-  margin-left: 30%;
+  margin-left: 32%;
   margin-top: 10px;
   color: transparent;
   /* -webkit-text-stroke: 1px #fff; */
@@ -134,7 +134,7 @@
 }
 
 .Header2 {
-  margin-left: 30%;
+  margin-left: 32%;
   color: transparent;
   /* -webkit-text-stroke: 1px #fff; */
   background-image: linear-gradient(#fff, #fff);
