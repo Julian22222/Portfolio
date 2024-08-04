@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import Container2 from "./Container2";
 import Footer from "./Footer";
 // import logo from "../IMG/IMG3.JPG";
-import logo from "../IMG/Me2.jpg";
+import logo from "../IMG/me3.jpg";
 
 const Home = () => {
   return (
