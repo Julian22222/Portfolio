@@ -28,17 +28,25 @@ const ProjectCard = (props) => {
             <input type="button" class="buttonProject" value="See project" />
           </a>
         </Button>
-        <Button size="small">
-          <a href={props.gitHub_F_END} target="_blank">
-            <input type="button" class="buttonProject" value="GitHub F-End" />
-          </a>
-        </Button>
+        {props.switch === "Front" || props.switch === "Both" ? (
+          <Button size="small">
+            <a href={props.gitHub_F_END} target="_blank">
+              <input type="button" class="buttonProject" value="GitHub F-End" />
+            </a>
+          </Button>
+        ) : (
+          ""
+        )}
 
-        <Button size="small">
-          <a href={props.gutHub_B_END} target="_blank">
-            <input type="button" class="buttonProject" value="GitHub B-End" />
-          </a>
-        </Button>
+        {props.switch === "Back" || props.switch === "Both" ? (
+          <Button size="small">
+            <a href={props.gutHub_B_END} target="_blank">
+              <input type="button" class="buttonProject" value="GitHub B-End" />
+            </a>
+          </Button>
+        ) : (
+          ""
+        )}
       </CardActions>
     </Card>
   );
