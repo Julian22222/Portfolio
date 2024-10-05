@@ -65,7 +65,12 @@ const Container2 = () => {
         <div className="ContainerText">
           <p>
             <FaCheckCircle className="tick" />
-            Excellent teamwork skills
+            Reliable
+          </p>
+          <br></br>
+          <p>
+            <FaCheckCircle className="tick" />
+            Remarkable teamwork skills
           </p>
           <br></br>
           <p>
@@ -89,7 +94,7 @@ const Container2 = () => {
           <p>
             {" "}
             <FaCheckCircle className="tick" />
-            Great attention to detail
+            Strong attention to detail
           </p>
           <br></br>
           <p>
