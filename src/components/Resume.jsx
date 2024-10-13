@@ -48,8 +48,8 @@ const Resume = () => {
         </span>
         <span>
           {" "}
-          HTTP, Express JS, REST API, SQL, PSQL, SQLite, SQL Server, MySQL,
-          MongoDB, OOP, Docker, MVC
+          HTTP, Express JS, REST API, ASP.NET Web Api, SQL, PSQL, SQLite, SQL
+          Server, MySQL, MongoDB, OOP, Docker, MVC
         </span>
         <hr style={{ marginLeft: "-20px" }} />
         <span style={{ fontWeight: "bold", color: "rgb(211, 59, 59)" }}>
@@ -72,9 +72,8 @@ const Resume = () => {
           Other:{" "}
         </span>
         <span>
-          NodeJS, Dot Net Core, CI/CD, Regex, Kanban, Software testing and
-          debugging techniques, good understanding of web development principles
-          and etc.
+          NodeJS, Dot Net Core, CI/CD, Kanban, Software testing and debugging
+          techniques, good understanding of web development principles and etc.
         </span>
         <hr style={{ marginLeft: "-20px" }} />
       </div>
