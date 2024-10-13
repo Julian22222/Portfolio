@@ -70,7 +70,7 @@ const Container2 = () => {
           <br></br>
           <p>
             <FaCheckCircle className="tick" />
-            Remarkable teamwork skills
+            Remarkable ability to work independently as well as within a team
           </p>
           <br></br>
           <p>
@@ -82,7 +82,7 @@ const Container2 = () => {
           <p>
             {" "}
             <FaCheckCircle className="tick" />
-            Problem solving skills{" "}
+            Strong problem-solving skills and attention to detail{" "}
           </p>
           <br></br>
           <p>
@@ -91,12 +91,12 @@ const Container2 = () => {
             Good organization skills{" "}
           </p>
           <br></br>
-          <p>
+          {/* <p>
             {" "}
             <FaCheckCircle className="tick" />
             Strong attention to detail
           </p>
-          <br></br>
+          <br></br> */}
           <p>
             {" "}
             <FaCheckCircle className="tick" />
