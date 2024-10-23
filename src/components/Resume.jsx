@@ -40,7 +40,7 @@ const Resume = () => {
         </span>
         <span>
           {" "}
-          HTML, CSS, React JS, React Native, ASP.Net Core MVC, Vue JS
+          HTML, CSS, React JS, React Native, ASP.NET Core MVC, Vue JS
         </span>
         <hr style={{ marginLeft: "-20px" }} />
         <span style={{ fontWeight: "bold", color: "rgb(211, 59, 59)" }}>
@@ -48,14 +48,14 @@ const Resume = () => {
         </span>
         <span>
           {" "}
-          HTTP, Express JS, REST API, ASP.NET Web Api, SQL, PSQL, SQLite, SQL
-          Server, MySQL, MongoDB, OOP, Docker, MVC
+          HTTP, Express JS, MVC, REST APIs, ASP.NET Web APIs, SQL, PSQL, SQLite,
+          SQL Server, MySQL, MongoDB, OOP, Docker
         </span>
         <hr style={{ marginLeft: "-20px" }} />
         <span style={{ fontWeight: "bold", color: "rgb(211, 59, 59)" }}>
           Testing:
         </span>
-        <span> Jest, Test Driven Development (TDD)</span>
+        <span> Test Driven Development (TDD), Jest and Supertest</span>
         <hr style={{ marginLeft: "-20px" }} />
         <span style={{ fontWeight: "bold", color: "rgb(211, 59, 59)" }}>
           Hosting:{" "}
@@ -72,8 +72,9 @@ const Resume = () => {
           Other:{" "}
         </span>
         <span>
-          NodeJS, Dot Net Core, CI/CD, Kanban, Software testing and debugging
-          techniques, good understanding of web development principles and etc.
+          NodeJS, .Net Core, CI/CD, Kanban, Scrum, Software testing and
+          debugging techniques, good understanding of web development principles
+          and etc.
         </span>
         <hr style={{ marginLeft: "-20px" }} />
       </div>
