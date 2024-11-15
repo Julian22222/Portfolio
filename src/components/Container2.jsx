@@ -30,20 +30,20 @@ const Container2 = () => {
 
           <p className="eachLineTick">
             <FaCheckCircle className="tick" />
-            Northcoders | Full Stack Software Development Student | Manchester |
+            Northcoders bootcamp | Full Stack Software Developer | Manchester |
             08/2022 – 11/2022
           </p>
           <br></br>
           <p className="eachLineTick">
             <FaCheckCircle className="tick" />
-            St. Mary’s Hospital| Medical records clerk | Manchester | 08/2021 –
-            08/2022
+            Melange Lingerie | Trainee Full-Stack Software Developer |
+            Manchester | 03/2020 – 10/2022
           </p>
           <br></br>
           <p className="eachLineTick">
             <FaCheckCircle className="tick" />
-            Primary Care Physio | Physiotherapy Assistant | Manchester | 05/2021
-            – 08/2021
+            Edlena | Trainee Full-Stack Software Developer | Manchester |
+            05/2019 – 01/2020
           </p>
           <br></br>
           <p className="eachLineTick">
