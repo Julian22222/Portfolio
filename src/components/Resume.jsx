@@ -63,7 +63,7 @@ const Resume = () => {
         <span>Git, GitHub</span>
         <hr style={{ marginLeft: "-20px" }} />
         <span style={{ fontWeight: "bold", color: "rgb(211, 59, 59)" }}>
-          Clouds:{" "}
+          Cloud development:{" "}
         </span>
         <span>Microsoft Azure</span>
         <hr style={{ marginLeft: "-20px" }} />
@@ -72,7 +72,7 @@ const Resume = () => {
           Other:{" "}
         </span>
         <span>
-          NodeJS, .Net Core, CI/CD, Kanban, Scrum, Software testing and
+          NodeJS, .Net Core, CI/CD, Kanban, Scrum, Agile, Software testing and
           debugging techniques, good understanding of web development principles
           and etc.
         </span>

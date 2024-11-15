@@ -15,8 +15,7 @@ const CardPortfolio = () => {
       // img: "https://img-c.udemycdn.com/course/750x422/4925142_c0ab.jpg",
       img: image1,
       title: " JavaScript projects",
-      description:
-        "Here I used - React JS framework / JavaScript / Node JS / HTML",
+      description: "Applied React JS framework / JavaScript / Node JS / HTML",
       seeProject_URL: "https://julian22222.github.io/All-JavaScript-Proj/",
       gitHub_F_END: "https://github.com/Julian22222/All-JavaScript-Proj",
       gutHub_B_END: "https://github.com/Julian22222/All-JavaScript-Proj",
@@ -27,7 +26,7 @@ const CardPortfolio = () => {
       img: image2,
       title: "Wine Shop",
       description:
-        "Front-end + Back-end Project. Here I used - React JS framework / REST APIs / PSQL / JavaScript / Node JS / HTML / CSS.",
+        "Front-end + Back-end Project. Applied React JS framework / REST APIs / PSQL / JavaScript / Node JS / HTML / CSS",
       seeProject_URL: "https://julian22222.github.io/Wine-Shop/",
       gitHub_F_END: "https://github.com/Julian22222/Wine-Shop",
       gutHub_B_END: "https://github.com/Julian22222/Wine-Shop-BackEnd",
@@ -38,7 +37,7 @@ const CardPortfolio = () => {
       img: image3,
       title: "Movies website",
       description:
-        "Front-end + Back-end Project. Here I used - Vue JS / REST APIs / MongoDB / JavaScript / Node JS / HTML / CSS .",
+        "Front-end + Back-end Project. Applied Vue JS / REST APIs / MongoDB / JavaScript / Node JS / HTML / CSS",
       seeProject_URL: "https://movies-vue-front-end.onrender.com/",
       gitHub_F_END: "https://github.com/Julian22222/Vue-Website---movies",
       gutHub_B_END: "https://github.com/Julian22222/PRACTICE/tree/main/MongoDB",
@@ -49,7 +48,7 @@ const CardPortfolio = () => {
       img: image4,
       title: "NC NEWS website",
       description:
-        "Front-end + Back-end Project. Here I used - React JS framework / REST APIs / postgreSQL / JavaScript / Node JS / HTML / CSS .",
+        "Front-end + Back-end Project. Applied React JS framework / REST APIs / postgreSQL / JavaScript / Node JS / HTML / CSS",
       seeProject_URL: "https://nc-news-front-end.onrender.com/",
       gitHub_F_END: "https://github.com/Julian22222/nc-news-front-end",
       gutHub_B_END: "https://github.com/Julian22222/NC_NEWS_Project",
@@ -60,7 +59,7 @@ const CardPortfolio = () => {
       img: image5,
       title: "Wordle game",
       description:
-        "Front-end Project. Here I used - React JS framework / JavaScript / Node JS / HTML / CSS .",
+        "Front-end Project. Applied React JS framework / JavaScript / Node JS / HTML / CSS",
       seeProject_URL: "https://julian22222.github.io/Wordle/",
       gitHub_F_END: "https://github.com/Julian22222/Wordle",
       gutHub_B_END: "https://github.com/Julian22222/Wordle",
@@ -71,7 +70,7 @@ const CardPortfolio = () => {
       img: image6,
       title: "To do List",
       description:
-        " Front-end + Back-end Project. Here I used - React JS framework / REST APIs / postgreSQL / JavaScript / Node JS / HTML / CSS .",
+        " Front-end + Back-end Project. Applied React JS framework / REST APIs / postgreSQL / JavaScript / Node JS / HTML / CSS",
       seeProject_URL: "https://to-do-list-front-end.onrender.com/",
       gitHub_F_END:
         "https://github.com/Julian22222/PRACTICE/tree/main/To-Do-List/client-front-end",
@@ -84,7 +83,7 @@ const CardPortfolio = () => {
       img: image7,
       title: "MySQL DB",
       description:
-        "Back-end MySQL Project. Here I used - REST APIs / MySQL / JavaScript / Node JS /",
+        "Back-end MySQL Project. Applied REST APIs / MySQL / JavaScript / Node JS",
       seeProject_URL: "https://car-shop-back-end.onrender.com/",
       gitHub_F_END: "",
       gutHub_B_END:
@@ -96,7 +95,7 @@ const CardPortfolio = () => {
       img: image8,
       title: "ASP.NET MVC Book Store",
       description:
-        "Front-end + Back-end Project. Here I used - ASP.NET Core MVC / C#.",
+        "Front-end + Back-end Project. Applied ASP.NET Core MVC / C#",
       seeProject_URL: "https://mybookstorewebapp.azurewebsites.net/",
       gitHub_F_END:
         "https://github.com/Julian22222/PRACTICE/tree/main/C_Sharp/Project_MVC_BookShop2",
@@ -107,8 +106,7 @@ const CardPortfolio = () => {
     {
       img: image9,
       title: "ASP.NET Web API",
-      description:
-        "Back-end Project. Here I used - ASP.NET Web API/ SQL Server / C#",
+      description: "Back-end Project. Applied ASP.NET Web API/ SQL Server / C#",
       seeProject_URL:
         "https://techstorewebapi-b6btevanhwfahagd.ukwest-01.azurewebsites.net/swagger/index.html",
       gitHub_F_END:
