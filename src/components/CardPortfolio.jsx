@@ -95,7 +95,7 @@ const CardPortfolio = () => {
       img: image8,
       title: "ASP.NET MVC Book Store",
       description:
-        "Front-end + Back-end Project. Applied ASP.NET Core MVC / C#",
+        "Front-end + Back-end Project. Applied ASP.NET Core MVC / Entity Framework Core / Identity core / Microsoft Azure / C#",
       seeProject_URL: "https://mybookstorewebapp.azurewebsites.net/",
       gitHub_F_END:
         "https://github.com/Julian22222/PRACTICE/tree/main/C_Sharp/Project_MVC_BookShop2",
@@ -106,7 +106,8 @@ const CardPortfolio = () => {
     {
       img: image9,
       title: "ASP.NET Web API",
-      description: "Back-end Project. Applied ASP.NET Web API/ SQL Server / C#",
+      description:
+        "Back-end Project. Applied ASP.NET Web API/ SQL Server / Entity Framework Core / Microsoft Azure / C#",
       seeProject_URL:
         "https://techstorewebapi-b6btevanhwfahagd.ukwest-01.azurewebsites.net/swagger/index.html",
       gitHub_F_END:
