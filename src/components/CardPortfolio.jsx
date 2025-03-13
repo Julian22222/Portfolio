@@ -8,11 +8,11 @@ import image6 from "../IMG/Proj_img/To_Do_List.png";
 import image7 from "../IMG/Proj_img/mySQL.jpeg";
 import image8 from "../IMG/Proj_img/aspNet.jpg";
 import image9 from "../IMG/Proj_img/webapi.png";
+import image10 from "../IMG/Proj_img/asp-net-mvc-logo.jpg";
 
 const CardPortfolio = () => {
   let formArr = [
     {
-      // img: "https://img-c.udemycdn.com/course/750x422/4925142_c0ab.jpg",
       img: image1,
       title: " JavaScript projects",
       description: "Applied React JS framework / JavaScript / Node JS / HTML",
@@ -22,7 +22,15 @@ const CardPortfolio = () => {
       switch: "Front",
     },
     {
-      // img: "https://www.winemag.com/wp-content/themes/TrellisFoundation-child/assets/img/toplists_header.jpg",
+      img: image10,
+      title: " ASP.NET Core MVC projects",
+      description: "Applied ASP.NET / C# / jQuery / Ajax / HTML / CSS",
+      seeProject_URL: "https://asp-net-nodb.onrender.com",
+      gitHub_F_END:
+        "https://github.com/Julian22222/PRACTICE/tree/main/C_Sharp/Project1",
+      switch: "Front",
+    },
+    {
       img: image2,
       title: "Wine Shop",
       description:
@@ -33,7 +41,6 @@ const CardPortfolio = () => {
       switch: "Both",
     },
     {
-      // img: "https://grangerchurch.com/wp-content/uploads/2018/06/atthemovies_series_1440x829.jpg",
       img: image3,
       title: "Movies website",
       description:
@@ -44,7 +51,6 @@ const CardPortfolio = () => {
       switch: "Both",
     },
     {
-      // img: "http://vskills.in/certification/blog/wp-content/uploads/2015/01/structure-of-a-news-report.jpg",
       img: image4,
       title: "NC NEWS website",
       description:
@@ -55,7 +61,6 @@ const CardPortfolio = () => {
       switch: "Both",
     },
     {
-      // img: "https://assets2.rockpapershotgun.com/wordle-past-answers-header.jpg/BROK/thumbnail/1200x900/quality/100/wordle-past-answers-header.jpg",
       img: image5,
       title: "Wordle game",
       description:
@@ -66,7 +71,6 @@ const CardPortfolio = () => {
       switch: "Front",
     },
     {
-      // img: "https://blog.hubspot.com/hubfs/To_Do_List.png",
       img: image6,
       title: "To do List",
       description:
@@ -79,7 +83,6 @@ const CardPortfolio = () => {
       switch: "Both",
     },
     {
-      // img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGV7sgoJwZS5kpW691ToyQpHWF3_sFpEIW4A&usqp=CAU",
       img: image7,
       title: "MySQL DB",
       description:
@@ -91,7 +94,6 @@ const CardPortfolio = () => {
       switch: "Back",
     },
     {
-      // img: "https://maychusaigon.vn/wp-content/uploads/2023/07/dinh-nghia-asp-net-la-gi-maychusaigon.jpg",
       img: image8,
       title: "ASP.NET MVC Book Store",
       description:
