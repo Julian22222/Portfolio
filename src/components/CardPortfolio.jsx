@@ -6,9 +6,9 @@ import image4 from "../IMG/Proj_img/news.jpg";
 import image5 from "../IMG/Proj_img/wordl.jpg";
 import image6 from "../IMG/Proj_img/To_Do_List.png";
 import image7 from "../IMG/Proj_img/mySQL.jpeg";
-import image8 from "../IMG/Proj_img/aspNet.jpg";
+import image8 from "../IMG/Proj_img/bookshop2.jpg";
 import image9 from "../IMG/Proj_img/webapi.png";
-import image10 from "../IMG/Proj_img/asp-net-mvc-logo.jpg";
+import image10 from "../IMG/Proj_img/aspNet.jpg";
 
 const CardPortfolio = () => {
   let formArr = [
