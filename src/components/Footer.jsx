@@ -95,10 +95,7 @@ const Footer = () => {
             </li>
             <li>
               {" "}
-              <a className="footer-links" href="Portfolio#/#contactCard">
-                Contacts
-              </a>
-              {/* <Link to="/contact">Contacts</Link> */}
+              <Link to="">Contacts</Link>
             </li>
           </ul>
         </div>

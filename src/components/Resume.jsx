@@ -40,7 +40,8 @@ const Resume = () => {
         </span>
         <span>
           {" "}
-          HTML, CSS, React JS, React Native, ASP.NET Core MVC, Vue JS
+          HTML, CSS, React JS, React Native, ASP.NET Core MVC, Vue JS, Ajax,
+          jQuery
         </span>
         <hr style={{ marginLeft: "-20px" }} />
         <span style={{ fontWeight: "bold", color: "rgb(211, 59, 59)" }}>

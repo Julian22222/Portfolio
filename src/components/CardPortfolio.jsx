@@ -24,7 +24,7 @@ const CardPortfolio = () => {
     {
       img: image10,
       title: " ASP.NET Core MVC projects",
-      description: "Applied ASP.NET / C# / jQuery / Ajax / HTML / CSS",
+      description: "Applied ASP.NET / C# / jQuery / Ajax / Docker / HTML / CSS",
       seeProject_URL: "https://asp-net-nodb.onrender.com",
       gitHub_F_END:
         "https://github.com/Julian22222/PRACTICE/tree/main/C_Sharp/Project1",
@@ -54,7 +54,7 @@ const CardPortfolio = () => {
       img: image4,
       title: "NC NEWS website",
       description:
-        "Front-end + Back-end Project. Applied React JS framework / REST APIs / postgreSQL / JavaScript / Node JS / HTML / CSS",
+        "Front-end + Back-end Project. Applied React JS framework / REST APIs / Supertest / postgreSQL / JavaScript / Node JS / HTML / CSS",
       seeProject_URL: "https://nc-news-front-end.onrender.com/",
       gitHub_F_END: "https://github.com/Julian22222/nc-news-front-end",
       gutHub_B_END: "https://github.com/Julian22222/NC_NEWS_Project",
@@ -86,7 +86,7 @@ const CardPortfolio = () => {
       img: image7,
       title: "MySQL DB",
       description:
-        "Back-end MySQL Project. Applied REST APIs / MySQL / JavaScript / Node JS",
+        "Back-end MySQL Project. Applied REST APIs / MySQL / JavaScript / Node JS / CI/CD / Docker / Supertest",
       seeProject_URL: "https://car-shop-back-end.onrender.com/",
       gitHub_F_END: "",
       gutHub_B_END:
@@ -97,7 +97,7 @@ const CardPortfolio = () => {
       img: image8,
       title: "ASP.NET MVC Book Store",
       description:
-        "Front-end + Back-end Project. Applied ASP.NET Core MVC / Entity Framework Core / Identity core / Microsoft Azure / C#",
+        "Front-end + Back-end Project. Applied ASP.NET Core MVC / Entity Framework Core / Identity core / Microsoft Azure / Ajax / jQuery / C#",
       seeProject_URL: "https://mybookstorewebapp.azurewebsites.net/",
       gitHub_F_END:
         "https://github.com/Julian22222/PRACTICE/tree/main/C_Sharp/Project_MVC_BookShop2",

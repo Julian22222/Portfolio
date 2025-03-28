@@ -49,9 +49,9 @@ const Home = () => {
                 JS, React Native, ASP.NET Core MVC, Vue JS, HTTP, Express JS,
                 REST APIs, ASP NET Web API's, SQL, SQLite, PostgreSQL, SQL
                 Server, MySQL, MongoDB, Microsoft Azure, .Net Core, CI/CD,
-                Docker, Kanban, Scrum, Agile, Jest and Supertest, software
-                testing and debugging techniques, good understanding of web
-                development principles and etc.
+                Docker, Ajax, jQuery, Kanban, Scrum, Agile, Jest and Supertest,
+                software testing and debugging techniques, good understanding of
+                web development principles and etc.
               </p>
             </div>
           </div>
