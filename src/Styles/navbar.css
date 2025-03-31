@@ -3,11 +3,21 @@
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
-    margin-top: 5px; */
+    top: 0;
+  /* z-index:14 is higher than z-index of burger btn menu on navbar page to overlay burger menu button
+  z-index value to make sure it stays on top of all other elements 
+  on the page(even on top of elements with -position:absolute;), 
+  except the modal which is opened on top of this overlay, 
+  which will get a even higher z-index than the overlay */
+  z-index: 50;
+  background-color: #333;
+  margin-top: 5px;
   width: 100%;
   height: 70px;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
   /* background-color: #bb1b1b; */
   background: rgb(2, 0, 36);
   background: linear-gradient(
@@ -17,7 +27,13 @@
   );
 }
 
-.NavBar {
+.logo-btn {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.NavBar_el {
   color: white;
   float: left;
   margin-right: 30px;
@@ -98,35 +114,6 @@
 
 /* ////////////////////////////////////////////////////////////////////////////////////////Burger Menu  */
 
-.flexbox-conatiner2 #hidden {
-  /* when click menu burger btn -it will show Navbar */
-  /* margin-top: 100px; */
-  position: fixed;
-  top: 0;
-  left: 0;
-  display: flex;
-  /* justify-content: flex-start; */
-  height: 100%;
-  width: 230px;
-  /* /////////////////////////////////////////////////////////////////////////// Side Menu Bar*/
-  background-color: rgb(59, 137, 196);
-  flex-direction: column;
-  align-items: flex-end;
-
-  animation-duration: 1s;
-  animation-name: slide-in;
-  /* transition: 1s all ease-in-out; */
-  /* animation-duration: 1s;
-  animation-name: slide-out; */
-
-  /* z-index:14 is higher than z-index of burger btn menu on navbar page to overlay burger menu button
-  z-index value to make sure it stays on top of all other elements 
-  on the page(even on top of elements with -position:absolute;), 
-  except the modal which is opened on top of this overlay, 
-  which will get a even higher z-index than the overlay */
-  z-index: 50;
-}
-
 /* @keyframes slide-out {
   from {
     margin-left: 0%;
@@ -156,6 +143,12 @@
   flex-direction: row;
   position: absolute;
   bottom: 20px;
+}
+
+.social-menu-bar-bottom {
+  display: flex;
+  flex-direction: row;
+  color: white;
 }
 
 /* .social-side-menu-icons {
@@ -192,12 +185,6 @@
   justify-content: space-around;
 }
 
-.logo-btn {
-  background: transparent;
-  border: none;
-  cursor: pointer;
-}
-
 /* middle part - where all menu links are*/
 .flexbox-conatiner2 {
   /* border: 1px solid white; */
@@ -218,6 +205,8 @@
   flex-basis: 20%;
   width: fit-content;
   height: fit-content;
+  display: flex;
+  justify-content: center;
 }
 
 .MailMe {
@@ -271,6 +260,12 @@
   }
 }
 
+.btn-icon {
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+
 /* /////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 /* different screens */
 
@@ -281,9 +276,72 @@ all of the CSS within the query will take effect. */
 /* original menu line disappear  */
 /* applies to all sizes until 1390 */
 @media only screen and (max-width: 1399px) {
-  .NaviBar .flexbox-conatiner2 .links {
-    display: none;
+  /* .menuBtn,
+  .x-button-menu {
+    display: none !important;
+  } */
+
+  .menu-overlay {
+    position: fixed;
+    top: 0;
+    left: -100%;
+    width: 250px;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    transition: left 0.5s ease-in-out;
+    z-index: 100;
   }
+
+  .menu-overlay.show {
+    left: 0;
+  }
+
+  .menu-overlay.hide {
+    left: -100%;
+  }
+
+  .menu-list {
+    list-style: none;
+    padding: 50px 20px;
+  }
+
+  .menu-list li {
+    opacity: 0;
+    transform: translateX(-30px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+  }
+
+  .menu-list .slide-in {
+    opacity: 1;
+    transform: translateX(0);
+  }
+
+  .menuBtn {
+    font-size: larger;
+    background-color: transparent;
+    border: none;
+    color: #fff;
+
+    /* display: flex;
+    justify-content: flex-start; */
+  }
+
+  .x-button-menu {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    color: white;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+
+  /* //////////////////////// */
+
+  /* .NaviBar .flexbox-conatiner2 .links {
+    display: none;
+  } */
 
   /* .flexbox-conatiner2 {
     left: -300px;
@@ -303,21 +361,9 @@ all of the CSS within the query will take effect. */
     display: none;
   }
 
-  .NaviBar {
-    position: fixed;
-    top: 0;
-    z-index: 50;
-    width: 100%;
-    height: 70px;
-    display: flex;
-    /* background-color: #bb1b1b; */
-    background: rgb(2, 0, 36);
-    background: linear-gradient(
-      90deg,
-      rgb(0, 0, 7) 10%,
-      rgba(255, 0, 78, 0.5383403361344538) 100%
-    );
-  }
+  /* .flexbox-conatiner2 button {
+    display: none;
+  } */
 
   .social-side-menu-icons {
     position: absolute;
@@ -325,26 +371,12 @@ all of the CSS within the query will take effect. */
   }
 }
 
-/* burger menu btn appear */
-@media only screen and (min-width: 1400px) {
-  .NaviBar .flexbox-conatiner2 button {
+/* burger menu btn disappear when screen width is bigger than 1400px*/
+@media (min-width: 1400px) {
+  .menuBtn,
+  .x-button-menu {
     display: none;
   }
-
-  /* .flexbox-conatiner2 {
-    position: relative;
-    overflow: hidden;
-  } */
-
-  /* #hidden { */
-  /* margin-left: 100px; */
-  /* animation: 3s slide-left; */
-  /* } */
-
-  /* .menuBtn {
-    display: flex;
-    justify-content: flex-start;
-  } */
 }
 
 @media (max-width: 420px) {
