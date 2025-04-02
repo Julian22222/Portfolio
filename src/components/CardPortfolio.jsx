@@ -24,7 +24,8 @@ const CardPortfolio = () => {
     {
       img: image10,
       title: " ASP.NET Core MVC projects",
-      description: "Applied ASP.NET / C# / jQuery / Ajax / Docker / HTML / CSS",
+      description:
+        "Applied ASP.NET Core MVC / C# / jQuery / Ajax / Docker / HTML / CSS",
       seeProject_URL: "https://asp-net-nodb.onrender.com",
       gitHub_F_END:
         "https://github.com/Julian22222/PRACTICE/tree/main/C_Sharp/Project1",

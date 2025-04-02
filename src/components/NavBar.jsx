@@ -75,7 +75,11 @@ const NavBar = () => {
                     className="NavBar-item"
                   >
                     {showLinks ? (
-                      <FontAwesomeIcon icon={item.icon} className="menu-icon" />
+                      <FontAwesomeIcon
+                        icon={item.icon}
+                        className="menu-icon"
+                        style={{ marginRight: "5px" }}
+                      />
                     ) : (
                       ""
                     )}

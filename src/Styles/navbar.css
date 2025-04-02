@@ -96,9 +96,9 @@
   font-size: larger;
   background-color: transparent;
   border: none;
-  /* display: flex;
+  display: flex;
   align-items: center;
-  justify-content: center; */
+  justify-content: center;
   color: #fff;
   /* border: 1px solid #fff; */
   /* border-radius: 10px; */
@@ -112,8 +112,6 @@
   cursor: pointer;
 }
 
-/* ////////////////////////////////////////////////////////////////////////////////////////Burger Menu  */
-
 /* @keyframes slide-out {
   from {
     margin-left: 0%;
@@ -126,7 +124,7 @@
   }
 } */
 
-@keyframes slide-in {
+/* @keyframes slide-in {
   from {
     margin-left: -100%;
     opacity: 0.25;
@@ -136,40 +134,33 @@
     margin-left: 0%;
     opacity: 1;
   }
-}
+} */
 
-.menu-btn-social-Icons {
+/* .menu-btn-social-Icons {
   display: flex;
   flex-direction: row;
   position: absolute;
   bottom: 20px;
-}
+} */
 
-.social-menu-bar-bottom {
+/* .social-menu-bar-bottom {
   display: flex;
   flex-direction: row;
   color: white;
-}
+} */
 
 /* .social-side-menu-icons {
   size: 2px;
 } */
 
-.social-menu-bar-bottom {
+/* .social-menu-bar-bottom {
   font-size: 30px;
   margin: 7px;
-}
+} */
 
-.flexbox-conatiner2 #hidden nav {
+/* .flexbox-conatiner2 #hidden nav {
   display: flex;
-  /* flex-direction: column; */
-}
-
-.flexbox-conatiner2 button {
-  border: none;
-  background-color: transparent;
-  font-size: 24px;
-}
+} */
 
 /* ///////////////////////////////////////flexbox - 3 parts in Nav bar */
 
@@ -207,6 +198,12 @@
   height: fit-content;
   display: flex;
   justify-content: center;
+}
+
+.flexbox-conatiner2 button {
+  border: none;
+  background-color: transparent;
+  font-size: 24px;
 }
 
 .MailMe {
@@ -266,21 +263,20 @@
   align-items: center;
 }
 
-/* /////////////////////////////////////////////////////////////////////////////////////////////////////////// */
-/* different screens */
+/* ////////////////////////////////////////////////////////////////////////////////different screens//////////// */
 
-/* when using max-width ->  
-Any width that is less than the max-width specified, 
+/* when using max-width ->  Any width that is less than the max-width specified, 
 all of the CSS within the query will take effect. */
 
 /* original menu line disappear  */
-/* applies to all sizes until 1390 */
+/* applies to all sizes smaller than 1390 */
 @media only screen and (max-width: 1399px) {
   /* .menuBtn,
   .x-button-menu {
     display: none !important;
   } */
 
+  /* ////////////////////////////Side bar menu */
   .menu-overlay {
     position: fixed;
     top: 0;
@@ -361,14 +357,21 @@ all of the CSS within the query will take effect. */
     display: none;
   }
 
+  .logo-btn {
+    position: absolute;
+    margin-left: -40px;
+    margin-top: -35px;
+    cursor: pointer;
+  }
+
   /* .flexbox-conatiner2 button {
     display: none;
   } */
 
-  .social-side-menu-icons {
+  /* .social-side-menu-icons {
     position: absolute;
     margin-left: -40px;
-  }
+  } */
 }
 
 /* burger menu btn disappear when screen width is bigger than 1400px*/
@@ -380,16 +383,14 @@ all of the CSS within the query will take effect. */
 }
 
 @media (max-width: 420px) {
-  .flexbox-conatiner1 {
-    /* border: 1px solid white; */
-    /* padding: 30px; */
+  /* .flexbox-conatiner1 {
     font-size: 25px;
     flex-basis: 10%;
     width: fit-content;
     height: fit-content;
     display: flex;
     justify-content: space-around;
-  }
+  } */
 
   .logo-btn {
     background: transparent;
@@ -422,8 +423,8 @@ all of the CSS within the query will take effect. */
   /* Navi Bar */
   .logo-btn {
     position: absolute;
-    margin-left: -10%;
-    margin-top: -30px;
+    margin-left: -70px;
+    margin-top: -35px;
     cursor: pointer;
   }
 
