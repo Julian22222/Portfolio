@@ -6,7 +6,7 @@ import logo from "../IMG/me3.jpg";
 
 const Home = () => {
   return (
-    <div>
+    <div id="home-container">
       <div className="container-boxes">
         <div className="itemBox1">
           <div className="box">

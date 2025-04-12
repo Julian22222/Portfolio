@@ -2,7 +2,7 @@ import CardPortfolio from "./CardPortfolio";
 
 const Projects = () => {
   return (
-    <div>
+    <div id="progects-container">
       <h1 className="MyProjectHeader">My Projects</h1>
 
       <CardPortfolio />

@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link"; //Link to specific section of the page
 import Context from "./Context";
 import { useContext } from "react";
 
@@ -77,21 +78,24 @@ const Footer = () => {
           <ul>
             <li>
               {" "}
-              <Link className="footer-links" to="/">
+              <HashLink className="footer-links" to="/#home-container">
                 Home
-              </Link>
+              </HashLink>
             </li>
             <li>
               {" "}
-              <Link className="footer-links" to="/projects">
+              <HashLink
+                className="footer-links"
+                to="/projects/#progects-container"
+              >
                 Projects
-              </Link>
+              </HashLink>
             </li>
             <li>
               {" "}
-              <Link className="footer-links" to="/resume">
+              <HashLink className="footer-links" to="/resume/#resume-container">
                 Resume
-              </Link>
+              </HashLink>
             </li>
             <li>
               {" "}

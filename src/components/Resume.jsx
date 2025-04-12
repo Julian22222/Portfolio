@@ -2,7 +2,7 @@ import certificate from "../IMG/certificate1.jpg";
 
 const Resume = () => {
   return (
-    <div>
+    <div id="resume-container">
       <h1 className="Resume">My Resume</h1>
       <h3 className="MyCertificate">Personal Statement</h3>
       <p className="TextResume">
