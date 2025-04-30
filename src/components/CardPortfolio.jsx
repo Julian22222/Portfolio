@@ -25,7 +25,7 @@ const CardPortfolio = () => {
       img: image10,
       title: " ASP.NET Core MVC projects",
       description:
-        "Applied ASP.NET Core MVC / C# / jQuery / Ajax / Docker / HTML / CSS",
+        "Applied ASP.NET Core MVC / C# / Bootstrap / jQuery / Ajax / Docker / HTML / CSS",
       seeProject_URL: "https://asp-net-nodb.onrender.com",
       gitHub_F_END:
         "https://github.com/Julian22222/PRACTICE/tree/main/C_Sharp/Project1",
@@ -98,7 +98,7 @@ const CardPortfolio = () => {
       img: image8,
       title: "ASP.NET MVC Book Store",
       description:
-        "Front-end + Back-end Project. Applied ASP.NET Core MVC / Entity Framework Core / Identity core / Microsoft Azure / Ajax / jQuery / C#",
+        "Front-end + Back-end Project. Applied ASP.NET Core MVC / Entity Framework Core(ORM) / Identity core / Microsoft Azure / Ajax / Bootstrap / jQuery / C#",
       seeProject_URL: "https://mybookstorewebapp.azurewebsites.net/",
       gitHub_F_END:
         "https://github.com/Julian22222/PRACTICE/tree/main/C_Sharp/Project_MVC_BookShop2",
