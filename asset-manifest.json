@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.85e086c7.css",
-    "main.js": "/Portfolio/static/js/main.26cf3b86.js",
+    "main.css": "/Portfolio/static/css/main.aaab2334.css",
+    "main.js": "/Portfolio/static/js/main.d93cf597.js",
     "static/media/To_Do_List.png": "/Portfolio/static/media/To_Do_List.4423712f048a81091c19.png",
+    "static/media/gif5.gif": "/Portfolio/static/media/gif5.3b27de6cb32121ce8ca0.gif",
     "static/media/peakpx (16).jpg": "/Portfolio/static/media/peakpx (16).27a452120ea9b5ec6082.jpg",
     "static/media/movies.jpg": "/Portfolio/static/media/movies.95dd2384214a81ae7afa.jpg",
     "static/media/certificate1.jpg": "/Portfolio/static/media/certificate1.9c33b165105df7cf25b4.jpg",
@@ -16,11 +17,11 @@
     "static/media/wine_shop.jpg": "/Portfolio/static/media/wine_shop.9954e0c82bd0e17a07f6.jpg",
     "static/media/webapi.png": "/Portfolio/static/media/webapi.417a5ed5ea911e09ccbe.png",
     "index.html": "/Portfolio/index.html",
-    "main.85e086c7.css.map": "/Portfolio/static/css/main.85e086c7.css.map",
-    "main.26cf3b86.js.map": "/Portfolio/static/js/main.26cf3b86.js.map"
+    "main.aaab2334.css.map": "/Portfolio/static/css/main.aaab2334.css.map",
+    "main.d93cf597.js.map": "/Portfolio/static/js/main.d93cf597.js.map"
   },
   "entrypoints": [
-    "static/css/main.85e086c7.css",
-    "static/js/main.26cf3b86.js"
+    "static/css/main.aaab2334.css",
+    "static/js/main.d93cf597.js"
   ]
 }
