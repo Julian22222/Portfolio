@@ -3,7 +3,8 @@ import { HashLink } from "react-router-hash-link"; //Link to specific section of
 import Context from "./Context";
 import { useContext } from "react";
 
-import myLogo from "../IMG/logo33.png";
+// import myLogo from "../IMG/logo33.png";
+import myLogo from "../IMG/Gif/gif5.gif";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faEnvelope,
@@ -40,7 +41,13 @@ const Footer = () => {
     <footer id="contactCard">
       <div className="row">
         <div className="col">
-          <img src={myLogo} className="logo" alt="log-pcs" />
+          <img
+            src={myLogo}
+            className="logo"
+            alt="log-pcs"
+            style={{ width: 200, height: 200 }}
+            id="logo-footer"
+          />
           <p>
             Welcome to my portfolio. Here you can familiarise with my IT
             experience and check my projects using different technologies.

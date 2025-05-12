@@ -4,7 +4,7 @@ footer {
   /* bottom: -900px; */
   background: linear-gradient(
     to right,
-    black,
+    black 20%,
     rgba(255, 0, 78, 0.5383403361344538)
   );
   color: #fff;
@@ -26,6 +26,10 @@ footer {
 .col {
   flex-basis: 25%;
   padding: 10px;
+}
+
+#logo-footer {
+  margin-top: -70px;
 }
 
 .container-office {
