@@ -166,6 +166,14 @@ hr {
   text-align: center;
 }
 
+#logo-footer {
+  display: block; /* show element - png*/
+}
+
+#logo1-footer {
+  display: none; /* hide element visible - gif */
+}
+
 /* //////////////////////////////////////////////////////////////////////////////////// */
 /* different screens */
 @media (max-width: 1000px) {
@@ -180,6 +188,14 @@ hr {
 
   .links-header {
     margin-top: 50px;
+  }
+
+  #logo-footer {
+    display: none; /* hide element - png*/
+  }
+
+  #logo1-footer {
+    display: block; /* make element visible - gif */
   }
 }
 
