@@ -1,10 +1,12 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.cdafd11a.css",
-    "main.js": "/Portfolio/static/js/main.19db80b9.js",
+    "main.js": "/Portfolio/static/js/main.a257f995.js",
     "static/media/To_Do_List.png": "/Portfolio/static/media/To_Do_List.4423712f048a81091c19.png",
     "static/media/gif5.gif": "/Portfolio/static/media/gif5.3b27de6cb32121ce8ca0.gif",
     "static/media/peakpx (16).jpg": "/Portfolio/static/media/peakpx (16).27a452120ea9b5ec6082.jpg",
+    "static/media/car-repair-shop.jpg": "/Portfolio/static/media/car-repair-shop.813b109411621c6168a7.jpg",
+    "static/media/car-repair-shop1.jpg": "/Portfolio/static/media/car-repair-shop1.e4bdcea2d00776a2188f.jpg",
     "static/media/movies.jpg": "/Portfolio/static/media/movies.95dd2384214a81ae7afa.jpg",
     "static/media/certificate1.jpg": "/Portfolio/static/media/certificate1.9c33b165105df7cf25b4.jpg",
     "static/media/aspNet.jpg": "/Portfolio/static/media/aspNet.5088203c45cea8881973.jpg",
@@ -18,10 +20,10 @@
     "static/media/webapi.png": "/Portfolio/static/media/webapi.417a5ed5ea911e09ccbe.png",
     "index.html": "/Portfolio/index.html",
     "main.cdafd11a.css.map": "/Portfolio/static/css/main.cdafd11a.css.map",
-    "main.19db80b9.js.map": "/Portfolio/static/js/main.19db80b9.js.map"
+    "main.a257f995.js.map": "/Portfolio/static/js/main.a257f995.js.map"
   },
   "entrypoints": [
     "static/css/main.cdafd11a.css",
-    "static/js/main.19db80b9.js"
+    "static/js/main.a257f995.js"
   ]
 }
