@@ -45,14 +45,14 @@ const Home = () => {
             </div>
             <div className="myStory-home">
               <p className="MyStoryText">
-                Git, GitHub, JavaScript, C#, HTML, CSS, Node JS, OOP, TDD, React
-                JS, React Native, ASP.NET Core MVC, Vue JS, HTTP, Express JS,
-                REST APIs, ASP NET Web API's, SQL, SQLite, PostgreSQL, SQL
-                Server, MySQL, MongoDB, Microsoft Azure, .Net Core, Entity
-                Framework Core(ORM), CI/CD, Docker, Ajax, Bootstrap, jQuery,
-                Kanban, Scrum, Agile, Jest and Supertest, software testing and
-                debugging techniques, good understanding of web development
-                principles and etc.
+                Git, GitHub, JavaScript, TypeScript, C#, HTML, CSS, Node JS,
+                OOP, TDD, React JS, React Native, ASP.NET Core MVC, Vue JS,
+                HTTP, Express JS, REST APIs, ASP NET Web API's, SQL, SQLite,
+                PostgreSQL, SQL Server, MySQL, MongoDB, Microsoft Azure, .Net
+                Core, Entity Framework Core(ORM), CI/CD, Docker, Ajax,
+                Bootstrap, jQuery, Kanban, Scrum, Agile, Jest and Supertest,
+                software testing and debugging techniques, good understanding of
+                web development principles and etc.
               </p>
             </div>
           </div>

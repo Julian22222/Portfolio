@@ -32,7 +32,7 @@ const Resume = () => {
         <span style={{ fontWeight: "bold", color: "rgb(211, 59, 59)" }}>
           Languages:
         </span>{" "}
-        <span>JavaScript, C#</span>
+        <span>JavaScript, TypeScript, C#</span>
         <hr style={{ marginLeft: "-20px" }} />
         {/* <br /> */}
         <span style={{ fontWeight: "bold", color: "rgb(211, 59, 59)" }}>
@@ -40,7 +40,7 @@ const Resume = () => {
         </span>
         <span>
           {" "}
-          HTML, CSS, React JS, React Native, ASP.NET Core MVC, Vue JS, Ajax,
+          HTML, CSS, ReactJS, React Native, ASP.NET Core MVC, Vue JS, Ajax,
           Bootstrap, jQuery
         </span>
         <hr style={{ marginLeft: "-20px" }} />
@@ -49,8 +49,9 @@ const Resume = () => {
         </span>
         <span>
           {" "}
-          HTTP, Express JS, MVC, REST APIs, ASP.NET Web APIs, SQL, PSQL, SQLite,
-          SQL Server, MySQL, MongoDB, OOP, Docker, Entity Framework Core(ORM)
+          NodeJS, HTTP, Express JS, MVC, REST APIs, SQL, PSQL, SQLite, SQL
+          Server, MySQL, MongoDB, .Net Core, ASP.NET Web APIs, Entity Framework
+          Core(ORM)
         </span>
         <hr style={{ marginLeft: "-20px" }} />
         <span style={{ fontWeight: "bold", color: "rgb(211, 59, 59)" }}>
@@ -59,12 +60,12 @@ const Resume = () => {
         <span> Test Driven Development (TDD), Jest and Supertest</span>
         <hr style={{ marginLeft: "-20px" }} />
         <span style={{ fontWeight: "bold", color: "rgb(211, 59, 59)" }}>
-          Hosting:{" "}
+          Tools:{" "}
         </span>
-        <span>Git, GitHub</span>
+        <span>Git, GitHub, Docker, CI/CD, Visual Studio, VS Code</span>
         <hr style={{ marginLeft: "-20px" }} />
         <span style={{ fontWeight: "bold", color: "rgb(211, 59, 59)" }}>
-          Cloud development:{" "}
+          Cloud:{" "}
         </span>
         <span>Microsoft Azure</span>
         <hr style={{ marginLeft: "-20px" }} />
@@ -73,9 +74,8 @@ const Resume = () => {
           Other:{" "}
         </span>
         <span>
-          NodeJS, .Net Core, CI/CD, Kanban, Scrum, Agile, Software testing and
-          debugging techniques, good understanding of web development principles
-          and etc.
+          Kanban, Scrum, Agile, Software testing and debugging techniques, good
+          understanding of web development principles and etc.
         </span>
         <hr style={{ marginLeft: "-20px" }} />
       </div>
