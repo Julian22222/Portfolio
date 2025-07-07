@@ -51,7 +51,7 @@ const Resume = () => {
           {" "}
           NodeJS, HTTP, Express JS, MVC, REST APIs, SQL, PSQL, SQLite, SQL
           Server, MySQL, MongoDB, .Net Core, ASP.NET Web APIs, Entity Framework
-          Core(ORM)
+          Core(ORM), Insomnia, Postman
         </span>
         <hr style={{ marginLeft: "-20px" }} />
         <span style={{ fontWeight: "bold", color: "rgb(211, 59, 59)" }}>
@@ -62,19 +62,22 @@ const Resume = () => {
         <span style={{ fontWeight: "bold", color: "rgb(211, 59, 59)" }}>
           Tools:{" "}
         </span>
-        <span>Git, GitHub, Docker, CI/CD, Visual Studio, VS Code</span>
+        <span>Git, GitHub, Docker, CI/CD</span>
         <hr style={{ marginLeft: "-20px" }} />
         <span style={{ fontWeight: "bold", color: "rgb(211, 59, 59)" }}>
           Cloud:{" "}
         </span>
-        <span>Microsoft Azure</span>
+        <span>
+          Microsoft Azure (App Services, SQL databases, SQL servers, Storage
+          accounts, Key Vaults, etc.).{" "}
+        </span>
         <hr style={{ marginLeft: "-20px" }} />
         <span style={{ fontWeight: "bold", color: "rgb(211, 59, 59)" }}></span>
         <span style={{ fontWeight: "bold", color: "rgb(211, 59, 59)" }}>
           Other:{" "}
         </span>
         <span>
-          Kanban, Scrum, Agile, Software testing and debugging techniques, good
+          Agile (Kanban, Scrum), Software testing and debugging techniques, good
           understanding of web development principles and etc.
         </span>
         <hr style={{ marginLeft: "-20px" }} />

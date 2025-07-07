@@ -30,14 +30,20 @@ const Container2 = () => {
 
           <p className="eachLineTick">
             <FaCheckCircle className="tick" />
+            Melange | Junior Full-Stack Software Developer | Manchester |
+            10/2024 – 06/2025
+          </p>
+          <br></br>
+          <p className="eachLineTick">
+            <FaCheckCircle className="tick" />
             Northcoders bootcamp | Full Stack Software Developer | Manchester |
             08/2022 – 11/2022
           </p>
           <br></br>
           <p className="eachLineTick">
             <FaCheckCircle className="tick" />
-            Melange Lingerie | Trainee Full-Stack Software Developer |
-            Manchester | 03/2020 – 10/2022
+            Melange | Trainee Full-Stack Software Developer | Manchester |
+            03/2022 – 10/2022
           </p>
           <br></br>
           <p className="eachLineTick">
