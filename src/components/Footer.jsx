@@ -139,13 +139,13 @@ const Footer = () => {
             </button>
           </form>
           <div className="social-icons">
-            <form action="https://linkedin.com/groups/5066326/">
+            <form action="https://www.linkedin.com/in/julian-goloven-74a">
               <button className="btn-icon">
                 <FontAwesomeIcon icon={faLinkedinIn} className="single-icon" />
               </button>
             </form>
 
-            <form action="https://whatsapp.com/">
+            <form action="https://wa.me/447892828653">
               <button className="btn-icon">
                 <FontAwesomeIcon icon={faWhatsapp} className="single-icon" />
               </button>
