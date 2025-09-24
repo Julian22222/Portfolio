@@ -22,15 +22,23 @@ const ProjectCard = (props) => {
           {props.description}
         </Typography>
       </CardContent>
-      <CardActions>
+      <CardActions className="btn-project-cont">
         <Button size="small">
-          <a href={props.seeProject_URL} target="_blank">
+          <a
+            href={props.seeProject_URL}
+            target="_blank"
+            className="btn-anker-proj-card"
+          >
             <input type="button" class="buttonProject" value="See project" />
           </a>
         </Button>
         {props.switch === "Front" || props.switch === "Both" ? (
           <Button size="small">
-            <a href={props.gitHub_F_END} target="_blank">
+            <a
+              href={props.gitHub_F_END}
+              target="_blank"
+              className="btn-anker-front-end"
+            >
               <input type="button" class="buttonProject" value="GitHub F-End" />
             </a>
           </Button>
@@ -40,7 +48,11 @@ const ProjectCard = (props) => {
 
         {props.switch === "Back" || props.switch === "Both" ? (
           <Button size="small">
-            <a href={props.gutHub_B_END} target="_blank">
+            <a
+              href={props.gutHub_B_END}
+              target="_blank"
+              className="btn-anker-back-end"
+            >
               <input type="button" class="buttonProject" value="GitHub B-End" />
             </a>
           </Button>

@@ -11,6 +11,9 @@
   overflow: hidden;
   position: relative;
   height: 340px;
+  display: flex;
+  flex-direction: column; /* Stack content vertically */
+  justify-content: space-between;
 }
 
 .EachCard:hover .EchCardImage {
@@ -25,6 +28,26 @@
 .MyProjectHeader {
   margin-left: 10px;
   margin-top: 5px;
+}
+
+.btn-anker-proj-card {
+  position: absolute;
+}
+
+.btn-anker-front-end {
+  position: absolute;
+}
+
+.btn-anker-back-end {
+  position: absolute;
+}
+
+.btn-project-cont {
+  display: flex;
+  justify-content: flex-end;
+  gap: 35px;
+  margin-bottom: 10px;
+  margin-right: 30px;
 }
 
 .buttonProject {
