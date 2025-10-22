@@ -40,8 +40,8 @@ const Resume = () => {
         </span>
         <span>
           {" "}
-          HTML, CSS, ReactJS, React Native, ASP.NET Core MVC, Vue JS, Ajax,
-          Bootstrap, jQuery
+          HTML, CSS, ReactJS, React Native, Next JS, ASP.NET Core MVC, Vue JS,
+          Ajax, Bootstrap, jQuery
         </span>
         <hr style={{ marginLeft: "-20px" }} />
         <span style={{ fontWeight: "bold", color: "rgb(211, 59, 59)" }}>
@@ -49,9 +49,9 @@ const Resume = () => {
         </span>
         <span>
           {" "}
-          NodeJS, HTTP, Express JS, MVC, REST APIs, SQL, PSQL, SQLite, SQL
-          Server, MySQL, MongoDB, .Net Core, ASP.NET Web APIs, Entity Framework
-          Core(ORM), Insomnia, Postman
+          NodeJS, HTTP, Express JS, MVC, REST APIs, Nest JS, SQL, PSQL, SQLite,
+          SQL Server, MySQL, MongoDB, .Net Core, ASP.NET Web APIs, Entity
+          Framework Core(ORM), Insomnia, Postman
         </span>
         <hr style={{ marginLeft: "-20px" }} />
         <span style={{ fontWeight: "bold", color: "rgb(211, 59, 59)" }}>
