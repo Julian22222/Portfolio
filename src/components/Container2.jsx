@@ -42,14 +42,14 @@ const Container2 = () => {
           <br></br>
           <p className="eachLineTick">
             <FaCheckCircle className="tick" />
-            Melange | Trainee Full-Stack Software Developer | Manchester |
+            Melange | Junior Full-Stack Software Developer | Manchester |
             03/2022 – 10/2022
           </p>
           <br></br>
           <p className="eachLineTick">
             <FaCheckCircle className="tick" />
-            Edlena | Trainee Full-Stack Software Developer | Manchester |
-            05/2019 – 01/2020
+            Edlena | Junior Full-Stack Software Developer | Manchester | 05/2019
+            – 01/2020
           </p>
           <br></br>
           <p className="eachLineTick">
