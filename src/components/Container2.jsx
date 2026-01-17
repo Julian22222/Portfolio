@@ -88,7 +88,7 @@ const Container2 = () => {
           <p>
             {" "}
             <FaCheckCircle className="tick" />
-            Strong problem-solving skills and attention to detail{" "}
+            Strong problem-solving skills and attention to details{" "}
           </p>
           <br></br>
           <p>
@@ -106,7 +106,7 @@ const Container2 = () => {
           <p>
             {" "}
             <FaCheckCircle className="tick" />
-            Quick lerner skills
+            Quick learner skills
           </p>
           <br></br>
           <p>
