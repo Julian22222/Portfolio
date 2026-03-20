@@ -1,5 +1,3 @@
-import certificate from "../IMG/certificate1.jpg";
-
 const Resume = () => {
   return (
     <div id="resume-container">
