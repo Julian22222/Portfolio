@@ -88,7 +88,7 @@ const Container2 = () => {
           <p>
             {" "}
             <FaCheckCircle className="tick" />
-            Strong organizational skills and excellent time management{" "}
+            Strong organisational skills and excellent time management{" "}
           </p>
           <br></br>
           {/* <p>
