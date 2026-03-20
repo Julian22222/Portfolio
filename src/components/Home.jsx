@@ -48,9 +48,9 @@ const Home = () => {
                 Git, GitHub, JavaScript, TypeScript, C#, HTML, CSS, Node JS,
                 OOP, TDD, React JS, React Native, Next JS, ASP.NET Core MVC, Vue
                 JS, HTTP, Express JS, REST APIs, Nest JS, ASP NET Web API's,
-                SQL, SQLite, PostgreSQL, SQL Server, MySQL, MongoDB, Microsoft
-                Azure, .Net Core, Entity Framework Core(ORM), CI/CD, Docker,
-                Ajax, Bootstrap, jQuery, Kanban, Scrum, Agile, Jest and
+                SQL, SQLite, PostgreSQL, SQL Server, MySQL, MongoDB, AWS,
+                Microsoft Azure, .Net Core, Entity Framework Core(ORM), CI/CD,
+                Docker, Ajax, Bootstrap, jQuery, Kanban, Scrum, Agile, Jest and
                 Supertest, software testing and debugging techniques, good
                 understanding of web development principles and etc.
               </p>

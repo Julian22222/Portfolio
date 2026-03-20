@@ -68,7 +68,8 @@ const Resume = () => {
           Cloud:{" "}
         </span>
         <span>
-          Microsoft Azure (App Services, SQL databases, SQL servers, Storage
+          AWS (IAM, EC2, S3, RDS, Lambda, etc.), Microsoft Azure (IAM, Microsoft
+          Entra ID, App Services, SQL Server databases, SQL servers, Storage
           accounts, Key Vaults, etc.).{" "}
         </span>
         <hr style={{ marginLeft: "-20px" }} />
@@ -81,23 +82,6 @@ const Resume = () => {
           understanding of web development principles and etc.
         </span>
         <hr style={{ marginLeft: "-20px" }} />
-      </div>
-
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <h3 className="MyCertificate">Personal achievements and Certificates</h3>
-      <br></br>
-      <br></br>
-      <br></br>
-      <div className="certificate-container">
-        <img
-          src={certificate}
-          alt="certificate 1"
-          // width={600}
-          className="Certificates"
-        />
       </div>
     </div>
   );

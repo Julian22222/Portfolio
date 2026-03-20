@@ -37,19 +37,13 @@ const Container2 = () => {
           <p className="eachLineTick">
             <FaCheckCircle className="tick" />
             Northcoders bootcamp | Full Stack Software Developer | Manchester |
-            08/2022 – 11/2022
+            05/2024 – 08/2024
           </p>
           <br></br>
           <p className="eachLineTick">
             <FaCheckCircle className="tick" />
-            Melange | Junior Full-Stack Software Developer | Manchester |
-            03/2022 – 10/2022
-          </p>
-          <br></br>
-          <p className="eachLineTick">
-            <FaCheckCircle className="tick" />
-            Edlena | Junior Full-Stack Software Developer | Manchester | 05/2019
-            – 01/2020
+            Edlena | Junior Full-Stack Software Developer | Manchester | 01/2022
+            – 10/2022
           </p>
           <br></br>
           <p className="eachLineTick">
@@ -94,7 +88,7 @@ const Container2 = () => {
           <p>
             {" "}
             <FaCheckCircle className="tick" />
-            Good organization skills{" "}
+            Strong organizational skills and excellent time management{" "}
           </p>
           <br></br>
           {/* <p>
