@@ -3,7 +3,7 @@ import image1 from "../IMG/Proj_img/js_projects.jpg";
 import image2 from "../IMG/Proj_img/wine_shop.jpg";
 import image3 from "../IMG/Proj_img/movies.jpg";
 import image4 from "../IMG/Proj_img/news.jpg";
-import image5 from "../IMG/Proj_img/wordl.jpg";
+import image5 from "../IMG/Proj_img/aws1.jpg";
 import image6 from "../IMG/Proj_img/To_Do_List.png";
 import image7 from "../IMG/Proj_img/mySQL.jpeg";
 import image8 from "../IMG/Proj_img/bookshop2.jpg";
@@ -29,7 +29,7 @@ const CardPortfolio = () => {
       seeProject_URL,
       gitHub_F_END,
       gitHub_B_END,
-      btnSwitch
+      btnSwitch,
     ) {
       this.img = img;
       this.title = title;
@@ -45,11 +45,11 @@ const CardPortfolio = () => {
     new CardPortfolio(
       image1,
       "JavaScript Projects",
-      "Applied ReactJS / JavaScript / Node JS / HTML",
+      "Applied ReactJS / JavaScript / REST APIs / postgreSQL / Node JS / HTML / CSS",
       "https://julian22222.github.io/All-JavaScript-Proj/",
       "https://github.com/Julian22222/All-JavaScript-Proj",
       "https://github.com/Julian22222/All-JavaScript-Proj",
-      "Front"
+      "Front",
     ),
     new CardPortfolio(
       image11,
@@ -58,7 +58,7 @@ const CardPortfolio = () => {
       "https://repair-shop-mxf8.onrender.com",
       "https://github.com/Julian22222/PRACTICE/tree/main/TypeScript/repair-shop",
       "https://github.com/Julian22222/PRACTICE/tree/main/MySQL-database",
-      "Both"
+      "Both",
     ),
     new CardPortfolio(
       image2,
@@ -67,7 +67,7 @@ const CardPortfolio = () => {
       "https://julian22222.github.io/Wine-Shop/",
       "https://github.com/Julian22222/Wine-Shop",
       "https://github.com/Julian22222/Wine-Shop-BackEnd",
-      "Both"
+      "Both",
     ),
     new CardPortfolio(
       image3,
@@ -76,7 +76,7 @@ const CardPortfolio = () => {
       "https://movies-vue-front-end.onrender.com/",
       "https://github.com/Julian22222/Vue-Website---movies",
       "https://github.com/Julian22222/PRACTICE/tree/main/MongoDB",
-      "Both"
+      "Both",
     ),
     new CardPortfolio(
       image4,
@@ -85,16 +85,16 @@ const CardPortfolio = () => {
       "https://nc-news-front-end.onrender.com/",
       "https://github.com/Julian22222/nc-news-front-end",
       "https://github.com/Julian22222/NC_NEWS_Project",
-      "Both"
+      "Both",
     ),
     new CardPortfolio(
       image5,
-      "Wordle Game",
-      "Front-end Project. Applied ReactJS / JavaScript / Node JS / HTML / CSS",
+      "Bank Application",
+      "Front-end + Back-end Project. Applied AWS / Next.js / Nest.js / TypeScript / Node JS / HTML / CSS",
       "https://julian22222.github.io/Wordle/",
       "https://github.com/Julian22222/Wordle",
       "https://github.com/Julian22222/Wordle",
-      "Front"
+      "Front",
     ),
     new CardPortfolio(
       image6,
@@ -103,7 +103,7 @@ const CardPortfolio = () => {
       "https://to-do-list-front-end.onrender.com/",
       "https://github.com/Julian22222/PRACTICE/tree/main/To-Do-List/client-front-end",
       "https://github.com/Julian22222/PRACTICE/tree/main/To-Do-List/server",
-      "Both"
+      "Both",
     ),
     new CardPortfolio(
       image10,
@@ -112,7 +112,7 @@ const CardPortfolio = () => {
       "https://asp-net-nodb.onrender.com",
       "https://github.com/Julian22222/PRACTICE/tree/main/C_Sharp/Project1",
       "",
-      "Front"
+      "Front",
     ),
     new CardPortfolio(
       image8,
@@ -121,7 +121,7 @@ const CardPortfolio = () => {
       "https://mybookstorewebapp.azurewebsites.net/",
       "https://github.com/Julian22222/PRACTICE/tree/main/C_Sharp/Project_MVC_BookShop2",
       "https://github.com/Julian22222/PRACTICE/tree/main/C_Sharp/Project_MVC_BookShop2",
-      "Both"
+      "Both",
     ),
     new CardPortfolio(
       image9,
@@ -130,7 +130,7 @@ const CardPortfolio = () => {
       "https://techstorewebapi-b6btevanhwfahagd.ukwest-01.azurewebsites.net/swagger/index.html",
       "",
       "https://github.com/Julian22222/React_Asp.Net_WebAPI/tree/main/api",
-      "Back"
+      "Back",
     ),
   ];
 
