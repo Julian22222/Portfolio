@@ -1,6 +1,6 @@
 import ProjectCard from "./ProjectCard";
 import image1 from "../IMG/Proj_img/js_projects.jpg";
-import image2 from "../IMG/Proj_img/wine_shop.jpg";
+import image2 from "../IMG/Proj_img/wineShop.jpg";
 import image3 from "../IMG/Proj_img/movies.jpg";
 import image4 from "../IMG/Proj_img/news.jpg";
 import image5 from "../IMG/Proj_img/aws1.jpg";
@@ -96,15 +96,15 @@ const CardPortfolio = () => {
       "https://github.com/Julian22222/Bank/tree/main/bank-api",
       "Both",
     ),
-    new CardPortfolio(
-      image6,
-      "To Do List",
-      " Front-end + Back-end Project. Applied ReactJS / REST APIs / postgreSQL / JavaScript / Node JS / HTML / CSS",
-      "https://to-do-list-front-end.onrender.com/",
-      "https://github.com/Julian22222/PRACTICE/tree/main/To-Do-List/client-front-end",
-      "https://github.com/Julian22222/PRACTICE/tree/main/To-Do-List/server",
-      "Both",
-    ),
+    // new CardPortfolio(
+    //   image6,
+    //   "To Do List",
+    //   " Front-end + Back-end Project. Applied ReactJS / REST APIs / postgreSQL / JavaScript / Node JS / HTML / CSS",
+    //   "https://to-do-list-front-end.onrender.com/",
+    //   "https://github.com/Julian22222/PRACTICE/tree/main/To-Do-List/client-front-end",
+    //   "https://github.com/Julian22222/PRACTICE/tree/main/To-Do-List/server",
+    //   "Both",
+    // ),
     new CardPortfolio(
       image10,
       "ASP.NET Core MVC projects",
