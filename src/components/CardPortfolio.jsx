@@ -45,7 +45,7 @@ const CardPortfolio = () => {
     new CardPortfolio(
       image1,
       "JavaScript Projects",
-      "Applied ReactJS / JavaScript / REST APIs / postgreSQL / Node JS / HTML / CSS",
+      "Tech Stack: ReactJS / JavaScript / REST APIs / postgreSQL / Node JS / HTML / CSS",
       "https://julian22222.github.io/All-JavaScript-Proj/",
       "https://github.com/Julian22222/All-JavaScript-Proj",
       "https://github.com/Julian22222/All-JavaScript-Proj",
@@ -54,7 +54,7 @@ const CardPortfolio = () => {
     new CardPortfolio(
       image11,
       "Car Repair Shop",
-      "Front-end + Back-end Project. Applied ReactJS / TypeScript / REST APIs / MySQL / JavaScript / Node JS / CI/CD / Docker / Supertest",
+      "Front-end + Back-end Project. Tech Stack: ReactJS / TypeScript / REST APIs / MySQL / JavaScript / Node JS / CI/CD / Docker / Supertest",
       "https://repair-shop-mxf8.onrender.com",
       "https://github.com/Julian22222/PRACTICE/tree/main/TypeScript/repair-shop",
       "https://github.com/Julian22222/PRACTICE/tree/main/MySQL-database",
@@ -63,7 +63,7 @@ const CardPortfolio = () => {
     new CardPortfolio(
       image2,
       "Wine Shop",
-      "Front-end + Back-end Project. Applied ReactJS / REST APIs / PSQL / JavaScript / Node JS / HTML / CSS",
+      "Front-end + Back-end Project. Tech Stack: ReactJS / REST APIs / PSQL / JavaScript / Node JS / HTML / CSS",
       "https://julian22222.github.io/Wine-Shop/",
       "https://github.com/Julian22222/Wine-Shop",
       "https://github.com/Julian22222/Wine-Shop-BackEnd",
@@ -72,7 +72,7 @@ const CardPortfolio = () => {
     new CardPortfolio(
       image3,
       "Movies Website",
-      "Front-end + Back-end Project. Applied Vue JS / REST APIs / MongoDB / JavaScript / Node JS / HTML / CSS",
+      "Front-end + Back-end Project. Tech Stack: Vue JS / REST APIs / MongoDB / JavaScript / Node JS / HTML / CSS",
       "https://movies-vue-front-end.onrender.com/",
       "https://github.com/Julian22222/Vue-Website---movies",
       "https://github.com/Julian22222/PRACTICE/tree/main/MongoDB",
@@ -81,7 +81,7 @@ const CardPortfolio = () => {
     new CardPortfolio(
       image4,
       "NC NEWS Website",
-      "Front-end + Back-end Project. Applied ReactJS / REST APIs / Supertest / postgreSQL / JavaScript / Node JS / HTML / CSS",
+      "Front-end + Back-end Project. Tech Stack: ReactJS / REST APIs / Supertest / postgreSQL / JavaScript / Node JS / HTML / CSS",
       "https://nc-news-front-end.onrender.com/",
       "https://github.com/Julian22222/nc-news-front-end",
       "https://github.com/Julian22222/NC_NEWS_Project",
@@ -90,7 +90,7 @@ const CardPortfolio = () => {
     new CardPortfolio(
       image5,
       "Bank Application",
-      "Front-end + Back-end Project. Applied AWS / Next.js / Nest.js / TypeScript / Node JS / HTML / CSS",
+      "Front-end + Back-end Project. Tech Stack: AWS / Next.js / Nest.js / TypeScript / Node JS / HTML / CSS",
       "https://github.com/Julian22222/Bank",
       "https://github.com/Julian22222/Bank/tree/main/bankapp",
       "https://github.com/Julian22222/Bank/tree/main/bank-api",
@@ -99,7 +99,7 @@ const CardPortfolio = () => {
     // new CardPortfolio(
     //   image6,
     //   "To Do List",
-    //   " Front-end + Back-end Project. Applied ReactJS / REST APIs / postgreSQL / JavaScript / Node JS / HTML / CSS",
+    //   " Front-end + Back-end Project. Tech Stack: ReactJS / REST APIs / postgreSQL / JavaScript / Node JS / HTML / CSS",
     //   "https://to-do-list-front-end.onrender.com/",
     //   "https://github.com/Julian22222/PRACTICE/tree/main/To-Do-List/client-front-end",
     //   "https://github.com/Julian22222/PRACTICE/tree/main/To-Do-List/server",
@@ -108,7 +108,7 @@ const CardPortfolio = () => {
     new CardPortfolio(
       image10,
       "ASP.NET Core MVC projects",
-      "Applied ASP.NET Core MVC / C# / Bootstrap / jQuery / Ajax / Docker / HTML / CSS",
+      "Tech Stack: ASP.NET Core MVC / C# / Bootstrap / jQuery / Ajax / Docker / HTML / CSS",
       "https://asp-net-nodb.onrender.com",
       "https://github.com/Julian22222/PRACTICE/tree/main/C_Sharp/Project1",
       "",
@@ -117,7 +117,7 @@ const CardPortfolio = () => {
     new CardPortfolio(
       image8,
       "ASP.NET MVC Book Store",
-      "Front-end + Back-end Project. Applied ASP.NET Core MVC / Entity Framework Core(ORM) / Identity core / Microsoft Azure / Ajax / Bootstrap / jQuery / C#",
+      "Front-end + Back-end Project. Tech Stack: ASP.NET Core MVC / Entity Framework Core(ORM) / Identity core / Microsoft Azure / Ajax / Bootstrap / jQuery / C#",
       "https://mybookstorewebapp.azurewebsites.net/",
       "https://github.com/Julian22222/PRACTICE/tree/main/C_Sharp/Project_MVC_BookShop2",
       "https://github.com/Julian22222/PRACTICE/tree/main/C_Sharp/Project_MVC_BookShop2",
@@ -126,7 +126,7 @@ const CardPortfolio = () => {
     new CardPortfolio(
       image9,
       "ASP.NET Web API",
-      "Back-end Project. Applied ASP.NET Web API/ SQL Server / Entity Framework Core / Microsoft Azure / C#",
+      "Back-end Project. Tech Stack: ASP.NET Web API/ SQL Server / Entity Framework Core / Microsoft Azure / C#",
       "https://techstorewebapi-b6btevanhwfahagd.ukwest-01.azurewebsites.net/swagger/index.html",
       "",
       "https://github.com/Julian22222/React_Asp.Net_WebAPI/tree/main/api",
