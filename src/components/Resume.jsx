@@ -32,8 +32,8 @@ const Resume = () => {
         </span>
         <span>
           {" "}
-          HTML, CSS, ReactJS, React Native, Next JS, ASP.NET Core MVC, Vue JS,
-          Ajax, Bootstrap, jQuery
+          HTML, CSS, React, React Native, Next.js, Vue.js, ASP.NET Core MVC,
+          Bootstrap, jQuery, AJAX
         </span>
         <hr style={{ marginLeft: "-20px" }} />
         <span style={{ fontWeight: "bold", color: "rgb(211, 59, 59)" }}>
@@ -41,15 +41,18 @@ const Resume = () => {
         </span>
         <span>
           {" "}
-          NodeJS, HTTP, Express JS, MVC, REST APIs, Nest JS, SQL, PSQL, SQLite,
-          SQL Server, MySQL, MongoDB, .Net Core, ASP.NET Web APIs, Entity
-          Framework Core(ORM), Insomnia, Postman
+          Node.js, HTTP, Express JS, MVC, REST APIs, Nest JS, Prisma, Redis,
+          SQL, PSQL, SQLite, SQL Server, MySQL, MongoDB, Insomnia, Postman
         </span>
         <hr style={{ marginLeft: "-20px" }} />
         <span style={{ fontWeight: "bold", color: "rgb(211, 59, 59)" }}>
           Testing:
         </span>
-        <span> Test Driven Development (TDD), Jest and Supertest</span>
+        <span>
+          {" "}
+          Test Driven Development (TDD), Jest, Supertest and React Testing
+          Library
+        </span>
         <hr style={{ marginLeft: "-20px" }} />
         <span style={{ fontWeight: "bold", color: "rgb(211, 59, 59)" }}>
           Tools:{" "}
@@ -62,7 +65,7 @@ const Resume = () => {
         <span>
           AWS (IAM, EC2, S3, RDS, Lambda, etc.), Microsoft Azure (IAM, Microsoft
           Entra ID, App Services, SQL Server databases, SQL servers, Storage
-          accounts, Key Vaults, etc.).{" "}
+          accounts, Key Vaults){" "}
         </span>
         <hr style={{ marginLeft: "-20px" }} />
         <span style={{ fontWeight: "bold", color: "rgb(211, 59, 59)" }}></span>

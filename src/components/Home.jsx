@@ -40,19 +40,19 @@ const Home = () => {
           <div className="MyStory">
             <div className="headingMyStory-home">
               <h2 className="HeadingMySTory">
-                Knowledge and experience of working in:
+                Technologies, tools, and practices I work with:
               </h2>
             </div>
             <div className="myStory-home">
               <p className="MyStoryText">
-                Git, GitHub, JavaScript, TypeScript, C#, HTML, CSS, Node JS,
-                OOP, TDD, React JS, React Native, Next JS, ASP.NET Core MVC, Vue
-                JS, HTTP, Express JS, REST APIs, Nest JS, ASP NET Web API's,
-                SQL, SQLite, PostgreSQL, SQL Server, MySQL, MongoDB, AWS,
-                Microsoft Azure, .Net Core, Entity Framework Core(ORM), CI/CD,
-                Docker, Ajax, Bootstrap, jQuery, Kanban, Scrum, Agile, Jest and
-                Supertest, software testing and debugging techniques, good
-                understanding of web development principles and etc.
+                Git, GitHub, JavaScript, TypeScript, C#, HTML, CSS, Node.js,
+                OOP, TDD, React, React Native, Next.js, Vue.js, ASP.NET Core
+                MVC, REST APIs, NestJS, ASP NET Web API's, SQL, SQLite,
+                PostgreSQL, SQL Server, MySQL, MongoDB, Prisma, Redis, AWS,
+                CI/CD, Docker, Bootstrap, jQuery, AJAX, Kanban, Scrum, Agile,
+                Jest and Supertest, React testing library, software testing and
+                debugging techniques, good understanding of web development
+                principles and etc.
               </p>
             </div>
           </div>
