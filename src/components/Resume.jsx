@@ -41,8 +41,8 @@ const Resume = () => {
         </span>
         <span>
           {" "}
-          Node.js, HTTP, Express JS, MVC, REST APIs, Nest JS, Prisma, Redis,
-          SQL, PSQL, SQLite, SQL Server, MySQL, MongoDB, Insomnia, Postman
+          Node.js, HTTP, Express JS, MVC, REST APIs, NestJS, Prisma, Redis, SQL,
+          PSQL, SQLite, SQL Server, MySQL, MongoDB, Insomnia, Postman
         </span>
         <hr style={{ marginLeft: "-20px" }} />
         <span style={{ fontWeight: "bold", color: "rgb(211, 59, 59)" }}>
