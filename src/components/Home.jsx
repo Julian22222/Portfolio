@@ -45,10 +45,9 @@ const Home = () => {
             </div>
             <div className="myStory-home">
               <p className="MyStoryText">
-                Git, GitHub, JavaScript, TypeScript, C#, HTML, CSS, Node.js,
-                OOP, TDD, React, React Native, Next.js, Vue.js, ASP.NET Core
-                MVC, REST APIs, NestJS, ASP NET Web API's, SQL, SQLite,
-                PostgreSQL, SQL Server, MySQL, MongoDB, Prisma, Redis, AWS,
+                Git, GitHub, JavaScript, TypeScript, HTML, CSS, Node.js, OOP,
+                TDD, React, React Native, Next.js, Vue.js, REST APIs, NestJS,
+                SQL, SQLite, PostgreSQL, MySQL, MongoDB, Prisma, Redis, AWS,
                 CI/CD, Docker, Bootstrap, jQuery, AJAX, Kanban, Scrum, Agile,
                 Jest and Supertest, React testing library, software testing and
                 debugging techniques, good understanding of web development

@@ -32,8 +32,8 @@ const Resume = () => {
         </span>
         <span>
           {" "}
-          HTML, CSS, React, React Native, Next.js, Vue.js, ASP.NET Core MVC,
-          Bootstrap, jQuery, AJAX
+          HTML, CSS, React, React Native, Next.js, Vue.js, Bootstrap, jQuery,
+          AJAX
         </span>
         <hr style={{ marginLeft: "-20px" }} />
         <span style={{ fontWeight: "bold", color: "rgb(211, 59, 59)" }}>
@@ -41,8 +41,8 @@ const Resume = () => {
         </span>
         <span>
           {" "}
-          Node.js, HTTP, Express JS, MVC, REST APIs, NestJS, Prisma, Redis, SQL,
-          PSQL, SQLite, SQL Server, MySQL, MongoDB, Insomnia, Postman
+          Node.js, HTTP, Express JS, REST APIs, NestJS, Prisma, Redis, SQL,
+          PSQL, SQLite, MySQL, MongoDB, Insomnia, Postman
         </span>
         <hr style={{ marginLeft: "-20px" }} />
         <span style={{ fontWeight: "bold", color: "rgb(211, 59, 59)" }}>
@@ -63,9 +63,7 @@ const Resume = () => {
           Cloud:{" "}
         </span>
         <span>
-          AWS (IAM, EC2, S3, RDS, Lambda, etc.), Microsoft Azure (IAM, Microsoft
-          Entra ID, App Services, SQL Server databases, SQL servers, Storage
-          accounts, Key Vaults){" "}
+          AWS (IAM, EC2, S3, RDS, Lambda, API Gateway, Load Balancer, etc.)
         </span>
         <hr style={{ marginLeft: "-20px" }} />
         <span style={{ fontWeight: "bold", color: "rgb(211, 59, 59)" }}></span>
