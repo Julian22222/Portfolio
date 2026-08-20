@@ -24,7 +24,7 @@ const Resume = () => {
         <span style={{ fontWeight: "bold", color: "rgb(211, 59, 59)" }}>
           Languages:
         </span>{" "}
-        <span>JavaScript, TypeScript, C#</span>
+        <span>JavaScript, TypeScript</span>
         <hr style={{ marginLeft: "-20px" }} />
         {/* <br /> */}
         <span style={{ fontWeight: "bold", color: "rgb(211, 59, 59)" }}>
