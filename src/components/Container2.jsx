@@ -30,8 +30,8 @@ const Container2 = () => {
 
           <p className="eachLineTick">
             <FaCheckCircle className="tick" />
-            Melange | Junior Full-Stack Software Developer | Manchester |
-            10/2024 – 08/2025
+            Melange | Full-Stack Software Developer | Manchester | 10/2024 –
+            08/2025
           </p>
           <br></br>
           <p className="eachLineTick">
