@@ -1,0 +1,66 @@
+.Resume {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.MyCertificate {
+  margin-left: 50px;
+  /* display: flex;
+  justify-content: center; */
+}
+
+.TextResume {
+  margin-top: 50px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.TextResume-2 {
+  margin-top: 10px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.key-skills {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: rgb(211, 59, 59);
+  font-size: 40px;
+}
+
+.skills-container {
+  margin-top: 20px;
+  margin-left: 5%;
+}
+
+.Certificates {
+  /* margin-left: 50px; */
+  max-width: 100%;
+  max-height: 100vh;
+  height: auto;
+  margin: 0px 5px 0px 5px;
+}
+
+.certificate-container {
+  display: flex;
+  justify-content: center;
+}
+
+/* //////////////////////////////////////////////////////////////////////////////////// */
+/* different screens */
+
+@media only screen and (max-width: 1399px) {
+  /* .resume-container {
+    margin-top: 450px;
+  } */
+  .Resume {
+    margin-top: 100px;
+  }
+}
+
+@media (max-width: 412px) {
+}
+
+@media (max-width: 1000px) {
+}

@@ -1,0 +1,111 @@
+import { FaCheckCircle } from "react-icons/fa";
+// import { useRef, useEffect, useState } from "react";
+
+const Container2 = () => {
+  ////////////////////////////////////////////////////////////////////// animation scrolling blocks
+
+  //destructure elements, and renaming
+
+  // const myRef = useRef();
+  // const [myElementIsVisible, setMyElementIsVisible] = useState();
+
+  // console.log("myElementIsVisible", myElementIsVisible);
+
+  // useEffect(() => {
+  //   const observer = new IntersectionObserver((entries) => {
+  //     console.log(entries);
+  //     const entry = entries[0];'
+  //     // console.log("entry", entry);
+  //     setMyElementIsVisible(entry.isIntersecting);
+  //   });
+  //   observer.observe(myRef.current);
+  //   // console.log("myRef", myRef.current);
+  // }, []);
+
+  return (
+    <div className="flex-container-2">
+      <div class="item-1">
+        <div className="animation-block">
+          <h2 className="ContainerTwo">Education and work experience</h2>
+
+          <p className="eachLineTick">
+            <FaCheckCircle className="tick" />
+            Melange | Full-Stack Software Developer | Manchester | 10/2024 –
+            08/2026
+          </p>
+          <br></br>
+          <p className="eachLineTick">
+            <FaCheckCircle className="tick" />
+            Northcoders bootcamp | Full Stack Software Developer | Manchester |
+            05/2024 – 08/2024
+          </p>
+          <br></br>
+          <p className="eachLineTick">
+            <FaCheckCircle className="tick" />
+            Edlena | Junior Full-Stack Software Developer | Manchester | 01/2022
+            – 10/2022
+          </p>
+          {/* <br></br>
+          <p className="eachLineTick">
+            <FaCheckCircle className="tick" />
+            Manchester Metropolitan University BSc(Hons) Biomedical Science |
+            09/2018 - 06/2021
+          </p>
+          <br></br>
+          <p className="eachLineTick">
+            <FaCheckCircle className="tick" />
+            Castlefield Hotel| Duty Manager | Manchester | 05/2017 – 09/2018
+          </p> */}
+        </div>
+      </div>
+
+      <div className="animation-block2">
+        <h2 className="ContainerSkills">My Skills</h2>
+        <br></br>
+        <div className="ContainerText">
+          <p>
+            <FaCheckCircle className="tick" />
+            Reliable
+          </p>
+          <br></br>
+          <p>
+            <FaCheckCircle className="tick" />
+            Remarkable ability to work independently as well as within a team
+          </p>
+          <br></br>
+          <p>
+            {" "}
+            <FaCheckCircle className="tick" />
+            Excellent listening skills{" "}
+          </p>
+          <br></br>
+          <p>
+            {" "}
+            <FaCheckCircle className="tick" />
+            Strong problem-solving skills and attention to details{" "}
+          </p>
+          <br></br>
+          <p>
+            {" "}
+            <FaCheckCircle className="tick" />
+            Strong organisational skills and excellent time management{" "}
+          </p>
+          <br></br>
+          <p>
+            {" "}
+            <FaCheckCircle className="tick" />
+            Quick learner skills and Multitasking
+          </p>
+          <br></br>
+          <p>
+            {" "}
+            <FaCheckCircle className="tick" />
+            Ability to ask questions{" "}
+          </p>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Container2;
